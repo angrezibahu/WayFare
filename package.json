@@ -1,0 +1,14 @@
+{
+  "name": "wayfare",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A family apprenticeship in finding your way — by sky, by land, by story.",
+  "scripts": {
+    "printables": "node scripts/build-printables.mjs",
+    "app:install": "npm --prefix app install",
+    "app:dev": "npm --prefix app run dev",
+    "app:build": "npm --prefix app run build",
+    "app:typecheck": "npm --prefix app run typecheck",
+    "app:test": "npm --prefix app run test"
+  }
+}
