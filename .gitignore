@@ -10,3 +10,8 @@ build
 coverage
 .vscode/settings.json
 .idea
+# TypeScript build info (we use tsc --noEmit; this shouldn't appear, but if it does, ignore it)
+*.tsbuildinfo
+# Stale tsc emits that sometimes slip in next to .ts sources
+app/src/**/*.js
+!app/src/**/*.test.js
