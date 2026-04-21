@@ -88,6 +88,59 @@ async function run() {
   await writeFile(join(outDir, 'fieldbook.html'), bundle);
   console.log('wrote', 'fieldbook.html');
 
+  const index = `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WayFare printables</title>
+<style>
+  body { font-family: Georgia, 'Times New Roman', serif; background: #f5efe3; color: #1a1a1a;
+         max-width: 640px; margin: 0 auto; padding: 2rem 1.25rem 4rem; line-height: 1.55; }
+  h1 { letter-spacing: 0.01em; }
+  ul { padding-left: 1.2rem; }
+  li { margin: 0.4rem 0; }
+  a { color: inherit; text-underline-offset: 2px; }
+  .muted { color: #555; }
+  .callout { border: 1px solid #c8bfa9; padding: 0.8rem 1rem; margin: 1rem 0; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #11131a; color: #efe9da; }
+    .callout { border-color: #39404f; }
+    .muted { color: #aea99b; }
+  }
+</style>
+</head>
+<body>
+  <p class="muted"><a href="../">← WayFare app</a></p>
+  <h1>Fieldbook — printable pages</h1>
+  <p class="muted">Print each on A4, punch, and drop in a ring binder.</p>
+
+  <div class="callout">
+    <strong>Print the whole book:</strong> <a href="fieldbook.html">fieldbook.html</a> —
+    all pages in one document.
+  </div>
+
+  <h2>Or print pages on their own</h2>
+  <ul>
+${entries
+  .map((name) => {
+    const stem = basename(name, '.svg');
+    const human = stem.replace(/^\d+-/, '').replace(/-/g, ' ');
+    return `    <li><a href="${stem}.html">${escapeHtml(human)}</a></li>`;
+  })
+  .join('\n')}
+  </ul>
+
+  <p class="muted small">
+    These pages are generated from SVGs in <code>content/fieldbook-templates/</code>.
+    Edit the SVGs and re-run <code>node scripts/build-printables.mjs</code> to regenerate.
+  </p>
+</body>
+</html>
+`;
+  await writeFile(join(outDir, 'index.html'), index);
+  console.log('wrote', 'index.html');
+
   const readme = [
     '# printables/',
     '',
