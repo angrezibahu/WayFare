@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <rect width="192" height="192" rx="28" fill="#1c2230"/>
+  <!-- A simple three-star belt of Orion -->
+  <circle cx="70" cy="96" r="4" fill="#f5efe3"/>
+  <circle cx="96" cy="96" r="4" fill="#f5efe3"/>
+  <circle cx="122" cy="96" r="4" fill="#f5efe3"/>
+  <!-- Shoulders and feet for Orion -->
+  <circle cx="56" cy="66" r="3" fill="#e8d2a3"/>
+  <circle cx="136" cy="66" r="3" fill="#cfd8e3"/>
+  <circle cx="60" cy="132" r="3" fill="#cfd8e3"/>
+  <circle cx="132" cy="132" r="3" fill="#cfd8e3"/>
+  <!-- Horizon line -->
+  <line x1="18" y1="160" x2="174" y2="160" stroke="#f5efe3" stroke-width="1.2" opacity="0.6"/>
+</svg>
