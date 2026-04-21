@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>04-constellation-study</title>
+<style>
+  @page { size: A4; margin: 0; }
+  html, body { margin: 0; padding: 0; background: #fff; }
+  body { font-family: Georgia, 'Times New Roman', serif; color: #1a1a1a; }
+  .page {
+    width: 210mm;
+    height: 297mm;
+    page-break-after: always;
+    display: block;
+    overflow: hidden;
+  }
+  .page:last-child { page-break-after: auto; }
+  .page > svg { width: 210mm; height: 297mm; display: block; }
+  @media screen {
+    body { background: #f2efe8; padding: 16px; }
+    .page { box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin: 0 auto 16px; background: #fff; }
+  }
+</style>
+</head>
+<body>
+<div class="page"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 297" width="210mm" height="297mm">
+  <style>
+    text { font-family: Georgia, 'Times New Roman', serif; fill: #1a1a1a; }
+    .title { font-size: 14px; letter-spacing: 0.5px; }
+    .sub { font-size: 7px; font-style: italic; fill: #555; }
+    .label { font-size: 4.5px; letter-spacing: 0.3px; fill: #555; }
+    .line { stroke: #1a1a1a; fill: none; }
+    .thin { stroke-width: 0.3; }
+    .frame { stroke-width: 0.5; }
+  </style>
+  <rect x="10" y="10" width="190" height="277" class="line frame"/>
+
+  <text x="20" y="25" class="title">Constellation Study</text>
+  <text x="20" y="33" class="sub">One page per constellation. Write in pencil so you can add to it.</text>
+
+  <text x="20" y="46" class="label">CONSTELLATION</text>
+  <line x1="48" y1="47" x2="195" y2="47" class="line thin"/>
+
+  <text x="20" y="58" class="label">HOW I FOUND IT</text>
+  <g class="line thin">
+    <line x1="20" y1="66" x2="190" y2="66"/>
+    <line x1="20" y1="76" x2="190" y2="76"/>
+    <line x1="20" y1="86" x2="190" y2="86"/>
+  </g>
+
+  <text x="20" y="98" class="label">STARS I CAN NAME</text>
+  <g class="line thin">
+    <line x1="20" y1="106" x2="190" y2="106"/>
+    <line x1="20" y1="116" x2="190" y2="116"/>
+  </g>
+
+  <text x="20" y="128" class="label">A STORY I WAS TOLD (AND WHO TOLD IT)</text>
+  <g class="line thin">
+    <line x1="20" y1="136" x2="190" y2="136"/>
+    <line x1="20" y1="146" x2="190" y2="146"/>
+    <line x1="20" y1="156" x2="190" y2="156"/>
+  </g>
+
+  <text x="20" y="168" class="label">SKETCH</text>
+  <rect x="20" y="171" width="170" height="90" class="line thin"/>
+
+  <text x="20" y="270" class="label">A QUESTION I STILL HAVE</text>
+  <line x1="20" y1="278" x2="190" y2="278" class="line thin"/>
+
+  <text x="105" y="289" text-anchor="middle" class="label">wayfare · constellation study · v1</text>
+</svg>
+</div>
+</body></html>
