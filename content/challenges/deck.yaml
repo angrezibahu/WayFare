@@ -1,0 +1,272 @@
+# WayFare Starter Deck — 20 cards.
+# Each card: id, title, grade (Starter | Core | Stretch), kind (Sky | Land | Story | Error),
+# provenance, time, prompt, fieldbook_prompt, optional unlocks (chapter ids).
+
+cards:
+  - id: shadow-stick-at-noon
+    title: Shadow Stick at Noon
+    grade: Starter
+    kind: Land
+    provenance: Universal pre-modern technique, documented from Egypt to Polynesia.
+    time: ~20 min, a stick, two small stones.
+    prompt: |
+      Push a stick upright into the ground. Mark the tip of its shadow with a stone.
+      Wait 15 minutes. Mark again. The line between the two marks runs roughly
+      west-to-east; the first mark is west.
+    fieldbook_prompt: |
+      Sketch the stick, the two marks, and the west-east line. Note the time of day
+      and the weather.
+
+  - id: watch-as-compass
+    title: Watch as Compass
+    grade: Starter
+    kind: Land
+    provenance: European folk technique, pre-GPS.
+    time: ~5 min, an analogue watch or a drawn clock face.
+    prompt: |
+      Point the hour hand at the Sun. Halfway between the hour hand and 12 is roughly
+      south (Northern Hemisphere). Sketch your watch face and the direction.
+    fieldbook_prompt: |
+      Draw the watch face as you held it, and the direction you decided was south.
+
+  - id: moss-is-a-liar
+    title: Moss Is a Liar
+    grade: Starter
+    kind: Land
+    provenance: Error curriculum — the most repeated piece of bad outdoor advice.
+    time: 20 min outdoors.
+    prompt: |
+      Find five mossy trees. Record which side of each one the moss is on.
+      Discover for yourself why "moss grows on the north side" is not trustworthy.
+    fieldbook_prompt: |
+      List the five trees, the side the moss was on, and what else (shade, damp, wind)
+      might explain it. Write what you now believe about moss.
+
+  - id: find-orions-belt
+    title: Find Orion's Belt
+    grade: Starter
+    kind: Sky
+    provenance: Orion chapter. Universal — Orion is seen from everywhere on Earth.
+    time: A clear winter evening.
+    prompt: |
+      Step outside on a clear winter evening between 8pm and 11pm. Face south.
+      Find three bright stars in a tidy row. That is Orion's Belt.
+    fieldbook_prompt: |
+      Log the date, time, location and weather. Sketch what you saw.
+    unlocks:
+      - orion
+
+  - id: moon-diary-week
+    title: Moon Diary Week
+    grade: Starter
+    kind: Sky
+    provenance: Moon chapter.
+    time: Seven nights.
+    prompt: |
+      Draw the Moon every night for a week, at roughly the same time each night.
+      One small circle per night. Note whether it was clear or cloudy.
+    fieldbook_prompt: |
+      Use the Moon Diary Month page. One circle per night for seven nights.
+
+  - id: draw-home
+    title: Draw Home
+    grade: Starter
+    kind: Land
+    provenance: Cartography as a memory tool — universal children's exercise.
+    time: ~40 min; pencil and paper; a walk.
+    prompt: |
+      Draw a map of your street (or a 500m route near home) from memory. Then walk
+      it, carrying your map. Correct the map as you go. What did you miss?
+    fieldbook_prompt: |
+      Stick the "before" and "after" maps side by side. Note three things you got
+      wrong.
+
+  - id: blindfold-garden-walk
+    title: The Blindfold Garden Walk
+    grade: Core
+    kind: Land
+    provenance: Graduated Disorientation — adapted from mountain-rescue orientation drills.
+    time: 15 min, a blindfold, a trusted guide.
+    prompt: |
+      A family member guides you, blindfolded, around the garden or a safe familiar
+      space. Can you guess where you are by sound, smell and slope? Log three
+      landmarks you identified without sight.
+    fieldbook_prompt: |
+      Name the three landmarks, and what gave each one away (a smell, a sound,
+      a slope underfoot).
+
+  - id: no-north-day
+    title: No-North Day
+    grade: Core
+    kind: Land
+    provenance: The No-North Week thread.
+    time: One whole day.
+    prompt: |
+      For one day, no one in the family says "north, south, east or west."
+      Directions must use landmarks only — "the oak-tree side," "the sunset way,"
+      "towards the bakery." Log the strangest conversation.
+    fieldbook_prompt: |
+      Write down three directions given that day, exactly as spoken. Which of them
+      would still make sense to someone who didn't live here?
+
+  - id: pace-count-100m
+    title: Pace-Count 100m
+    grade: Core
+    kind: Land
+    provenance: Dead Reckoning — military & orienteering tradition.
+    time: 30 min, a measured 100m stretch.
+    prompt: |
+      Measure out 100m (a football pitch is ~100m long). Walk it at your normal
+      pace. Count each time your right foot hits the ground. That number is your
+      pace-count for 100m. Now you can measure distance by walking.
+    fieldbook_prompt: |
+      Record your pace-count on flat ground. Do it again on a hill. Are they
+      different?
+
+  - id: dawn-compass
+    title: Dawn Compass
+    grade: Starter
+    kind: Land
+    provenance: Sun-as-calendar, universal.
+    time: A sunrise. Then another, one month later.
+    prompt: |
+      Get up for sunrise one day. Note where on the horizon the Sun comes up —
+      pick a landmark. Repeat a month later. The Sun will have moved along the
+      horizon. The Sun is a calendar.
+    fieldbook_prompt: |
+      Sketch the horizon twice, one month apart, marking where the Sun rose each
+      time.
+
+  - id: horns-to-horizon
+    title: Horns to Horizon
+    grade: Core
+    kind: Sky
+    provenance: Moon chapter — rough-and-ready N-hemisphere navigation trick.
+    time: A clear evening with a crescent Moon.
+    prompt: |
+      On a crescent evening, draw an imaginary line through the two horns of the
+      Moon down to the horizon. That point is roughly south (Northern Hemisphere).
+      Check with a compass. How close were you?
+    fieldbook_prompt: |
+      Record the date, the Moon phase, your guess in degrees, the compass reading,
+      and the difference.
+
+  - id: belt-to-sirius
+    title: Belt to Sirius
+    grade: Starter
+    kind: Sky
+    provenance: Orion chapter.
+    time: A clear winter evening.
+    prompt: |
+      Follow Orion's Belt down-left until you reach the brightest star in the sky.
+      That is Sirius. Wave at the ancient Egyptians, for whom Sirius's morning
+      rise once signalled the flooding of the Nile.
+    fieldbook_prompt: |
+      Sketch Orion's Belt and the line down to Sirius.
+
+  - id: name-the-seven-of-orion
+    title: Name the Seven of Orion
+    grade: Core
+    kind: Sky
+    provenance: Orion chapter — Arabic star naming.
+    time: One evening of study, one evening of recital.
+    prompt: |
+      Learn the seven named stars of Orion (Betelgeuse, Bellatrix, Mintaka,
+      Alnilam, Alnitak, Rigel, Saiph) and what each name means. Then point and
+      name them on a clear night.
+    fieldbook_prompt: |
+      Write out the seven names and meanings from memory. Who tested you?
+
+  - id: error-entry
+    title: Error Entry
+    grade: Core
+    kind: Error
+    provenance: The Error Journal thread — the secret ingredient of real navigators.
+    time: As long as it takes to write honestly.
+    prompt: |
+      Log a time this month you got turned around, lost, or misread a map, a sign
+      or the sky. No shame. This is the main event.
+    fieldbook_prompt: |
+      Use the Error Journal page. Where were you, what happened, what did you
+      learn?
+
+  - id: read-aloud-night
+    title: Read-Aloud Night
+    grade: Core
+    kind: Story
+    provenance: Storytelling principles — oral reading as a first-class activity.
+    time: 20 min. Hot drinks.
+    prompt: |
+      Read one chapter's Story section aloud to the family, outside if possible,
+      with the sky in view.
+    fieldbook_prompt: |
+      Which chapter? Who read? Who listened? Note one thing someone said.
+
+  - id: stream-reading
+    title: Stream Reading
+    grade: Core
+    kind: Land
+    provenance: Reading Water thread.
+    time: 45 min, sensible shoes.
+    prompt: |
+      Find a stream, brook, ditch or gutter after rain. Which way does it flow?
+      What does that tell you about the lie of the land? Walk ten minutes
+      downstream. What changed — width, speed, banks, company?
+    fieldbook_prompt: |
+      Sketch the stream at the start and ten minutes on. Note the direction of
+      flow, and any tributaries.
+
+  - id: tree-lean-survey
+    title: The Tree-Lean Survey
+    grade: Stretch
+    kind: Land
+    provenance: Reading Terrain thread — prevailing wind as a living compass.
+    time: 60 min, an exposed place.
+    prompt: |
+      Find ten mature trees in an exposed place (a ridge, a coast, a field edge).
+      Which way do they lean? What does that tell you about the prevailing wind?
+      Your compass has been growing for fifty years.
+    fieldbook_prompt: |
+      Tally the lean direction of ten trees. Compare to the prevailing wind for
+      your region (look it up afterwards).
+
+  - id: hometown-unknown
+    title: Hometown Unknown
+    grade: Stretch
+    kind: Land
+    provenance: Graduated Disorientation — the graduation exercise.
+    time: A half-day. Adapt to age and context. Safety first.
+    prompt: |
+      A parent drives you, eyes closed, to a random point within ten minutes'
+      drive of home. You find your way back on foot or by public transport.
+      Phone allowed only for safety, not for maps.
+    fieldbook_prompt: |
+      Where were you dropped? How long did it take to get back? What told you
+      which way was home first?
+
+  - id: first-pole-star-sighting
+    title: First Pole Star Sighting
+    grade: Core
+    kind: Sky
+    provenance: Spring chapter — Ursa Major & Polaris.
+    time: A clear spring evening.
+    prompt: |
+      Find the Plough (the Big Dipper) in the northern sky. The two stars on the
+      end of its bowl point to Polaris, the pole star. Polaris sits almost exactly
+      above true north. Face it and you are facing north.
+    fieldbook_prompt: |
+      Sketch the Plough and the pointer line to Polaris. Note the date and time.
+
+  - id: story-of-this-place
+    title: Story of This Place
+    grade: Core
+    kind: Story
+    provenance: Local songlines — the family's own record.
+    time: One weekend.
+    prompt: |
+      Pick somewhere within a mile of home. Research its name. Where does the
+      name come from? Whose language? Whose land? Write a one-page Story of This
+      Place in the Fieldbook.
+    fieldbook_prompt: |
+      Use the Story of This Place page. Include the place name, its origin, who
+      told you, and what it means now to your family.

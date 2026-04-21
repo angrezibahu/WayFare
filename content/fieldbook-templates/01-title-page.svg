@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 297" width="210mm" height="297mm">
+  <style>
+    text { font-family: Georgia, 'Times New Roman', serif; fill: #1a1a1a; }
+    .title { font-size: 22px; letter-spacing: 1px; }
+    .subtitle { font-size: 10px; font-style: italic; }
+    .label { font-size: 5px; letter-spacing: 0.5px; fill: #555; }
+    .line { stroke: #1a1a1a; fill: none; }
+    .thin { stroke-width: 0.3; }
+    .frame { stroke-width: 0.5; }
+    .heavy { stroke-width: 0.9; }
+  </style>
+  <rect x="10" y="10" width="190" height="277" class="line frame" fill="none"/>
+  <text x="105" y="70" text-anchor="middle" class="title">WayFare Fieldbook</text>
+  <text x="105" y="82" text-anchor="middle" class="subtitle">a family apprenticeship in finding our way</text>
+
+  <text x="105" y="120" text-anchor="middle" class="label">FAMILY NAME</text>
+  <line x1="55" y1="130" x2="155" y2="130" class="line thin"/>
+
+  <text x="105" y="150" text-anchor="middle" class="label">YEAR</text>
+  <line x1="85" y1="160" x2="125" y2="160" class="line thin"/>
+
+  <text x="105" y="185" text-anchor="middle" class="label">OUR CREST — DRAW HERE</text>
+  <circle cx="105" cy="225" r="28" class="line frame" fill="none"/>
+
+  <text x="105" y="275" text-anchor="middle" class="label">wayfare · title page · v1</text>
+</svg>
