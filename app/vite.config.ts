@@ -10,6 +10,9 @@ const contentDir = resolve(__dirname, '..', 'content');
 
 export default defineConfig({
   root,
+  // Relative base so the built bundle works whether it's served from the root
+  // or from a subpath like /wayfare/ (GitHub Pages, Cloudflare Pages, etc).
+  base: './',
   plugins: [
     react(),
     VitePWA({
