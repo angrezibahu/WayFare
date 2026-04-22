@@ -2,28 +2,110 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>01-title-page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>title page — WayFare printable</title>
 <style>
   @page { size: A4; margin: 0; }
-  html, body { margin: 0; padding: 0; background: #fff; }
-  body { font-family: Georgia, 'Times New Roman', serif; color: #1a1a1a; }
-  .page {
-    width: 210mm;
-    height: 297mm;
-    page-break-after: always;
-    display: block;
-    overflow: hidden;
+
+  :root {
+    --paper: #ffffff;
+    --paper-ink: #1a1a1a;
+    --mat: #f2efe8;
+    --ink: #1a1a1a;
+    --muted: #555;
+    --rule: #c8bfa9;
   }
-  .page:last-child { page-break-after: auto; }
-  .page > svg { width: 210mm; height: 297mm; display: block; }
-  @media screen {
-    body { background: #f2efe8; padding: 16px; }
-    .page { box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin: 0 auto 16px; background: #fff; }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --mat: #11131a;
+      --ink: #efe9da;
+      --muted: #aea99b;
+      --rule: #39404f;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--mat); color: var(--ink); }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .bar {
+    max-width: calc(210mm + 32px);
+    margin: 0 auto;
+    padding: 14px 16px 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+  }
+  .bar a, .bar button {
+    font: inherit;
+    color: var(--ink);
+    background: transparent;
+    border: 1px solid var(--rule);
+    border-radius: 2px;
+    padding: 7px 12px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .bar a:hover, .bar button:hover { border-color: currentColor; }
+  .bar .spacer { flex: 1 1 auto; }
+  .bar .title { color: var(--muted); font-style: italic; }
+
+  /* A4 sheet. Fluid on small screens, fixed 210mm above the breakpoint. */
+  .sheet {
+    width: min(210mm, calc(100vw - 32px));
+    aspect-ratio: 210 / 297;
+    margin: 16px auto;
+    background: var(--paper);
+    color: var(--paper-ink);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    page-break-after: always;
+  }
+  .sheet:last-child { page-break-after: auto; }
+  .sheet > svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hint {
+    max-width: calc(210mm + 32px);
+    margin: 0 auto;
+    padding: 0 16px 24px;
+    color: var(--muted);
+    font-size: 14px;
+  }
+
+  @media print {
+    html, body { background: #fff; }
+    .bar, .hint { display: none !important; }
+    .sheet {
+      width: 210mm;
+      height: 297mm;
+      aspect-ratio: auto;
+      margin: 0;
+      box-shadow: none;
+      background: #fff;
+    }
+    .sheet > svg { width: 210mm; height: 297mm; }
   }
 </style>
 </head>
 <body>
-<div class="page"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 297" width="210mm" height="297mm">
+<div class="bar">
+  <a href="./" aria-label="Back to all printables">← all printables</a>
+  <span class="title">title page</span>
+  <span class="spacer"></span>
+  <button type="button" onclick="window.print()">Save as PDF / print</button>
+</div>
+<div class="sheet"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 297" width="210mm" height="297mm">
   <style>
     text { font-family: Georgia, 'Times New Roman', serif; fill: #1a1a1a; }
     .title { font-size: 22px; letter-spacing: 1px; }
@@ -50,4 +132,8 @@
   <text x="105" y="275" text-anchor="middle" class="label">wayfare · title page · v1</text>
 </svg>
 </div>
+<p class="hint">
+  Tap <strong>Save as PDF / print</strong> above to save this page to your phone,
+  share it, or send it to a printer. For the paper Fieldbook, print at A4, margins zero.
+</p>
 </body></html>

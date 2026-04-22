@@ -23,6 +23,7 @@ function Nav({ mode }: { mode: 'day' | 'night' }) {
         <NavLink to="/chapters" className={link}>Chapters</NavLink>
         <NavLink to="/challenges" className={link}>Challenges</NavLink>
         <NavLink to="/fieldbook" className={link}>Fieldbook</NavLink>
+        <a href="./printables/" className="nav-external">Printables</a>
       </div>
     </nav>
   );
