@@ -60,13 +60,15 @@ Orion is the easiest bright pattern in the winter sky. Look south on any clear e
 
 ## Stretch — Challenges
 
-1. **Find Orion’s Belt.** Step outside on any clear winter evening between 8pm and 11pm. Face south. Find the three in a row. Log the date, time, and what the weather was doing. *Grade: Starter. Unlocks the rest of this chapter’s field triggers.*
-1. **Belt-to-Sirius.** On the same evening, follow the Belt down-left until you find the brightest star in the sky. That’s Sirius. Wave at the ancient Egyptians. *Grade: Starter.*
-1. **Name the seven.** Learn the seven named stars of Orion (Betelgeuse, Bellatrix, Mintaka, Alnilam, Alnitak, Rigel, Saiph) and their meanings. Be able to point and name on command. *Grade: Core.*
-1. **The Nebula.** With any pair of binoculars, find the middle “star” of the sword. Describe what you see in the Fieldbook — pencil sketch, no photos. *Grade: Core.*
-1. **Read-aloud night.** Read one Orion story aloud to the family, outside, with Orion in view. Hot drinks allowed. *Grade: Core. Unlocks the Winter Capstone.*
-1. **Orion-clock.** Over the course of winter, sketch Orion’s position at the same time (say, 9pm) on the first clear night of each month. Notice how it drifts west. You’ve just drawn a seasonal clock. *Grade: Stretch.*
-1. **Belt direction check.** Go out just after sunset in January. Find Orion in the east. Use it to confirm east without a compass. Check with a compass after. *Grade: Stretch.*
+*Seven invitations under winter skies. Take them in the order the weather gives you. Hot drinks encouraged.*
+
+1. **Find Orion’s Belt.** On any clear winter evening between 8pm and 11pm, slip outside and face south. See if you can pick out the three bright stars in a row. Note the date, the time, and what the weather was doing. *Grade: Starter. Unlocks the rest of this chapter’s field triggers.*
+1. **Belt-to-Sirius.** On the same evening, follow the line of the Belt down-left until you land on the brightest star in the sky. That’s Sirius. Give the ancient Egyptians a wave. *Grade: Starter.*
+1. **Name the seven.** Over a quiet evening, see if you can learn the seven named stars of Orion (Betelgeuse, Bellatrix, Mintaka, Alnilam, Alnitak, Rigel, Saiph) and what each of those Arabic names actually means. On the next clear night, point them out to someone. *Grade: Core.*
+1. **The Nebula.** With a pair of binoculars, have a careful look at the middle “star” of the sword. What do you see? Sketch it in the Fieldbook in pencil — no photos. *Grade: Core.*
+1. **Read-aloud night.** Pick an Orion story and read it aloud to the family, outside, with Orion in view. Hot drinks allowed. See what the reading-out-loud does that silent reading cannot. *Grade: Core. Unlocks the Winter Capstone.*
+1. **Orion-clock.** Over the course of winter, sketch Orion’s position at the same time (say, 9pm) on the first clear night of each month. Notice how it drifts westward across the weeks. You’ve just drawn a seasonal clock. *Grade: Stretch.*
+1. **Belt direction check.** Head out just after sunset in January and find Orion in the east. See if you can use it to confirm east without a compass. Check afterwards — how close were you? *Grade: Stretch.*
 
 ## Further
 

@@ -63,12 +63,14 @@ The Milky Way is the Summer Capstone. You cannot see it from a city. You must go
 
 ## Stretch — Challenges
 
-1. **Plan the pilgrimage.** Pick a dark-sky site. Pick a moonless week. Pick a clear night. Put it in the calendar. *Grade: Starter. This is the permission slip for the rest of the challenges.*
-1. **First sight.** On the chosen night, get to the site. Wait for full dark. Find the Milky Way with your own eyes. Log the date, the site, the weather, the colour of the band (white? faintly yellow? structured?). *Grade: Core. This is the Summer Capstone entry in the Fieldbook.*
-1. **Walk the band.** With the Triangle overhead, trace the Milky Way with your finger from one horizon to the other. Notice where it brightens (toward Sagittarius and the galactic centre) and where it dims (toward winter sky). Describe the brightness changes in the Fieldbook. *Grade: Core.*
-1. **Find the Rift.** Locate the dark lane running through Cygnus, the Great Rift. Sketch the Milky Way with the dark lane through it. *Grade: Core.*
-1. **Photograph vs. eye.** If someone has a phone with night mode, take a twenty-second exposure on a tripod. Compare the photo to what your eye actually sees. Note in the Fieldbook which details are in the photo but not the eye, and which details are in the eye but not the photo. *Grade: Stretch.*
-1. **Read the silence.** Before leaving the site, spend five minutes looking up in silence. No talking, no phones, no torches. Write one sentence afterwards. *Grade: Stretch. The sentence is the Fieldbook entry.*
+*Six invitations toward the galaxy. This is a pilgrimage chapter — one of the big ones. Take it slowly.*
+
+1. **Plan the pilgrimage.** Pick a dark-sky site. Pick a moonless week. Pick a clear night. Put it in the calendar, and start looking forward to it. *Grade: Starter. This is the permission slip for the rest of the challenges.*
+1. **First sight.** On the chosen night, get to the site. Wait for full dark. See if you can find the Milky Way with your own eyes. Note the date, the site, the weather, and the colour of the band (white? faintly yellow? structured?). *Grade: Core. This is the Summer Capstone entry in the Fieldbook.*
+1. **Walk the band.** With the Triangle overhead, trace the Milky Way with your finger from one horizon to the other. Where does it brighten (toward Sagittarius and the galactic centre) and where does it dim (toward winter sky)? Describe the brightness changes in the Fieldbook. *Grade: Core.*
+1. **Find the Rift.** See if you can find the dark lane running through Cygnus — the Great Rift. Sketch the Milky Way with the dark lane through it. *Grade: Core.*
+1. **Photograph vs. eye.** If someone has a phone with night mode, try a twenty-second exposure on a tripod. Compare the photo to what your eye actually sees. In the Fieldbook, note which details are in the photo but not the eye, and which details the eye catches that the photo misses. *Grade: Stretch.*
+1. **Read the silence.** Before leaving the site, spend five minutes looking up in silence. No talking, no phones, no torches. Afterwards, write one sentence. *Grade: Stretch. The sentence is the Fieldbook entry.*
 
 ## Further
 

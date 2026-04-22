@@ -10,12 +10,14 @@ cards:
     provenance: Universal pre-modern technique, documented from Egypt to Polynesia.
     time: ~20 min, a stick, two small stones.
     prompt: |
-      Push a stick upright into the ground. Mark the tip of its shadow with a stone.
-      Wait 15 minutes. Mark again. The line between the two marks runs roughly
-      west-to-east; the first mark is west.
+      Here is a very old trick. Push a stick upright into the ground and drop a small
+      stone where the tip of its shadow falls. Go and do something else for fifteen
+      minutes. Come back, and mark the new tip with another stone. The line between
+      your two stones runs roughly west-to-east — the first stone is west. A stick
+      and a patient fifteen minutes have just found you a compass.
     fieldbook_prompt: |
-      Sketch the stick, the two marks, and the west-east line. Note the time of day
-      and the weather.
+      Sketch the stick, the two stones, and the line you drew between them. What was
+      the time, and what was the weather doing while you waited?
 
   - id: watch-as-compass
     title: Watch as Compass
@@ -24,10 +26,13 @@ cards:
     provenance: European folk technique, pre-GPS.
     time: ~5 min, an analogue watch or a drawn clock face.
     prompt: |
-      Point the hour hand at the Sun. Halfway between the hour hand and 12 is roughly
-      south (Northern Hemisphere). Sketch your watch face and the direction.
+      On a sunny day, try this: point the hour hand of a watch (or a watch face you
+      have drawn on paper) at the Sun. The line halfway between the hour hand and
+      12 points roughly south, if you are in the Northern Hemisphere. Sketch what
+      you did and see what you reckon.
     fieldbook_prompt: |
       Draw the watch face as you held it, and the direction you decided was south.
+      Did anything about it surprise you?
 
   - id: moss-is-a-liar
     title: Moss Is a Liar
@@ -36,11 +41,13 @@ cards:
     provenance: Error curriculum — the most repeated piece of bad outdoor advice.
     time: 20 min outdoors.
     prompt: |
-      Find five mossy trees. Record which side of each one the moss is on.
-      Discover for yourself why "moss grows on the north side" is not trustworthy.
+      Everyone hears that moss grows on the north side of a tree. Is it true? Go and
+      find five mossy trees near home and see which side of each one the moss actually
+      prefers. The interesting question is not whether the old saying holds up, but why
+      — shade? damp? wind? — the moss chose the side it did.
     fieldbook_prompt: |
-      List the five trees, the side the moss was on, and what else (shade, damp, wind)
-      might explain it. Write what you now believe about moss.
+      List the five trees and the side the moss was on. What else (shade, damp, wind)
+      might explain each one? What do you now believe about moss?
 
   - id: find-orions-belt
     title: Find Orion's Belt
@@ -49,10 +56,12 @@ cards:
     provenance: Orion chapter. Universal — Orion is seen from everywhere on Earth.
     time: A clear winter evening.
     prompt: |
-      Step outside on a clear winter evening between 8pm and 11pm. Face south.
-      Find three bright stars in a tidy row. That is Orion's Belt.
+      On a clear winter evening, slip outside somewhere between 8pm and 11pm and face
+      south. See if you can pick out three bright stars sitting in a tidy row. That is
+      Orion's Belt — said hello to by almost every civilisation that ever looked up.
     fieldbook_prompt: |
-      Log the date, time, location and weather. Sketch what you saw.
+      Sketch what you saw, and note the date, time, where you were, and what the
+      weather was doing.
     unlocks:
       - orion
 
@@ -63,10 +72,12 @@ cards:
     provenance: Moon chapter.
     time: Seven nights.
     prompt: |
-      Draw the Moon every night for a week, at roughly the same time each night.
-      One small circle per night. Note whether it was clear or cloudy.
+      For one week, try drawing the Moon each night at roughly the same hour. One
+      small circle a night. Note whether the sky was clear or cloudy. By Sunday you
+      will have drawn a shape no photograph quite catches.
     fieldbook_prompt: |
-      Use the Moon Diary Month page. One circle per night for seven nights.
+      Use the Moon Diary Month page. One circle per night for seven nights. What
+      changed over the week?
 
   - id: draw-home
     title: Draw Home
@@ -75,11 +86,13 @@ cards:
     provenance: Cartography as a memory tool — universal children's exercise.
     time: ~40 min; pencil and paper; a walk.
     prompt: |
-      Draw a map of your street (or a 500m route near home) from memory. Then walk
-      it, carrying your map. Correct the map as you go. What did you miss?
+      Try this one: draw a map of your own street (or a 500m route near home)
+      entirely from memory. Then take the map out walking with you and correct it
+      as you go. What did the map miss? What did you only really notice once you
+      had to draw it?
     fieldbook_prompt: |
-      Stick the "before" and "after" maps side by side. Note three things you got
-      wrong.
+      Stick the "before" and "after" maps side by side. Which three things surprised
+      you most?
 
   - id: blindfold-garden-walk
     title: The Blindfold Garden Walk
@@ -88,12 +101,13 @@ cards:
     provenance: Graduated Disorientation — adapted from mountain-rescue orientation drills.
     time: 15 min, a blindfold, a trusted guide.
     prompt: |
-      A family member guides you, blindfolded, around the garden or a safe familiar
-      space. Can you guess where you are by sound, smell and slope? Log three
-      landmarks you identified without sight.
+      With a trusted guide and a blindfold, let someone lead you around the garden
+      or a safe familiar space. See if you can work out where you are by sound,
+      smell, and the slope under your feet. Can you name three landmarks without
+      once opening your eyes?
     fieldbook_prompt: |
-      Name the three landmarks, and what gave each one away (a smell, a sound,
-      a slope underfoot).
+      Name the three landmarks, and what gave each one away — a smell, a sound, a
+      slope underfoot.
 
   - id: no-north-day
     title: No-North Day
@@ -102,9 +116,10 @@ cards:
     provenance: The No-North Week thread.
     time: One whole day.
     prompt: |
-      For one day, no one in the family says "north, south, east or west."
-      Directions must use landmarks only — "the oak-tree side," "the sunset way,"
-      "towards the bakery." Log the strangest conversation.
+      For one whole day, see if the family can go without saying "north, south,
+      east or west" at all. Directions only by landmark — "the oak-tree side," "the
+      sunset way," "towards the bakery." Keep an ear out for the strangest sentence
+      of the day.
     fieldbook_prompt: |
       Write down three directions given that day, exactly as spoken. Which of them
       would still make sense to someone who didn't live here?
@@ -116,12 +131,13 @@ cards:
     provenance: Dead Reckoning — military & orienteering tradition.
     time: 30 min, a measured 100m stretch.
     prompt: |
-      Measure out 100m (a football pitch is ~100m long). Walk it at your normal
-      pace. Count each time your right foot hits the ground. That number is your
-      pace-count for 100m. Now you can measure distance by walking.
+      Find a measured 100m stretch (a football pitch is about right). Walk it at
+      your usual stride and count each time your right foot lands. That number is
+      your pace-count for 100m. From now on, you can measure distance with your
+      own feet — which is how people did it long before tape measures existed.
     fieldbook_prompt: |
-      Record your pace-count on flat ground. Do it again on a hill. Are they
-      different?
+      Record your pace-count on flat ground. Try it again on a hill. What changed,
+      and why do you think?
 
   - id: dawn-compass
     title: Dawn Compass
@@ -130,12 +146,13 @@ cards:
     provenance: Sun-as-calendar, universal.
     time: A sunrise. Then another, one month later.
     prompt: |
-      Get up for sunrise one day. Note where on the horizon the Sun comes up —
-      pick a landmark. Repeat a month later. The Sun will have moved along the
-      horizon. The Sun is a calendar.
+      Have a go at being up for sunrise one morning. Spot where the Sun comes up
+      on the horizon, and pick a landmark to remember it by. Then, from exactly
+      the same spot, do it again a month later. The Sun will have shifted along
+      the horizon. The Sun is a calendar, and you have just caught it in the act.
     fieldbook_prompt: |
       Sketch the horizon twice, one month apart, marking where the Sun rose each
-      time.
+      time. How far did it move?
 
   - id: horns-to-horizon
     title: Horns to Horizon
@@ -144,12 +161,13 @@ cards:
     provenance: Moon chapter — rough-and-ready N-hemisphere navigation trick.
     time: A clear evening with a crescent Moon.
     prompt: |
-      On a crescent evening, draw an imaginary line through the two horns of the
-      Moon down to the horizon. That point is roughly south (Northern Hemisphere).
-      Check with a compass. How close were you?
+      On a crescent evening, imagine a line drawn through the two horns of the Moon
+      and carried straight down to the horizon. That point is roughly south, if you
+      are in the Northern Hemisphere. Check with a compass afterwards — how close
+      did the sky get you?
     fieldbook_prompt: |
-      Record the date, the Moon phase, your guess in degrees, the compass reading,
-      and the difference.
+      Note the date, the Moon phase, your guess in degrees, the compass reading,
+      and the difference. What do you reckon threw it off?
 
   - id: belt-to-sirius
     title: Belt to Sirius
@@ -158,11 +176,13 @@ cards:
     provenance: Orion chapter.
     time: A clear winter evening.
     prompt: |
-      Follow Orion's Belt down-left until you reach the brightest star in the sky.
-      That is Sirius. Wave at the ancient Egyptians, for whom Sirius's morning
-      rise once signalled the flooding of the Nile.
+      Once you have found Orion's Belt, follow the line of it down-left until you
+      land on the brightest star in the whole night sky. That is Sirius — the star
+      whose morning rise once told the ancient Egyptians the Nile was about to flood.
+      Give them a wave.
     fieldbook_prompt: |
-      Sketch Orion's Belt and the line down to Sirius.
+      Sketch Orion's Belt and the line down to Sirius. What colour did Sirius look
+      to you?
 
   - id: name-the-seven-of-orion
     title: Name the Seven of Orion
@@ -171,11 +191,13 @@ cards:
     provenance: Orion chapter — Arabic star naming.
     time: One evening of study, one evening of recital.
     prompt: |
-      Learn the seven named stars of Orion (Betelgeuse, Bellatrix, Mintaka,
-      Alnilam, Alnitak, Rigel, Saiph) and what each name means. Then point and
-      name them on a clear night.
+      Over one quiet evening, see if you can learn the seven named stars of Orion
+      (Betelgeuse, Bellatrix, Mintaka, Alnilam, Alnitak, Rigel, Saiph) and what
+      each of those Arabic names actually means. On the next clear night, point
+      them out to someone and see which ones stay with you.
     fieldbook_prompt: |
-      Write out the seven names and meanings from memory. Who tested you?
+      Write out the seven names and meanings from memory. Who tested you, and
+      which one fell out of your head first?
 
   - id: error-entry
     title: Error Entry
@@ -184,11 +206,13 @@ cards:
     provenance: The Error Journal thread — the secret ingredient of real navigators.
     time: As long as it takes to write honestly.
     prompt: |
-      Log a time this month you got turned around, lost, or misread a map, a sign
-      or the sky. No shame. This is the main event.
+      Think back over the last month. When did you get turned around, misread a
+      map, misjudge the sky, or take the wrong path? Write it down, honestly and
+      without apology. This is not the bit to be embarrassed about — this is the
+      bit that makes a navigator.
     fieldbook_prompt: |
-      Use the Error Journal page. Where were you, what happened, what did you
-      learn?
+      Use the Error Journal page. Where were you, what happened, and what did the
+      mistake teach you that being right never would have?
 
   - id: read-aloud-night
     title: Read-Aloud Night
@@ -197,10 +221,12 @@ cards:
     provenance: Storytelling principles — oral reading as a first-class activity.
     time: 20 min. Hot drinks.
     prompt: |
-      Read one chapter's Story section aloud to the family, outside if possible,
-      with the sky in view.
+      Pick a chapter, make some hot drinks, and read its Story section aloud to
+      the family — outside if the evening allows, with the sky somewhere in view.
+      See what the reading-out-loud does that silent reading cannot.
     fieldbook_prompt: |
-      Which chapter? Who read? Who listened? Note one thing someone said.
+      Which chapter? Who read? Who listened? Write down one thing someone said
+      that you want to remember.
 
   - id: stream-reading
     title: Stream Reading
@@ -209,12 +235,13 @@ cards:
     provenance: Reading Water thread.
     time: 45 min, sensible shoes.
     prompt: |
-      Find a stream, brook, ditch or gutter after rain. Which way does it flow?
-      What does that tell you about the lie of the land? Walk ten minutes
-      downstream. What changed — width, speed, banks, company?
+      After a rain, go and find the nearest moving water — a stream, a brook, a
+      ditch, even a kerbside gutter. Which way is it going? What does that tell
+      you about the lie of the land around you? Walk ten minutes downstream and
+      see what has changed — the width, the speed, the banks, what has joined in.
     fieldbook_prompt: |
-      Sketch the stream at the start and ten minutes on. Note the direction of
-      flow, and any tributaries.
+      Sketch the stream where you started and where you finished. Note the
+      direction of flow, and any tributaries that joined along the way.
 
   - id: tree-lean-survey
     title: The Tree-Lean Survey
@@ -223,12 +250,13 @@ cards:
     provenance: Reading Terrain thread — prevailing wind as a living compass.
     time: 60 min, an exposed place.
     prompt: |
-      Find ten mature trees in an exposed place (a ridge, a coast, a field edge).
-      Which way do they lean? What does that tell you about the prevailing wind?
-      Your compass has been growing for fifty years.
+      Head out to an exposed place — a ridge, a coast, a field edge — and find
+      ten mature trees. Which way are they leaning? The answer is your prevailing
+      wind, written out by fifty years of weather. A living compass you can read
+      with your eyes.
     fieldbook_prompt: |
-      Tally the lean direction of ten trees. Compare to the prevailing wind for
-      your region (look it up afterwards).
+      Tally the lean direction of ten trees. Afterwards, look up the prevailing
+      wind for your region. How closely did the trees agree with the atlas?
 
   - id: hometown-unknown
     title: Hometown Unknown
@@ -237,12 +265,13 @@ cards:
     provenance: Graduated Disorientation — the graduation exercise.
     time: A half-day. Adapt to age and context. Safety first.
     prompt: |
-      A parent drives you, eyes closed, to a random point within ten minutes'
-      drive of home. You find your way back on foot or by public transport.
-      Phone allowed only for safety, not for maps.
+      A big one, this — you can work up to it. A parent drives you, eyes closed,
+      to somewhere within ten minutes of home. You find your way back on foot or
+      by public transport. The phone stays in the pocket for safety only, not
+      for maps. See what the land itself tells you.
     fieldbook_prompt: |
-      Where were you dropped? How long did it take to get back? What told you
-      which way was home first?
+      Where do you think you were dropped? How long did it take to get back? And
+      what was the first thing that told you which way was home?
 
   - id: first-pole-star-sighting
     title: First Pole Star Sighting
@@ -251,11 +280,13 @@ cards:
     provenance: Spring chapter — Ursa Major & Polaris.
     time: A clear spring evening.
     prompt: |
-      Find the Plough (the Big Dipper) in the northern sky. The two stars on the
-      end of its bowl point to Polaris, the pole star. Polaris sits almost exactly
-      above true north. Face it and you are facing north.
+      On a clear spring evening, see if you can find the Plough (or the Big Dipper)
+      in the northern sky. The two stars on the end of its bowl point the way to
+      Polaris, the pole star. Polaris sits almost exactly above true north — face
+      it, and you are facing north. Not many things in life are that kind.
     fieldbook_prompt: |
-      Sketch the Plough and the pointer line to Polaris. Note the date and time.
+      Sketch the Plough and the pointer line up to Polaris. Note the date and time.
+      What else did you notice in the sky while you were looking?
 
   - id: story-of-this-place
     title: Story of This Place
@@ -264,12 +295,13 @@ cards:
     provenance: Local songlines — the family's own record.
     time: One weekend.
     prompt: |
-      Pick somewhere within a mile of home. Research its name. Where does the
-      name come from? Whose language? Whose land? Write a one-page Story of This
-      Place in the Fieldbook.
+      Pick a spot somewhere within a mile of home. Where does its name come from?
+      Whose language is it in? Whose land was it before it was anyone else's? See
+      what you can find out — ask older neighbours, dig around online — and write
+      up a one-page Story of This Place for the Fieldbook.
     fieldbook_prompt: |
-      Use the Story of This Place page. Include the place name, its origin, who
-      told you, and what it means now to your family.
+      Use the Story of This Place page. Include the place name, where it comes
+      from, who told you, and what the name means to your family now.
 
   - id: cloud-census
     title: Cloud Census
@@ -278,12 +310,13 @@ cards:
     provenance: Reading the Sky by Day — after Luke Howard's 1802 naming.
     time: Twice a day for one week, two minutes each.
     prompt: |
-      At breakfast and at teatime for a week, look up and name the clouds using
-      Howard's names — cirrus, stratus, cumulus and their combinations. Note
-      what kind of weather followed.
+      For one week, at breakfast and at teatime, spend a couple of minutes looking
+      up and naming the clouds using Luke Howard's names — cirrus, stratus, cumulus,
+      and their blends. Jot down what weather turned up next. See if the sky was
+      trying to tell you something before the forecast did.
     fieldbook_prompt: |
-      One line per morning and evening. Cloud type, direction of movement, and
-      what actually happened weather-wise.
+      One line per morning and evening. Cloud type, the direction they were
+      travelling, and what the weather actually did.
     unlocks:
       - reading-the-sky-by-day
 
@@ -294,12 +327,13 @@ cards:
     provenance: Cirrostratus ice-crystal optics; folk "halo tonight, rain tomorrow."
     time: Opportunistic — whenever the sky goes pale-hazy-white.
     prompt: |
-      When the Sun or Moon shines through a milky high-cloud sky, look for a
-      22° ring around it. Thumb-tip to little-finger at arm's length is roughly
-      20°. If you see a halo, predict whether rain arrives within 24 hours.
+      Whenever the sky turns milky-white and the Sun or Moon shines through with
+      a pale ring around it, you are looking at a 22° halo. (Thumb-tip to little-
+      finger at arm's length is roughly 20°, for scale.) If you spot one, make a
+      prediction: will rain arrive in the next 24 hours? Check tomorrow and see.
     fieldbook_prompt: |
-      Date, time, which body (Sun or Moon), sketch of the halo. Your prediction,
-      and what happened.
+      Date, time, which body (Sun or Moon), and a sketch of the halo. Your
+      prediction — and what the weather actually did.
 
   - id: prevailing-wind-week
     title: Prevailing Wind Week
@@ -308,12 +342,13 @@ cards:
     provenance: Wind & Weather chapter — a week of real observation beats a guess.
     time: Five minutes, twice a day, for seven days.
     prompt: |
-      For a week, note the wind direction twice a day — from a flag, smoke,
-      leaves, or the feel on your face. At the end of the week, decide the
-      prevailing wind for your place. Check against a UK wind atlas afterwards.
+      For one week, check the wind direction twice a day — from a flag, a plume
+      of smoke, leaves lifting, or just the feel on your cheek. At week's end,
+      decide for yourself what the prevailing wind of your place actually is.
+      Then see whether a proper wind atlas agrees with you.
     fieldbook_prompt: |
-      A tally of wind direction by morning and evening. Your verdict, and how
-      close the wind atlas agreed.
+      A tally of wind direction by morning and evening. Your verdict at the end
+      of the week — and how closely the atlas agreed.
     unlocks:
       - wind-and-weather
 
@@ -324,12 +359,13 @@ cards:
     provenance: BBC Shipping Forecast, 00:48 Radio 4 — broadcast since 1861.
     time: Fifteen minutes after bedtime, once.
     prompt: |
-      As a family, stay up (or get up) for the late-night Shipping Forecast.
-      Note three sea areas you'd never heard of. Find them on a map the next
-      morning.
+      One night, as a family, stay up (or sneak an early alarm) for the late
+      Shipping Forecast on Radio 4 at 00:48. Pick out three sea areas you have
+      never heard of. In the morning, find them on a map. See if any of them
+      sound like places you'd like to be.
     fieldbook_prompt: |
-      Three sea-area names, what weather they had that night, and one sentence
-      on what the broadcast *sounded* like.
+      Three sea-area names, what weather they had that night, and one line on
+      what the broadcast *sounded* like.
 
   - id: frost-line
     title: Frost Line
@@ -338,12 +374,13 @@ cards:
     provenance: Snow, Ice & Frost chapter — cold air pools in valleys overnight.
     time: A clear cold morning, 45 minutes.
     prompt: |
-      On a clear frosty morning, find the height on a hill or valley side
-      above which there is no frost. Mark it on a sketch. You have drawn the
-      top of last night's pool of cold air.
+      On a clear frosty morning, walk a hill or valley side and see if you can
+      spot the height above which the frost disappears. Sketch the shape of the
+      land with that line drawn across it — you have just mapped the top of last
+      night's pool of cold air.
     fieldbook_prompt: |
-      Rough sketch of the hill or valley with the frost line drawn across it.
-      Estimated height, and how you decided.
+      Rough sketch of the hill or valley with the frost line marked. Your guess
+      at the height, and how you decided.
     unlocks:
       - snow-ice-and-frost
 
@@ -354,12 +391,13 @@ cards:
     provenance: Snow and mud as record-keepers — universal tracker tradition.
     time: 30 minutes after fresh snow or rain.
     prompt: |
-      Walk 200 metres of a local path after fresh snow, or after rain on soft
-      ground. List every set of tracks you cross. Identify at least three.
-      Sketch the clearest.
+      After fresh snow, or rain on soft ground, walk 200 metres of a local path
+      and keep an eye on the floor. How many different sets of tracks do you
+      cross? See if you can name three of them, and sketch the clearest print
+      you find.
     fieldbook_prompt: |
-      A list of tracks (species or best guess) and what gave each one away.
-      One sketched print.
+      A list of the tracks (species or best guess) and what gave each one away.
+      One carefully sketched print.
 
   - id: rainbow-triangulation
     title: Rainbow Triangulation
@@ -368,12 +406,13 @@ cards:
     provenance: Rain & Running Water — optics, since Aristotle and Descartes.
     time: Whenever a rainbow appears — grab it fast.
     prompt: |
-      Next rainbow you see, stand still. Work out where the Sun is directly
-      behind you. Estimate the angle from Sun-opposite (your shadow's head)
-      to the top of the bow. It is always about 42°. Check.
+      Next rainbow you catch, stand still. The Sun is directly behind you — find
+      its position by looking for the head of your shadow. Now have a go at
+      estimating the angle from the head of your shadow up to the top of the bow.
+      It is always about 42°. See how close you get.
     fieldbook_prompt: |
-      Sketch the scene with your shadow, the Sun's position behind you, and
-      the rainbow. Your angle estimate, and what you learned.
+      Sketch the scene with your shadow, the Sun's position behind you, and the
+      rainbow. Your angle estimate, and what surprised you.
 
   - id: solstice-shadow
     title: Solstice Shadow
@@ -382,11 +421,13 @@ cards:
     provenance: Sun at its Height — Eratosthenes, 240 BC.
     time: 20 minutes near local solar noon, on a sunny day close to the solstice.
     prompt: |
-      On a sunny day near the summer solstice, at local solar noon (check a
-      sunrise/sunset website), measure the length of your own shadow. Compare
-      to your height. Shadows are shortest at solstice noon.
+      Near the summer solstice, on a sunny day, step outside at local solar noon
+      (a sunrise/sunset website will give you the exact minute) and measure the
+      length of your own shadow. How does it compare to your height? Shadows
+      are shortest at solstice noon — briefly, the Sun is doing something it
+      does at no other time in the year.
     fieldbook_prompt: |
-      Date, time, your height, your shadow length, ratio, and a sketch of
+      Date, time, your height, your shadow length, the ratio, and a sketch of
       you-and-shadow from above.
     unlocks:
       - sun-at-its-height
@@ -398,13 +439,15 @@ cards:
     provenance: Sun at its Height — measuring the Earth with two sticks.
     time: A sunny solstice day, coordinated by phone or post.
     prompt: |
-      Pair up with a family in another county or country. On the same sunny
-      day, each family measures the shadow of a one-metre stick at local solar
-      noon. Share results. From the difference in shadow angles and the
-      distance between you, estimate the circumference of the Earth.
+      Here is a challenge from 2,200 years ago. Pair up with a family in another
+      county or country. On the same sunny solstice day, each of you measures
+      the shadow of a one-metre stick at local solar noon. Swap results. From
+      the difference in shadow angles and the distance between you, see if you
+      can work out the circumference of the Earth. Eratosthenes managed it. How
+      close can you get?
     fieldbook_prompt: |
       Location, time, shadow length, angle. The other family's data. Your
-      calculated Earth circumference, and how far off you were.
+      calculated Earth circumference, and how far off Eratosthenes you were.
 
   - id: tide-diary
     title: Tide Diary
@@ -413,12 +456,14 @@ cards:
     provenance: Reading Water — tides track the Moon.
     time: Two minutes a day for a month.
     prompt: |
-      For a month, record the daily high-tide time for your nearest coast (or
-      the nearest coast you ever visit). Watch the 50-minutes-later pattern.
-      Watch spring tides cluster at new and full Moon.
+      For one month, jot down the daily high-tide time for your nearest coast
+      (or the coast you visit most). Watch how it drifts about 50 minutes later
+      each day. Watch how the biggest tides — the spring tides — cluster around
+      the new and the full Moon. The Moon is pulling the sea, and now you can
+      see it happening.
     fieldbook_prompt: |
-      A table — date, Moon phase, morning high-tide time. At the end of the
-      month, what did you notice?
+      A little table — date, Moon phase, morning high-tide time. At the end of
+      the month, what patterns fell out?
     unlocks:
       - reading-water
 
@@ -429,13 +474,13 @@ cards:
     provenance: Reading Terrain — orienteering fundamentals.
     time: A 1km walk with a map.
     prompt: |
-      Plan a one-kilometre walk in two legs. For each leg, name the *handrail*
-      you will follow (wall, stream, ridge, track) and the *catching feature*
-      that will stop you if you go too far (road, river, ridge crest). Walk
-      it. Did they work?
+      Plan yourself a one-kilometre walk in two legs. For each leg, name the
+      *handrail* you will follow (wall, stream, ridge, track) and the *catching
+      feature* that will stop you if you go too far (road, river, ridge crest).
+      Walk it. Did your catchers catch you?
     fieldbook_prompt: |
       A sketch of the route with handrails and catchers marked. Which one saved
-      you, if any.
+      you, if any did?
     unlocks:
       - reading-terrain
 
@@ -446,12 +491,13 @@ cards:
     provenance: Reading Terrain — south-facing land is weeks ahead.
     time: One spring morning, 30 minutes.
     prompt: |
-      On a hill near home in early spring, compare three plants on the
-      south-facing slope with three plants on the north-facing slope. How many
-      weeks apart are they?
+      In early spring, on a hill near home, compare three plants on the south-
+      facing slope with three plants on the north-facing side. How many weeks
+      ahead is the sunny side? You are watching *aspect* — the quiet difference
+      a little sunlight makes to a whole hillside.
     fieldbook_prompt: |
       Six small sketches (three north, three south) with names and flowering
-      stages. Your estimate in weeks.
+      stages. Your estimate of the gap in weeks.
 
   - id: rain-word-collection
     title: Rain-Word Collection
@@ -460,10 +506,13 @@ cards:
     provenance: Rain & Running Water — Scots, Welsh, Gaelic, Japanese and more.
     time: An evening's research, a week's listening.
     prompt: |
-      Collect ten words for rain from as many languages or dialects as you can
-      find. For each, find out what it *really* means — the kind of rain it
-      describes — from a speaker or a careful source, not just a dictionary.
+      See how many words for rain you can gather — from as many languages and
+      dialects as you can find. Aim for ten. For each one, find out what kind
+      of rain it actually describes, ideally from someone who speaks the
+      language rather than a dictionary. Different people, it turns out, see
+      different rain.
     fieldbook_prompt: |
-      Ten words, their languages, and a one-line description of each.
+      Ten words, the languages they belong to, and a single line on each to
+      capture the kind of rain it paints.
     unlocks:
       - rain-and-running-water

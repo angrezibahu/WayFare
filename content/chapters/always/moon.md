@@ -54,11 +54,13 @@ The lit side always faces the Sun. So if you can see a crescent, you know where 
 
 ## Stretch — Challenges
 
-1. **Moon Diary.** Draw the Moon every night (or every clear night) for one full cycle — 29 or 30 days. One small square per day in the Fieldbook. Note the time. *Grade: Starter.*
-1. **Predict Tomorrow.** Each night, predict what the Moon will look like tomorrow. Score yourself the next night. *Grade: Starter.*
-1. **Daytime Moon.** Find the Moon in the daytime sky. It’s up roughly half the daylight hours. Easier in the first and last quarter phases. *Grade: Starter.*
-1. **Horns to Horizon.** On a crescent evening, use the horns-to-horizon trick to guess south, then check with a compass. How close were you? *Grade: Core.*
-1. **Moonrise Math.** Using only the phase and the time, predict when the Moon will rise tonight. Check against an almanac after. *Grade: Stretch.*
+*A handful of invitations. Try one, try all, try them in your own order. They are here to send you outside.*
+
+1. **Moon Diary.** See if you can draw the Moon every night (or every clear night) for one full cycle — 29 or 30 days. One little square a day in the Fieldbook. Note the time. By the end, you will have drawn a shape no photograph quite catches. *Grade: Starter.*
+1. **Predict Tomorrow.** Each night, have a go at predicting what the Moon will look like tomorrow. See how you did the following evening. *Grade: Starter.*
+1. **Daytime Moon.** The Moon is up for about half the daylight hours — have a wander and see if you can spot it in a blue sky. First and last quarter are the easiest phases to catch. *Grade: Starter.*
+1. **Horns to Horizon.** On a crescent evening, try the horns-to-horizon trick to guess where south is, then see how close a compass says you got. *Grade: Core.*
+1. **Moonrise Math.** Using only the phase and the time, see if you can predict when the Moon will rise tonight. Check against an almanac afterwards — how did you do? *Grade: Stretch.*
 
 ## Further
 

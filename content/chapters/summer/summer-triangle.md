@@ -61,12 +61,14 @@ The Summer Triangle is the three brightest stars of summer nights in the Norther
 
 ## Stretch — Challenges
 
-1. **Find the Triangle.** On a clear summer evening between 10 and midnight, step outside, look straight up and slightly south. Find the three brightest stars. Check Vega against Stellarium to be sure. Log the date, time, and weather. *Grade: Starter. Unlocks the rest of this chapter’s field triggers.*
-1. **The Northern Cross.** Trace out all six stars of Cygnus. Sketch it in the Fieldbook. *Grade: Starter.*
-1. **Name the three.** Learn *al-Nasr al-Wāqi‘* (Vega), *al-Nasr al-Ṭā’ir* (Altair), and *Dhanab al-Dajāja* (Deneb). Be able to say why they have those names. *Grade: Core.*
-1. **Milky Way spotting.** On the darkest night you can reach, lie on your back with the Triangle above you and trace the Milky Way with your finger from horizon to horizon. If you can’t see it, that is itself a finding — log the light pollution and where you were. *Grade: Core. Counts towards the Summer Capstone.*
-1. **Albireo.** With binoculars or a small telescope, find Albireo (foot of the cross). Describe the two colours in the Fieldbook. *Grade: Stretch.*
-1. **Zenith test.** On a clear July midnight, lie on your back and find the star closest to straight up. Is it Vega? You’ve just measured your own latitude, roughly — Vega’s declination is about +38°. *Grade: Stretch.*
+*Six invitations under summer skies. Warm nights reward the patient looker — take a blanket.*
+
+1. **Find the Triangle.** On a clear summer evening between 10 and midnight, step outside, look straight up and a little south, and see if you can pick out the three brightest stars. Cross-check Vega against Stellarium to be sure. Note the date, the time, and the sky. *Grade: Starter. Unlocks the rest of this chapter’s field triggers.*
+1. **The Northern Cross.** See if you can trace out all six stars of Cygnus. Sketch what you see in the Fieldbook. *Grade: Starter.*
+1. **Name the three.** See if you can learn *al-Nasr al-Wāqi‘* (Vega), *al-Nasr al-Ṭā’ir* (Altair), and *Dhanab al-Dajāja* (Deneb) — and what each Arabic name is actually saying about the bird it belongs to. *Grade: Core.*
+1. **Milky Way spotting.** On the darkest night you can reach, lie on your back with the Triangle above you and trace the Milky Way with your finger from one horizon to the other. If you can't see it at all, that is itself a finding worth noting — the light pollution and where you were. *Grade: Core. Counts towards the Summer Capstone.*
+1. **Albireo.** With binoculars or a small telescope, find Albireo (at the foot of the cross). Describe the two colours in the Fieldbook in your own words. *Grade: Stretch.*
+1. **Zenith test.** On a clear July midnight, lie on your back and see which star is closest to straight overhead. Is it Vega? If so, you have just measured your own latitude, roughly — Vega's declination is about +38°. *Grade: Stretch.*
 
 ## Further
 

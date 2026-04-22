@@ -73,11 +73,13 @@ sources:
 
 ## Stretch — Challenges
 
-1. **Cloud Census.** For a week, at breakfast and at teatime, look up and identify the clouds. Name them by Luke Howard's names. Note the weather that followed. *Grade: Starter.*
-1. **Halo Hunt.** Next time the sky is pale-hazy-white with a dim Sun or Moon, look for a 22° halo. (Trick: hold your hand out at arm's length — thumb tip to little-finger tip is roughly 20°.) Predict the next day's weather. Score. *Grade: Core.*
-1. **Swift Barometer.** In summer, note how high swifts are flying each evening. Note the weather over the next 24 hours. Can you find a pattern? *Grade: Core.*
-1. **Smoke Signals.** Over a week, watch the smoke from a chimney or a bonfire each morning. Sort the behaviours (straight/flat/tumbling) against the day's weather. *Grade: Stretch.*
-1. **Name a Sky.** On one beautiful day, sketch the whole sky above your head, label every cloud type you can identify, and give the sky your own name. *Grade: Starter.*
+*Five invitations to keep an eye on the sky. Pick one you fancy and see what the weather is about to tell you.*
+
+1. **Cloud Census.** For one week, at breakfast and at teatime, see how many of Luke Howard's cloud names you can put to the sky. Jot down what weather turned up next. *Grade: Starter.*
+1. **Halo Hunt.** Next time the sky goes pale-hazy-white with a dim Sun or Moon, keep an eye out for a 22° halo. (Handy trick: thumb-tip to little-finger at arm's length is roughly 20°.) Make a prediction for the next day's weather, then check how you did. *Grade: Core.*
+1. **Swift Barometer.** In summer, notice how high the swifts are flying each evening, and see what the weather does over the next 24 hours. Is there a pattern hiding in there? *Grade: Core.*
+1. **Smoke Signals.** Over a week, watch the smoke from a chimney or a bonfire each morning. Sort the behaviours — straight, flat, tumbling — against what the weather actually did. Any rules emerge? *Grade: Stretch.*
+1. **Name a Sky.** On one beautiful day, sketch the whole sky above your head, label every cloud type you can name, and give the sky a name of your own. *Grade: Starter.*
 
 ## Further
 
