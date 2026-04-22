@@ -270,3 +270,200 @@ cards:
     fieldbook_prompt: |
       Use the Story of This Place page. Include the place name, its origin, who
       told you, and what it means now to your family.
+
+  - id: cloud-census
+    title: Cloud Census
+    grade: Starter
+    kind: Sky
+    provenance: Reading the Sky by Day — after Luke Howard's 1802 naming.
+    time: Twice a day for one week, two minutes each.
+    prompt: |
+      At breakfast and at teatime for a week, look up and name the clouds using
+      Howard's names — cirrus, stratus, cumulus and their combinations. Note
+      what kind of weather followed.
+    fieldbook_prompt: |
+      One line per morning and evening. Cloud type, direction of movement, and
+      what actually happened weather-wise.
+    unlocks:
+      - reading-the-sky-by-day
+
+  - id: halo-watch
+    title: Halo Watch
+    grade: Core
+    kind: Sky
+    provenance: Cirrostratus ice-crystal optics; folk "halo tonight, rain tomorrow."
+    time: Opportunistic — whenever the sky goes pale-hazy-white.
+    prompt: |
+      When the Sun or Moon shines through a milky high-cloud sky, look for a
+      22° ring around it. Thumb-tip to little-finger at arm's length is roughly
+      20°. If you see a halo, predict whether rain arrives within 24 hours.
+    fieldbook_prompt: |
+      Date, time, which body (Sun or Moon), sketch of the halo. Your prediction,
+      and what happened.
+
+  - id: prevailing-wind-week
+    title: Prevailing Wind Week
+    grade: Core
+    kind: Land
+    provenance: Wind & Weather chapter — a week of real observation beats a guess.
+    time: Five minutes, twice a day, for seven days.
+    prompt: |
+      For a week, note the wind direction twice a day — from a flag, smoke,
+      leaves, or the feel on your face. At the end of the week, decide the
+      prevailing wind for your place. Check against a UK wind atlas afterwards.
+    fieldbook_prompt: |
+      A tally of wind direction by morning and evening. Your verdict, and how
+      close the wind atlas agreed.
+    unlocks:
+      - wind-and-weather
+
+  - id: shipping-forecast-night
+    title: Shipping Forecast Night
+    grade: Starter
+    kind: Story
+    provenance: BBC Shipping Forecast, 00:48 Radio 4 — broadcast since 1861.
+    time: Fifteen minutes after bedtime, once.
+    prompt: |
+      As a family, stay up (or get up) for the late-night Shipping Forecast.
+      Note three sea areas you'd never heard of. Find them on a map the next
+      morning.
+    fieldbook_prompt: |
+      Three sea-area names, what weather they had that night, and one sentence
+      on what the broadcast *sounded* like.
+
+  - id: frost-line
+    title: Frost Line
+    grade: Starter
+    kind: Land
+    provenance: Snow, Ice & Frost chapter — cold air pools in valleys overnight.
+    time: A clear cold morning, 45 minutes.
+    prompt: |
+      On a clear frosty morning, find the height on a hill or valley side
+      above which there is no frost. Mark it on a sketch. You have drawn the
+      top of last night's pool of cold air.
+    fieldbook_prompt: |
+      Rough sketch of the hill or valley with the frost line drawn across it.
+      Estimated height, and how you decided.
+    unlocks:
+      - snow-ice-and-frost
+
+  - id: track-register
+    title: Track Register
+    grade: Starter
+    kind: Land
+    provenance: Snow and mud as record-keepers — universal tracker tradition.
+    time: 30 minutes after fresh snow or rain.
+    prompt: |
+      Walk 200 metres of a local path after fresh snow, or after rain on soft
+      ground. List every set of tracks you cross. Identify at least three.
+      Sketch the clearest.
+    fieldbook_prompt: |
+      A list of tracks (species or best guess) and what gave each one away.
+      One sketched print.
+
+  - id: rainbow-triangulation
+    title: Rainbow Triangulation
+    grade: Core
+    kind: Sky
+    provenance: Rain & Running Water — optics, since Aristotle and Descartes.
+    time: Whenever a rainbow appears — grab it fast.
+    prompt: |
+      Next rainbow you see, stand still. Work out where the Sun is directly
+      behind you. Estimate the angle from Sun-opposite (your shadow's head)
+      to the top of the bow. It is always about 42°. Check.
+    fieldbook_prompt: |
+      Sketch the scene with your shadow, the Sun's position behind you, and
+      the rainbow. Your angle estimate, and what you learned.
+
+  - id: solstice-shadow
+    title: Solstice Shadow
+    grade: Starter
+    kind: Land
+    provenance: Sun at its Height — Eratosthenes, 240 BC.
+    time: 20 minutes near local solar noon, on a sunny day close to the solstice.
+    prompt: |
+      On a sunny day near the summer solstice, at local solar noon (check a
+      sunrise/sunset website), measure the length of your own shadow. Compare
+      to your height. Shadows are shortest at solstice noon.
+    fieldbook_prompt: |
+      Date, time, your height, your shadow length, ratio, and a sketch of
+      you-and-shadow from above.
+    unlocks:
+      - sun-at-its-height
+
+  - id: eratosthenes-match
+    title: The Eratosthenes Match
+    grade: Stretch
+    kind: Land
+    provenance: Sun at its Height — measuring the Earth with two sticks.
+    time: A sunny solstice day, coordinated by phone or post.
+    prompt: |
+      Pair up with a family in another county or country. On the same sunny
+      day, each family measures the shadow of a one-metre stick at local solar
+      noon. Share results. From the difference in shadow angles and the
+      distance between you, estimate the circumference of the Earth.
+    fieldbook_prompt: |
+      Location, time, shadow length, angle. The other family's data. Your
+      calculated Earth circumference, and how far off you were.
+
+  - id: tide-diary
+    title: Tide Diary
+    grade: Core
+    kind: Land
+    provenance: Reading Water — tides track the Moon.
+    time: Two minutes a day for a month.
+    prompt: |
+      For a month, record the daily high-tide time for your nearest coast (or
+      the nearest coast you ever visit). Watch the 50-minutes-later pattern.
+      Watch spring tides cluster at new and full Moon.
+    fieldbook_prompt: |
+      A table — date, Moon phase, morning high-tide time. At the end of the
+      month, what did you notice?
+    unlocks:
+      - reading-water
+
+  - id: handrail-and-catcher
+    title: Handrail and Catcher
+    grade: Core
+    kind: Land
+    provenance: Reading Terrain — orienteering fundamentals.
+    time: A 1km walk with a map.
+    prompt: |
+      Plan a one-kilometre walk in two legs. For each leg, name the *handrail*
+      you will follow (wall, stream, ridge, track) and the *catching feature*
+      that will stop you if you go too far (road, river, ridge crest). Walk
+      it. Did they work?
+    fieldbook_prompt: |
+      A sketch of the route with handrails and catchers marked. Which one saved
+      you, if any.
+    unlocks:
+      - reading-terrain
+
+  - id: aspect-spring-check
+    title: Aspect Spring Check
+    grade: Core
+    kind: Land
+    provenance: Reading Terrain — south-facing land is weeks ahead.
+    time: One spring morning, 30 minutes.
+    prompt: |
+      On a hill near home in early spring, compare three plants on the
+      south-facing slope with three plants on the north-facing slope. How many
+      weeks apart are they?
+    fieldbook_prompt: |
+      Six small sketches (three north, three south) with names and flowering
+      stages. Your estimate in weeks.
+
+  - id: rain-word-collection
+    title: Rain-Word Collection
+    grade: Starter
+    kind: Story
+    provenance: Rain & Running Water — Scots, Welsh, Gaelic, Japanese and more.
+    time: An evening's research, a week's listening.
+    prompt: |
+      Collect ten words for rain from as many languages or dialects as you can
+      find. For each, find out what it *really* means — the kind of rain it
+      describes — from a speaker or a careful source, not just a dictionary.
+    fieldbook_prompt: |
+      Ten words, their languages, and a one-line description of each.
+    unlocks:
+      - rain-and-running-water
