@@ -42,30 +42,37 @@ WayFare is **analog-first, digital-minimal**. The paper Fieldbook is the real ar
 - **The Moon.** Gateway. Draw it for a month, learn the phases, navigate by it.
 - **Landcraft: First Steps.** Sun direction, shadow-stick, watch-as-compass, water flow, moss myth-busting.
 - **Rules of the Countryside / Road.** UK Countryside Code, basic road safety, right-to-roam, leave-no-trace.
+- **Reading Water.** Streams, drainage, coasts, tides — the water side of wayfaring.
+- **Reading Terrain.** Slope, aspect, contour, vegetation, human marks; ridge-and-valley thinking.
+- **Reading the Sky by Day.** Cloud naming (Howard), haloes, birds, smoke — weather from the sky itself.
 
 ### Winter (roughly Dec–Feb in Northern Hemisphere)
 
 - **Orion** — hero chapter. Rich cross-cultural storytelling.
 - **Taurus & the Pleiades** (unlocked via Orion) — because Orion’s Belt points to Aldebaran.
 - **Canis Major & Sirius** — brightest star in the sky, and the Egyptian Nile calendar.
+- **Snow, Ice and Frost** (day) — tracks, thin ice, frost hollows, winter safety.
 
 ### Spring (Mar–May)
 
 - **Ursa Major (the Plough)** — the always-there anchor in UK skies; Polaris, the pole star, finding true north.
 - **Leo** — reading seasonal clocks.
 - **Boötes & Arcturus** — “follow the arc to Arcturus.”
+- **Rain and Running Water** (day) — swelling streams, rainbow geometry, petrichor, flood safety.
 
 ### Summer (Jun–Aug)
 
 - **The Summer Triangle** — Vega (Lyra), Deneb (Cygnus), Altair (Aquila). Dense with story.
 - **Scorpius & Antares** — low on the southern horizon; the mythic counterweight to Orion.
 - **The Milky Way** — dark-sky pilgrimage capstone.
+- **The Sun at its Height** (day) — solstice, shortest shadows, Eratosthenes, heat-craft.
 
 ### Autumn (Sep–Nov)
 
 - **Pegasus & Andromeda** — and the galaxy you can see with your naked eye.
 - **Cassiopeia** — the W; the second great navigational anchor alongside the Plough.
 - **Cygnus revisited** — crossing into autumn.
+- **Wind and Weather** (day) — the Shipping Forecast, named winds, Beaufort, fronts.
 
 ### Landcraft threads (woven through all seasons)
 
