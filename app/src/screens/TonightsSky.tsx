@@ -7,7 +7,7 @@ import {
   moonIllumination,
   sunriseSunset,
   formatTime,
-  orionVisibleTonight,
+  featuredConstellation,
 } from '../lib/astronomy';
 import { currentSeason } from '../lib/unlock';
 
@@ -59,7 +59,7 @@ export default function TonightsSky() {
     ? sunriseSunset(now, settings.latitude!, settings.longitude!)
     : { sunrise: null, sunset: null };
 
-  const orion = orionVisibleTonight(now, hemisphere);
+  const featured = featuredConstellation(now, hemisphere);
 
   async function onSave(e: React.FormEvent) {
     e.preventDefault();
@@ -105,15 +105,11 @@ export default function TonightsSky() {
 
   const sunTile = <Tile label="Sun" value={sunValue} note={sunNote} />;
 
-  const orionTile = (
+  const featuredTile = (
     <Tile
-      label="Orion"
-      value={orion ? 'Up in the evening sky tonight.' : 'Not in the evening sky this month.'}
-      note={
-        orion
-          ? 'Look south after dark. Follow the Belt down-left to Sirius.'
-          : 'Orion is an evening constellation from roughly November to March (Northern Hemisphere).'
-      }
+      label={featured.title}
+      value={`Up in the evening sky — ${featured.window}.`}
+      note={`${featured.where} ${featured.signpost}`}
     />
   );
 
@@ -140,12 +136,12 @@ export default function TonightsSky() {
         <>
           {sunTile}
           {moonTile}
-          {orionTile}
+          {featuredTile}
         </>
       ) : (
         <>
           {moonTile}
-          {orionTile}
+          {featuredTile}
           {sunTile}
         </>
       )}
