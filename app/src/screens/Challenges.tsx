@@ -33,8 +33,8 @@ export default function Challenges() {
     <div>
       <h1>Challenges</h1>
       <p className="muted">
-        {cards.length} cards. Draw one, choose one, or scroll. Most of them ask you to leave
-        the house.
+        {cards.length} cards to wander through. Draw one at random, pick one that catches
+        your eye, or scroll. Most of them are invitations to go outside and see what you find.
       </p>
 
       <div className="toolbar">

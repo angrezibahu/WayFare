@@ -60,12 +60,14 @@ Scorpius is one of the few constellations that looks exactly like its name: a sc
 
 ## Stretch — Challenges
 
-1. **Find Antares.** Step outside on a clear summer evening between 10pm and midnight, with a clear view south. Find the one red star low in the southern sky. Log the date, time, and weather. *Grade: Starter. Unlocks the rest of this chapter's field triggers.*
-1. **Walk the scorpion.** On the same evening, trace as much of the scorpion's curve as your horizon allows. From southern England you may only get the head and half the body; from Cornwall, the full stinger. Sketch what you can see. *Grade: Starter.*
-1. **Mars check.** If Mars is in the sky near Antares (it is, roughly, every two years or so), look at both. Which is redder? The Greeks named Antares *anti-Ares* for exactly this kind of side-by-side comparison. Log the answer. *Grade: Core.*
-1. **Name the head.** Learn Antares, Graffias, Dschubba, Shaula, Lesath — what each means and where it sits on the scorpion. *Grade: Core.*
-1. **Orion–Scorpius swap.** Across a single calendar year, log the date you *first* see Orion clear of the eastern horizon after sunset (autumn) and the date you *first* see Antares clear of the southern horizon after sunset (spring). The two dates will be almost exactly six months apart. *Grade: Stretch.*
-1. **Ptolemy's Cluster.** With binoculars, sweep the sky above the stinger to find M7 — a bright, dense knot of stars. You're looking at the oldest cluster catalogued by name in the Western astronomical record. *Grade: Stretch.*
+*Six invitations to the low south. Scorpius never climbs high from Britain — catch him while summer holds him up.*
+
+1. **Find Antares.** On a clear summer evening between 10pm and midnight, step outside with a clear view south and see if you can find the one red star low in the southern sky. Note the date, the time, and what the sky was doing. *Grade: Starter. Unlocks the rest of this chapter's field triggers.*
+1. **Walk the scorpion.** On the same evening, trace as much of the scorpion's curve as your horizon allows. From southern England you may only get the head and half the body; from Cornwall, you might catch the full stinger. Sketch what you can see. *Grade: Starter.*
+1. **Mars check.** Every couple of years, Mars drifts through this patch of sky near Antares. When it does, look at both. Which is redder? The Greeks named Antares *anti-Ares* for exactly this side-by-side comparison. See what you reckon. *Grade: Core.*
+1. **Name the head.** See if you can learn Antares, Graffias, Dschubba, Shaula, Lesath — what each name means and where it sits on the scorpion. *Grade: Core.*
+1. **Orion–Scorpius swap.** Over the course of a year, note the date you *first* see Orion clear of the eastern horizon after sunset (autumn) and the date you *first* see Antares clear of the southern horizon after sunset (spring). The two dates will sit almost exactly six months apart — an old enmity holding its distance. *Grade: Stretch.*
+1. **Ptolemy's Cluster.** With binoculars, sweep the sky above the stinger and see if you can find M7 — a bright, dense knot of stars. You're looking at the oldest cluster catalogued by name in the Western astronomical record. *Grade: Stretch.*
 
 ## Further
 

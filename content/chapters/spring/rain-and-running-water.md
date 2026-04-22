@@ -50,11 +50,13 @@ sources:
 
 ## Stretch — Challenges
 
-1. **Rain-Word Collection.** Collect ten rain-words from ten languages or dialects (Scots, Welsh, Gaelic, Japanese, any). Write each with what it *really* means to someone who lives in it. *Grade: Starter.*
-1. **Rainbow Triangulation.** Next rainbow you see, stand still, find where the Sun is behind you, and work out the angle from the Sun to the bow. (It is always about 42° — but check, don't trust.) *Grade: Core.*
-1. **Mud Reading.** After a wet spell, spend twenty minutes on a muddy path tallying animal prints. At least three species. Sketch the clearest. *Grade: Core.*
-1. **Catchment Detective.** For your nearest stream, work out (on a map) where its water comes from — the shape of ground that feeds it. Walk the lowest 500m of it after rain. *Grade: Stretch.*
-1. **Petrichor.** On the first warm rain after a dry week, step outside the moment it starts. Describe the smell in the Fieldbook in your own words, not someone else's. *Grade: Starter.*
+*Five invitations for rainy days. Some of them want you out in the weather — that's the point.*
+
+1. **Rain-Word Collection.** See how many rain-words you can gather from ten different languages or dialects (Scots, Welsh, Gaelic, Japanese, anything). For each one, find out what it really means to someone who lives in that rain. *Grade: Starter.*
+1. **Rainbow Triangulation.** Next rainbow you catch, stand still. Find where the Sun is directly behind you, and see if you can work out the angle from the Sun-opposite point to the top of the bow. (It is always about 42° — but check, don't trust.) *Grade: Core.*
+1. **Mud Reading.** After a wet spell, spend twenty minutes on a muddy path tallying animal prints. Aim for three species at least. Sketch the clearest. *Grade: Core.*
+1. **Catchment Detective.** For your nearest stream, see if you can work out — on a map — the shape of ground that feeds it. Then walk the lowest 500m of it after rain and see the answer running past you. *Grade: Stretch.*
+1. **Petrichor.** On the first warm rain after a dry week, step outside the moment it begins. Describe the smell in the Fieldbook in your own words — not someone else's. *Grade: Starter.*
 
 ## Further
 

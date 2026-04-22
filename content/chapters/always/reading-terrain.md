@@ -66,11 +66,13 @@ Before there were OS maps, there was the shepherd who knew every hollow where a 
 
 ## Stretch — Challenges
 
-1. **Contour Walk.** On a 1:25,000 OS map of a local area, find a hill. Trace the highest contour ring. Then, on the ground, walk around the hill at roughly that height. Does it feel level? *Grade: Starter.*
-1. **Aspect Diary.** On a hill near home, on a spring morning, compare three plants on the south-facing slope with three plants on the north-facing slope. How different are they in development? *Grade: Core.*
-1. **Read a Wall.** Find a drystone wall or old hedge near you. Follow it. Where does it go? What does it separate? Is it straight or does it kink around an older feature? Write its life story. *Grade: Core.*
-1. **Handrail & Catching Feature.** On a 1 km walk, plan your route in terms of a handrail (to follow) and a catching feature (to stop you). Walk it. Did they work? *Grade: Stretch.*
-1. **Name Your Valley.** Find out the name of the valley and the ridge or hill where you live. If no one has named the ridge, name it yourselves and put the name on your family Year Map. *Grade: Starter.*
+*Five invitations to wonder at the land's own shape. Take them in any order — the land is patient.*
+
+1. **Contour Walk.** On a 1:25,000 OS map of a local area, pick a hill and trace its highest contour ring. Then, on the ground, see if you can walk all the way around the hill at roughly that height. Does it feel level? What gives the illusion away? *Grade: Starter.*
+1. **Aspect Diary.** On a hill near home, on a spring morning, compare three plants on the south-facing slope with three on the north-facing slope. How far ahead is the sunny side? *Grade: Core.*
+1. **Read a Wall.** Find a drystone wall or an old hedge near you and follow it. Where does it go? What does it separate? Does it kink around an older feature you can still see? Write out its life story. *Grade: Core.*
+1. **Handrail & Catching Feature.** Plan a 1 km walk in terms of a handrail (to follow) and a catching feature (to stop you). Walk it. Did either of them save you? *Grade: Stretch.*
+1. **Name Your Valley.** See if you can find out the name of the valley and the ridge or hill where you live. If nobody has named the ridge, name it yourselves and put the name on your family Year Map. *Grade: Starter.*
 
 ## Further
 

@@ -62,12 +62,14 @@ Cygnus is a long cross: Deneb at the top, a line of stars running down to Albire
 
 ## Stretch — Challenges
 
-1. **Find Cygnus in autumn.** On any clear autumn evening, find the cross in the west. Note Deneb at the top, Albireo at the bottom, the wings east-west. Log the date, time, and where Deneb is (overhead? high west? low west?). *Grade: Starter. Unlocks the rest of this chapter's field triggers.*
-1. **Three-sketch descent.** On the first clear night of September, October, and November, sketch Cygnus at the same time each night (say 9pm). Three sketches on one page of the Fieldbook. You will have drawn, with a pencil, the orbital motion of the Earth. *Grade: Core. This is the best version of this chapter's lesson.*
-1. **Albireo.** With binoculars or a small telescope on a steady night, find the foot of the cross. Describe the two colours in the Fieldbook. *Grade: Core.*
-1. **North America Nebula.** From a dark site, with binoculars, sweep east from Deneb. Can you find a faint glow shaped like the continent of North America? Sketch what you see (or don't see — note that too). *Grade: Stretch.*
-1. **Read Bessel.** Find 61 Cygni near Deneb — a faint pair of stars about 11 light-years away. Think about what Bessel did in 1838 and what it meant that, for the first time, a human being knew how far *any* star was from the Earth. One paragraph in the Fieldbook, in your own words. *Grade: Stretch.*
-1. **Christmas cross.** On Christmas week, if the sky is clear, step outside at dusk and find the cross standing upright in the west. No photo, no phone — just look, and log the date, time, and weather. *Grade: Stretch.*
+*Six invitations as Cygnus sinks into autumn. A chance to watch a familiar friend change shape with the season.*
+
+1. **Find Cygnus in autumn.** On any clear autumn evening, find the cross sinking into the west. Note Deneb at the top, Albireo at the bottom, the wings running east-west. Note the date, the time, and where Deneb is sitting — overhead? high west? low west? *Grade: Starter. Unlocks the rest of this chapter's field triggers.*
+1. **Three-sketch descent.** On the first clear night of September, October, and November, sketch Cygnus at the same time each night (say 9pm). Three sketches on one page of the Fieldbook. You will have drawn, in pencil, the orbital motion of the Earth. *Grade: Core. This is the best version of this chapter's lesson.*
+1. **Albireo.** With binoculars or a small telescope on a steady night, find the foot of the cross. Describe the two colours in the Fieldbook in your own words. *Grade: Core.*
+1. **North America Nebula.** From a dark site, with binoculars, sweep east from Deneb. Can you find a faint glow shaped like the continent of North America? Sketch what you see — or what you don't, as the case may be. *Grade: Stretch.*
+1. **Read Bessel.** Find 61 Cygni near Deneb — a faint pair of stars about 11 light-years away. Think about what Bessel did in 1838, and what it meant that, for the first time, a human being knew how far *any* star was from the Earth. One paragraph in the Fieldbook, in your own words. *Grade: Stretch.*
+1. **Christmas cross.** On Christmas week, if the sky is clear, step outside at dusk and see if you can find the cross standing upright in the west. No photo, no phone — just look. Note the date, the time, and the weather. *Grade: Stretch.*
 
 ## Further
 
