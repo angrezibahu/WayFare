@@ -2,49 +2,133 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
 <title>WayFare printables</title>
+<meta name="description" content="The WayFare Fieldbook pages — view on any phone, or print on A4 for the paper book.">
 <style>
-  body { font-family: Georgia, 'Times New Roman', serif; background: #f5efe3; color: #1a1a1a;
-         max-width: 640px; margin: 0 auto; padding: 2rem 1.25rem 4rem; line-height: 1.55; }
-  h1 { letter-spacing: 0.01em; }
-  ul { padding-left: 1.2rem; }
-  li { margin: 0.4rem 0; }
-  a { color: inherit; text-underline-offset: 2px; }
-  .muted { color: #555; }
-  .callout { border: 1px solid #c8bfa9; padding: 0.8rem 1rem; margin: 1rem 0; }
-  @media (prefers-color-scheme: dark) {
-    body { background: #11131a; color: #efe9da; }
-    .callout { border-color: #39404f; }
-    .muted { color: #aea99b; }
-  }
-</style>
+    :root {
+      --bg: #f5efe3;
+      --ink: #1a1a1a;
+      --muted: #555;
+      --rule: #c8bfa9;
+      --card: #ffffff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #11131a;
+        --ink: #efe9da;
+        --muted: #aea99b;
+        --rule: #39404f;
+        --card: #1a1e28;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: clamp(1.25rem, 4vw, 2.25rem) 1.25rem 4rem;
+    }
+    h1 { font-size: clamp(1.5rem, 5vw, 1.9rem); letter-spacing: 0.01em; margin: 0.4rem 0 0.6rem; }
+    h2 { font-size: 1.15rem; margin: 2rem 0 0.5rem; }
+    a { color: inherit; text-underline-offset: 2px; }
+    a:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+    .muted { color: var(--muted); }
+    .small { font-size: 0.9rem; }
+    .callout {
+      border: 1px solid var(--rule);
+      background: var(--card);
+      padding: 0.9rem 1rem;
+      margin: 1.2rem 0;
+      border-radius: 2px;
+    }
+    ul.pages {
+      list-style: none;
+      padding: 0;
+      margin: 0.6rem 0 0;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0.5rem;
+    }
+    @media (min-width: 520px) {
+      ul.pages { grid-template-columns: 1fr 1fr; }
+    }
+    ul.pages a {
+      display: block;
+      padding: 0.75rem 0.9rem;
+      border: 1px solid var(--rule);
+      background: var(--card);
+      border-radius: 2px;
+      text-decoration: none;
+    }
+    ul.pages a:hover { border-color: currentColor; }
+    ul.pages .name { display: block; font-size: 1rem; }
+    ul.pages .num { display: block; font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.2rem; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.9em; }
+  </style>
 </head>
 <body>
-  <p class="muted"><a href="../">← WayFare app</a></p>
-  <h1>Fieldbook — printable pages</h1>
-  <p class="muted">Print each on A4, punch, and drop in a ring binder.</p>
+  <div class="wrap">
+    <p class="muted small"><a href="../">← WayFare app</a></p>
+    <h1>Fieldbook — printable pages</h1>
+    <p class="muted">
+      View any page on your phone, or save as PDF to share with family. Print on A4, punch, and drop in a ring binder.
+    </p>
 
-  <div class="callout">
-    <strong>Print the whole book:</strong> <a href="fieldbook.html">fieldbook.html</a> —
-    all pages in one document.
+    <div class="callout">
+      <strong>The whole book in one file:</strong>
+      <a href="fieldbook.html">open the bundle →</a>
+      <div class="small muted">All pages together. Save or print in one go.</div>
+    </div>
+
+    <h2>Or open one page at a time</h2>
+    <ul class="pages">
+      <li><a href="01-title-page.html">
+        <span class="num">page 01</span>
+        <span class="name">title page</span>
+      </a></li>
+      <li><a href="02-moon-diary-month.html">
+        <span class="num">page 02</span>
+        <span class="name">moon diary month</span>
+      </a></li>
+      <li><a href="03-sky-log.html">
+        <span class="num">page 03</span>
+        <span class="name">sky log</span>
+      </a></li>
+      <li><a href="04-constellation-study.html">
+        <span class="num">page 04</span>
+        <span class="name">constellation study</span>
+      </a></li>
+      <li><a href="05-landcraft-log.html">
+        <span class="num">page 05</span>
+        <span class="name">landcraft log</span>
+      </a></li>
+      <li><a href="06-error-journal.html">
+        <span class="num">page 06</span>
+        <span class="name">error journal</span>
+      </a></li>
+      <li><a href="07-story-of-this-place.html">
+        <span class="num">page 07</span>
+        <span class="name">story of this place</span>
+      </a></li>
+      <li><a href="08-year-map.html">
+        <span class="num">page 08</span>
+        <span class="name">year map</span>
+      </a></li>
+    </ul>
+
+    <p class="muted small" style="margin-top:2rem">
+      These pages are generated from SVGs in <code>content/fieldbook-templates/</code>.
+      Edit the SVGs and re-run <code>node scripts/build-printables.mjs</code> to regenerate.
+    </p>
   </div>
-
-  <h2>Or print pages on their own</h2>
-  <ul>
-    <li><a href="01-title-page.html">title page</a></li>
-    <li><a href="02-moon-diary-month.html">moon diary month</a></li>
-    <li><a href="03-sky-log.html">sky log</a></li>
-    <li><a href="04-constellation-study.html">constellation study</a></li>
-    <li><a href="05-landcraft-log.html">landcraft log</a></li>
-    <li><a href="06-error-journal.html">error journal</a></li>
-    <li><a href="07-story-of-this-place.html">story of this place</a></li>
-    <li><a href="08-year-map.html">year map</a></li>
-  </ul>
-
-  <p class="muted small">
-    These pages are generated from SVGs in <code>content/fieldbook-templates/</code>.
-    Edit the SVGs and re-run <code>node scripts/build-printables.mjs</code> to regenerate.
-  </p>
 </body>
 </html>
