@@ -162,13 +162,75 @@ export function formatTime(d: Date | null): string {
 }
 
 /**
- * A rough "is Orion in the evening sky tonight?" check for Northern latitudes.
- * Orion is an evening constellation from roughly late November through March.
- * This is a blunt month check — good enough to tell a family whether to go out.
+ * The constellation chapter we want to put on tonight's tile — chosen so
+ * that whatever you're reading about is actually up in the evening sky.
+ *
+ * One hero per season, matching the chapter library. Blunt month check; the
+ * app points the user at Stellarium if they want exact rise/set times.
  */
-export function orionVisibleTonight(date: Date, hemisphere: 'northern' | 'southern' = 'northern'): boolean {
+export interface FeaturedConstellation {
+  /** Chapter id, matches the front-matter of a file in content/chapters/. */
+  id: string;
+  /** Display title for the tile. */
+  title: string;
+  /** Where to look, roughly, in the evening. */
+  where: string;
+  /** A one-line signpost or teaching hook. */
+  signpost: string;
+  /** Human-readable months it's featured — e.g. "March to May". */
+  window: string;
+}
+
+/** The four seasonal heroes — one per season. */
+const FEATURED: Record<'winter' | 'spring' | 'summer' | 'autumn', FeaturedConstellation> = {
+  winter: {
+    id: 'orion',
+    title: 'Orion',
+    where: 'Look south after dark. Follow the Belt down-left to Sirius.',
+    signpost: 'The Belt is a signpost: down-left to Sirius, up-right to Aldebaran and the Pleiades.',
+    window: 'December to February',
+  },
+  spring: {
+    id: 'leo',
+    title: 'Leo',
+    where: 'Look high in the south after dark for a backwards question mark — the Sickle.',
+    signpost: 'Regulus sits at the bottom of the Sickle, on the ecliptic — the Moon often passes close.',
+    window: 'March to May',
+  },
+  summer: {
+    id: 'summer-triangle',
+    title: 'The Summer Triangle',
+    where: 'Look nearly overhead late evening. Three bright stars: Vega, Deneb, Altair.',
+    signpost: 'The Milky Way runs between Vega and Altair. Dark sky nights are the time to chase it.',
+    window: 'June to August',
+  },
+  autumn: {
+    id: 'pegasus-andromeda',
+    title: 'Pegasus and Andromeda',
+    where: 'Look high in the south for the Great Square — a big, nearly-empty square of sky.',
+    signpost: 'From the Square, walk the Andromeda chain to M31, the furthest thing visible by eye.',
+    window: 'September to November',
+  },
+};
+
+/**
+ * Pick the featured constellation for tonight, based on the current season
+ * in the given hemisphere. Defers to the same season logic the unlock
+ * resolver uses, so the tile and the unlocked chapters stay in sync.
+ */
+export function featuredConstellation(
+  date: Date,
+  hemisphere: 'northern' | 'southern' = 'northern'
+): FeaturedConstellation {
   const m = date.getMonth(); // 0-11
-  // Northern evening visibility: Nov–Mar (10, 11, 0, 1, 2)
-  const north = m === 10 || m === 11 || m <= 2;
-  return hemisphere === 'northern' ? north : !north;
+  const north =
+    m === 11 || m <= 1 ? 'winter' :
+    m <= 4 ? 'spring' :
+    m <= 7 ? 'summer' :
+    'autumn';
+  const season =
+    hemisphere === 'northern'
+      ? north
+      : (({ winter: 'summer', spring: 'autumn', summer: 'winter', autumn: 'spring' } as const)[north]);
+  return FEATURED[season];
 }
