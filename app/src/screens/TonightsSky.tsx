@@ -1,5 +1,6 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { useSettings } from '../lib/useSettings';
+import { useDayNight } from '../lib/useDayNight';
 import {
   moonPhase,
   moonPhaseName,
@@ -20,13 +21,31 @@ function Tile({ label, value, note }: { label: string; value: string; note?: str
   );
 }
 
+function formatRemaining(ms: number): string {
+  if (ms <= 0) return 'any moment now';
+  const totalMin = Math.round(ms / 60000);
+  const h = Math.floor(totalMin / 60);
+  const m = totalMin % 60;
+  if (h === 0) return `${m} min`;
+  if (m === 0) return `${h} h`;
+  return `${h} h ${m} min`;
+}
+
 export default function TonightsSky() {
   const { settings, save, loaded } = useSettings();
+  const mode = useDayNight();
   const [lat, setLat] = useState(String(settings.latitude ?? ''));
   const [lng, setLng] = useState(String(settings.longitude ?? ''));
   const [handle, setHandle] = useState(settings.handle ?? '');
 
-  const now = useMemo(() => new Date(), []);
+  // Re-render every minute so "time until sunset" ticks down.
+  const [clockTick, setClockTick] = useState(0);
+  useEffect(() => {
+    const id = window.setInterval(() => setClockTick((t) => t + 1), 60_000);
+    return () => window.clearInterval(id);
+  }, []);
+  const now = useMemo(() => new Date(), [clockTick]);
+
   const phase = moonPhase(now);
   const phaseName = moonPhaseName(phase);
   const illum = Math.round(moonIllumination(phase) * 100);
@@ -66,9 +85,42 @@ export default function TonightsSky() {
     );
   }
 
+  const sunValue = hasLocation
+    ? `Rise ${formatTime(sun.sunrise)} · Set ${formatTime(sun.sunset)}`
+    : 'Add your location below to see sunrise and sunset.';
+
+  const sunNote = hasLocation && sun.sunrise && sun.sunset
+    ? mode === 'day'
+      ? `Sunset in ${formatRemaining(sun.sunset.getTime() - now.getTime())}.`
+      : `Next sunrise in ${formatRemaining(nextSunriseDelta(now, settings.latitude!, settings.longitude!))}.`
+    : undefined;
+
+  const moonTile = (
+    <Tile
+      label="Moon"
+      value={`${phaseName} — ${illum}% lit`}
+      note={phaseHint(phaseName)}
+    />
+  );
+
+  const sunTile = <Tile label="Sun" value={sunValue} note={sunNote} />;
+
+  const featuredTile = (
+    <Tile
+      label={featured.title}
+      value={`Up in the evening sky — ${featured.window}.`}
+      note={`${featured.where} ${featured.signpost}`}
+    />
+  );
+
+  const heading = mode === 'day' ? "Today’s sky" : "Tonight’s sky";
+  const lede = mode === 'day'
+    ? 'Follow the sun. Notice the shadow. The stars are waiting for dusk.'
+    : 'The day is done. Look up — the moon, the planets, the old constellations.';
+
   return (
     <div>
-      <h1>Tonight&rsquo;s sky</h1>
+      <h1>{heading}</h1>
       <p className="muted">
         {now.toLocaleDateString(undefined, {
           weekday: 'long',
@@ -78,34 +130,40 @@ export default function TonightsSky() {
         })}{' '}
         — {season.charAt(0).toUpperCase() + season.slice(1)} in the {hemisphere} hemisphere.
       </p>
+      <p className="italic muted">{lede}</p>
 
-      <Tile
-        label="Moon"
-        value={`${phaseName} — ${illum}% lit`}
-        note={phaseHint(phaseName)}
-      />
-
-      <Tile
-        label="Sun"
-        value={
-          hasLocation
-            ? `Rise ${formatTime(sun.sunrise)} · Set ${formatTime(sun.sunset)}`
-            : 'Add your location below to see sunrise and sunset.'
-        }
-      />
-
-      <Tile
-        label={featured.title}
-        value={`Up in the evening sky — ${featured.window}.`}
-        note={`${featured.where} ${featured.signpost}`}
-      />
+      {mode === 'day' ? (
+        <>
+          {sunTile}
+          {moonTile}
+          {featuredTile}
+        </>
+      ) : (
+        <>
+          {moonTile}
+          {featuredTile}
+          {sunTile}
+        </>
+      )}
 
       <div className="callout">
-        For an actual sky map, open{' '}
-        <a href="https://stellarium-web.org" target="_blank" rel="noreferrer">
-          Stellarium
-        </a>
-        . WayFare is a companion to the paper Fieldbook; it is not a planetarium.
+        {mode === 'day' ? (
+          <>
+            For a live sky map after dark, open{' '}
+            <a href="https://stellarium-web.org" target="_blank" rel="noreferrer">
+              Stellarium
+            </a>
+            . In the meantime, step outside: sun position, wind, cloud shapes — all fair game for the Fieldbook.
+          </>
+        ) : (
+          <>
+            For an actual sky map, open{' '}
+            <a href="https://stellarium-web.org" target="_blank" rel="noreferrer">
+              Stellarium
+            </a>
+            . WayFare is a companion to the paper Fieldbook; it is not a planetarium.
+          </>
+        )}
       </div>
 
       <h2>Your family</h2>
@@ -155,6 +213,19 @@ export default function TonightsSky() {
   );
 }
 
+/**
+ * Milliseconds until the next sunrise from `now`. If today's sunrise is still
+ * ahead (i.e. pre-dawn), returns that; otherwise returns tomorrow's.
+ */
+function nextSunriseDelta(now: Date, latitude: number, longitude: number): number {
+  const today = sunriseSunset(now, latitude, longitude).sunrise;
+  if (today && today.getTime() > now.getTime()) return today.getTime() - now.getTime();
+  const tomorrow = new Date(now.getTime() + 24 * 60 * 60 * 1000);
+  const next = sunriseSunset(tomorrow, latitude, longitude).sunrise;
+  if (!next) return 12 * 60 * 60 * 1000;
+  return next.getTime() - now.getTime();
+}
+
 function phaseHint(name: string): string {
   switch (name) {
     case 'New Moon':
@@ -177,3 +248,4 @@ function phaseHint(name: string): string {
       return '';
   }
 }
+
