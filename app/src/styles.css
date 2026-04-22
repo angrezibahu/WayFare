@@ -1,6 +1,8 @@
 /* WayFare — a rudely minimal cream-and-night theme.
  * Serif body type. Generous margins. No neon. No emoji UI. */
 
+/* Neutral fallback — the values below are overridden on the <html> element via
+ * data-mode="day" or data-mode="night", flipped at sunrise/sunset by useDayNight. */
 :root {
   --bg: #f5efe3;
   --bg-muted: #ece4d3;
@@ -13,17 +15,28 @@
   --max-width: 640px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #11131a;
-    --bg-muted: #1a1e28;
-    --ink: #efe9da;
-    --ink-muted: #aea99b;
-    --rule: #39404f;
-    --accent: #b8c4d4;
-    --night: #0b0e15;
-    --locked: #6a6d79;
-  }
+/* Daylight: cloud on a blue sky. */
+:root[data-mode='day'] {
+  --bg: #cfe4f4;
+  --bg-muted: #ffffff;
+  --ink: #1c2230;
+  --ink-muted: #41516a;
+  --rule: #8fb4d4;
+  --accent: #2b5d8b;
+  --night: #1c2230;
+  --locked: #6b7f98;
+}
+
+/* Night: stars on a dark navy. */
+:root[data-mode='night'] {
+  --bg: #11131a;
+  --bg-muted: #1a1e28;
+  --ink: #efe9da;
+  --ink-muted: #aea99b;
+  --rule: #39404f;
+  --accent: #b8c4d4;
+  --night: #0b0e15;
+  --locked: #6a6d79;
 }
 
 * { box-sizing: border-box; }
