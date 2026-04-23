@@ -57,11 +57,13 @@ Leo is one of the few constellations that genuinely looks like the thing it’s 
 
 ## Stretch — Challenges
 
-1. **Find the Sickle.** On any clear spring evening, step outside between 9 and 11pm. Face south. Find the backwards question mark. Log the date, time, and the sky conditions. *Grade: Starter. Unlocks the rest of this chapter’s field triggers.*
-1. **Plough-to-Leo.** Find the Plough, then use the bottom-of-the-bowl trick to drop a line onto Regulus. Sketch both shapes in the Fieldbook with the line between them. *Grade: Starter.*
-1. **Regulus and the Moon.** Pick a month when the Moon is waxing. Watch over several evenings as the Moon drifts eastwards past Regulus. Record where the Moon is relative to Regulus on three consecutive nights. *Grade: Core.*
-1. **Name the lion.** Learn Regulus and Denebola — what they mean and which end of the lion they mark. Point and name on command. *Grade: Core.*
-1. **The Leo Triplet.** If you have access to a small telescope or large binoculars, find M65 and M66 below the lion’s belly. Sketch what you see — three faint smudges is a perfect answer. *Grade: Stretch.*
+*Six invitations as the nights warm up. Leo is a patient hero — it returns every spring.*
+
+1. **Find the Sickle.** On any clear spring evening between 9 and 11pm, step outside, face south, and see if you can pick out the backwards question mark. Note the date, the time, and the state of the sky. *Grade: Starter. Unlocks the rest of this chapter’s field triggers.*
+1. **Plough-to-Leo.** Find the Plough, then try the bottom-of-the-bowl trick: drop a line from the two end stars of the bowl and see if it lands on Regulus. Sketch both shapes in the Fieldbook with the line between them. *Grade: Starter.*
+1. **Regulus and the Moon.** Pick a waxing month. Watch, over several evenings, as the Moon drifts eastwards past Regulus. Note where the Moon sits relative to Regulus on three consecutive nights — the drift is the ecliptic, showing itself. *Grade: Core.*
+1. **Name the lion.** See if you can learn Regulus and Denebola — what each name means and which end of the lion they mark. Point them out to someone and see which one sticks first. *Grade: Core.*
+1. **The Leo Triplet.** If you can lay hands on a small telescope or a pair of big binoculars, see if you can find M65 and M66 below the lion’s belly. Sketch what you see — three faint smudges is a perfect answer. *Grade: Stretch.*
 1. **Spring clock.** On the first clear night of each spring month, sketch Leo’s position at the same time. Watch it drift from east to south to west as spring ripens into summer. *Grade: Stretch.*
 
 ## Further

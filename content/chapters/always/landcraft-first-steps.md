@@ -139,6 +139,8 @@ Civilian GPS is accurate to about *three metres* under a clear sky. Under trees,
 
 ## Stretch — Challenges
 
+*Five small invitations, each one a deck card. Pull one you fancy, and see what the land tells you.*
+
 1. **Shadow Stick at Noon.** *Deck card.*
 1. **Watch as Compass.** *Deck card.*
 1. **Moss Is a Liar.** *Deck card.*

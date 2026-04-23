@@ -55,12 +55,14 @@ Boötes (say *boh-OH-teez*) is a kite-shaped constellation that rides just east 
 
 ## Stretch — Challenges
 
-1. **Arc to Arcturus.** On any clear spring evening, find the Plough. Trace the arc of the handle and land on Arcturus. Note the colour — really look at it. Log the date, time, and the colour you see. *Grade: Starter. Unlocks the rest of this chapter's field triggers.*
-1. **Spike to Spica.** On the same evening, keep the arc going past Arcturus and find Spica, low in the south. Sketch the arc through all three stars. *Grade: Starter.*
-1. **Name the kite.** Learn Arcturus, Izar, Seginus, Nekkar, Muphrid — the five stars of the kite — and their positions. *Grade: Core.*
-1. **Izar as a double.** With a small telescope, find Izar (the upper-left corner of the kite). On a steady night it splits into a yellow-and-blue double, sometimes called *Pulcherrima*, "the most beautiful." Sketch what you see. *Grade: Core.*
-1. **Read a latitude.** Work out, from Arcturus's declination (+19° 10'), the latitude at which Arcturus would pass directly overhead. Compare it to Hawai‘i. Record the number in the Fieldbook. *Grade: Stretch.*
-1. **Spring clock.** Sketch Arcturus's position at 10pm on the first clear night of each spring month. Watch it climb from east to overhead as the season ripens. *Grade: Stretch.*
+*Six invitations to follow the arc. Warm evenings are coming — take them outside with you.*
+
+1. **Arc to Arcturus.** On any clear spring evening, find the Plough, trace the arc of the handle, and see where you land. That's Arcturus. Really look at the colour. Note the date, the time, and what colour you'd call it. *Grade: Starter. Unlocks the rest of this chapter's field triggers.*
+1. **Spike to Spica.** On the same evening, keep the arc going past Arcturus and carry on until you reach Spica, low in the south. Sketch the arc through all three stars. *Grade: Starter.*
+1. **Name the kite.** See if you can learn Arcturus, Izar, Seginus, Nekkar, Muphrid — the five stars of the kite — and where each one sits. *Grade: Core.*
+1. **Izar as a double.** With a small telescope on a steady night, find Izar (the upper-left corner of the kite). It splits into a yellow-and-blue double, sometimes called *Pulcherrima*, "the most beautiful." See if you agree with the name, and sketch what you see. *Grade: Core.*
+1. **Read a latitude.** From Arcturus's declination (+19° 10'), see if you can work out the latitude at which Arcturus would pass directly overhead. Compare the answer to Hawai‘i. Write the number down. *Grade: Stretch.*
+1. **Spring clock.** On the first clear night of each spring month, sketch Arcturus's position at 10pm. Watch it climb from east to overhead as the season ripens. *Grade: Stretch.*
 
 ## Further
 

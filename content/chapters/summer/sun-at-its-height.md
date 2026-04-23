@@ -52,11 +52,13 @@ sources:
 
 ## Stretch — Challenges
 
-1. **Solstice Shadow.** On a sunny day near the summer solstice, measure your shadow at noon (local solar noon — check a sunrise/sunset website). Multiply by roughly ten to estimate your height from the Sun angle. How close? *Grade: Starter.*
-1. **Dawn Sun Landmarks.** For three mornings in June or July, note where the Sun rises relative to a landmark on your horizon. Sketch the horizon three times. Has it moved? *Grade: Core.*
-1. **Eratosthenes.** Pair up with a family in another county or country (by phone or post). On the same sunny day, each of you measures the shadow of a one-metre stick at local solar noon. Compare. You have just measured the Earth. *Grade: Stretch.*
-1. **Low-Sun Walk.** Walk a familiar field or park in the last hour before sunset. What do the long shadows reveal that midday hides? Sketch one hidden feature. *Grade: Core.*
-1. **Shade Map.** For one hot day, map every shade-spot on a 1-mile route (trees, walls, bus shelters). This is a survival map in a heatwave. *Grade: Starter.*
+*Five invitations to the Sun at its highest. Do them early in the day where you can — and take water.*
+
+1. **Solstice Shadow.** On a sunny day near the summer solstice, step outside at local solar noon (a sunrise/sunset website will give you the exact minute) and measure your shadow. Compare it to your height. How close are you to the ratio the Sun angle predicts? *Grade: Starter.*
+1. **Dawn Sun Landmarks.** For three mornings in June or July, note where the Sun rises relative to a landmark on your horizon. Sketch the horizon three times. Has the Sun moved? *Grade: Core.*
+1. **Eratosthenes.** Pair up with a family in another county or country, by phone or post. On the same sunny day, each of you measures the shadow of a one-metre stick at local solar noon. Swap results. See if, between you, you can measure the Earth. *Grade: Stretch.*
+1. **Low-Sun Walk.** Walk a familiar field or park in the last hour before sunset. What do the long shadows show up that midday flattens? Sketch one hidden feature you noticed only because of the angle. *Grade: Core.*
+1. **Shade Map.** On one hot day, try to map every shade-spot along a 1-mile route — trees, walls, bus shelters, doorways. This is a survival map in a heatwave, and a very kind thing to keep in the Fieldbook. *Grade: Starter.*
 
 ## Further
 

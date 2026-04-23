@@ -126,12 +126,14 @@ All of this pours into a **numerical weather prediction model** — at the Met O
 
 ## Stretch — Challenges
 
-1. **Shipping Forecast Night.** As a family, listen to the late-night Shipping Forecast together once. Note down three sea areas. Find them on a map. *Grade: Starter.*
-1. **Prevailing Wind Map.** For one week in autumn, note the wind direction twice a day (smoke, flags, leaves). At the end of the week, decide: what is the prevailing wind where you live? Check it against a UK wind atlas afterwards. *Grade: Core.*
-1. **Beaufort Walk.** On a windy walk, estimate the Beaufort number by sight every fifteen minutes, just from trees and smoke. Log in the Fieldbook. *Grade: Core.*
-1. **Cirrus to Rain.** When you next see cirrus (mare's tails) early in the day, predict whether rain arrives within 24 hours. Log. Score yourself. Keep scoring. *Grade: Stretch.*
-1. **Buys Ballot in the Garden.** Stand with your back to the wind. Which way is low pressure? Check against a weather chart or app. *Grade: Starter.*
-1. **Name a Local Wind.** Ask three older neighbours or family members: do you know a name for the wind that comes from *that* direction here? Record what they say. *Grade: Stretch.*
+*Seven invitations to read the wind. Autumn is the best teacher — it brings all the weathers through.*
+
+1. **Shipping Forecast Night.** As a family, listen to the late-night Shipping Forecast together, once. Pick out three sea areas you haven't heard before. In the morning, find them on a map. *Grade: Starter.*
+1. **Prevailing Wind Map.** For one week in autumn, note the wind direction twice a day — from smoke, flags, leaves, or the feel on your cheek. At week's end, decide for yourself: what is the prevailing wind where you live? Then see if a UK wind atlas agrees. *Grade: Core.*
+1. **Beaufort Walk.** On a windy walk, see if you can estimate the Beaufort number by sight alone every fifteen minutes — from trees, smoke, and what things are doing. Keep the log in the Fieldbook. *Grade: Core.*
+1. **Cirrus to Rain.** Next time you see cirrus (mare's tails) early in the day, make a prediction: will rain arrive within 24 hours? Write it down. Check tomorrow. Keep scoring yourself over the season. *Grade: Stretch.*
+1. **Buys Ballot in the Garden.** Stand with your back to the wind. Which way, then, is low pressure? Check against a weather chart or app and see how you did. *Grade: Starter.*
+1. **Name a Local Wind.** Ask three older neighbours or family members: do they know a name for the wind that comes from *that* direction here? Write down what they say. Some of those names are the oldest words still in use in your village. *Grade: Stretch.*
 1. **Tower of the Winds, Two Weeks.** Keep the octagon log above. Name your own prevailing wind in your own family language. *Grade: Stretch.*
 
 ## Further

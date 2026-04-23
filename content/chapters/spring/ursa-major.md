@@ -61,12 +61,14 @@ The Plough is the seven-star spoon or plough shape that dominates the northern s
 
 ## Stretch — Challenges
 
-1. **Find Polaris.** On any clear night, step outside. Find the Plough. Use Merak and Dubhe as pointers. Confirm with a compass that the star you land on is indeed north. Log the date, time, and how close the compass agrees. *Grade: Starter. Unlocks the rest of this chapter's field triggers. Counts towards the Spring Capstone.*
-1. **Mizar and Alcor.** On the darkest night you can reach, find the middle star of the Plough's handle. Can you resolve the two stars with the naked eye? Log the answer. Historically this was a test of eyesight. *Grade: Starter.*
-1. **Name the seven.** Learn Alkaid, Mizar, Alioth, Megrez, Phecda, Merak, Dubhe — in order along the shape. Bonus: what each Arabic root means. *Grade: Core.*
-1. **Arc to Arcturus.** On a spring evening, trace the arc of the handle on to Arcturus. Note the colour of Arcturus compared to the Plough stars — it is visibly orange. Sketch the arc. *Grade: Core.*
-1. **Four-season Plough.** Over the course of a year, sketch the Plough at the same time (say 10pm) on the first clear night of each season. Four sketches. You will see the wheel of the year turn on the pole. *Grade: Stretch.*
-1. **Compass-free north.** On a walk, without a compass, use only the Plough to set your bearing. Confirm with a compass at the end. *Grade: Stretch. Counts towards the No-North Week challenge.*
+*Six invitations under spring skies. The Plough is kind — it waits for you every clear evening.*
+
+1. **Find Polaris.** On any clear night, step outside and see if you can find the Plough. Use Merak and Dubhe as pointers and follow the line up. Is the star you land on really north? Check with a compass afterwards and see how close you got. *Grade: Starter. Unlocks the rest of this chapter's field triggers. Counts towards the Spring Capstone.*
+1. **Mizar and Alcor.** On the darkest night you can reach, look carefully at the middle star of the Plough's handle. Can you split the two stars with the naked eye? This was once a medieval eye test — see if you'd have passed. *Grade: Starter.*
+1. **Name the seven.** See if you can learn Alkaid, Mizar, Alioth, Megrez, Phecda, Merak, Dubhe — in order along the shape. Bonus round: what does each Arabic root actually mean? *Grade: Core.*
+1. **Arc to Arcturus.** On a spring evening, trace the arc of the handle on and on until you land on Arcturus. Notice its colour against the Plough stars — it is visibly orange. Sketch the arc, and see what else sits along it. *Grade: Core.*
+1. **Four-season Plough.** Over the course of a whole year, sketch the Plough at the same time (say 10pm) on the first clear night of each season. Four little sketches in all. You will have drawn the wheel of the year turning on the pole. *Grade: Stretch.*
+1. **Compass-free north.** On a walk, try using only the Plough to set your bearing — no compass. Check at the end with a compass. How much did the sky get you? *Grade: Stretch. Counts towards the No-North Week challenge.*
 
 ## Further
 

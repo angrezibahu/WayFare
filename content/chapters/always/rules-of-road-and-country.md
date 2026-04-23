@@ -61,9 +61,11 @@ Check an OS map or the Ramblers' website before a walk.
 
 ## Stretch — Challenges
 
+*Three small invitations — each one a way of belonging to a place a little more.*
+
 1. **Draw Home.** *Deck card.*
-1. Walk a local public footpath you have never walked before. Use an OS map (paper, not phone). Fieldbook entry: sketch the route, note three things you saw.
-1. Find your nearest stretch of open-access land. In England/Wales check the magic.defra.gov.uk map; in Scotland, almost anywhere counts but know the responsibilities.
+1. **A path you've never walked.** Pick a local public footpath you have never set foot on and see where it takes you. Navigate by a paper OS map, not a phone. Back home, sketch the route and note three things that caught your eye.
+1. **Find your nearest open access.** See if you can work out where your nearest stretch of open-access land is. In England and Wales, the magic.defra.gov.uk map will show you. In Scotland, almost anywhere counts — but look up what the responsibilities are first.
 
 ## Further
 

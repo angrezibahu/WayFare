@@ -127,11 +127,13 @@ On the ground, automatic weather stations log **snow water equivalent** — the 
 
 ## Stretch — Challenges
 
-1. **Frost Line.** On a clear cold morning, find the height on a hill or valley side above which there is no frost. Mark it on a sketch. You have drawn the top of last night's cold air. *Grade: Starter.*
-1. **Track Register.** After fresh snow, walk 200m of a local path and list every set of tracks you cross. Identify at least three. Sketch one in the Fieldbook. *Grade: Starter.*
-1. **Prints Home.** Walk out somewhere familiar in fresh snow, loop back by a different route, then next day walk only by following your own prints from the day before. What did you learn about your own stride? *Grade: Core.*
-1. **Ice Test — with a grown-up.** On a safe, shallow, frozen puddle (not a pond), poke with a stick until it breaks. Note how thick the ice was and how hard you had to push. Never test a real pond or river. *Grade: Core.*
-1. **Cold Layer Diary.** For a week in winter, record the temperature at ground level at dawn in three places — low, middle, high. Watch how the cold settles. *Grade: Stretch.*
+*Six winter invitations. Wrap up, go slowly, and take your time — the cold rewards noticing.*
+
+1. **Frost Line.** On a clear cold morning, walk a hill or valley side and see if you can find the height above which the frost disappears. Mark it on a sketch. You have just drawn the top of last night's pool of cold air. *Grade: Starter.*
+1. **Track Register.** After fresh snow, walk 200m of a local path and see how many different sets of tracks you cross. Try to name at least three, and sketch the clearest one in the Fieldbook. *Grade: Starter.*
+1. **Prints Home.** Walk out somewhere familiar in fresh snow, loop back by a different route, then next day see if you can retrace the whole walk by following only your own prints from the day before. What did you learn about your stride? *Grade: Core.*
+1. **Ice Test — with a grown-up.** On a safe, shallow, frozen puddle (not a pond), poke with a stick until the ice breaks. See how thick it was and how hard you had to push. Never, ever test a real pond or river. *Grade: Core.*
+1. **Cold Layer Diary.** For a week in winter, take the temperature at ground level at dawn in three places — low, middle, high. Watch where the cold settles, and see if it always pools in the same spot. *Grade: Stretch.*
 1. **Snow Saijiki.** Keep a winter page in the Fieldbook with one snow-word entry for each day of snowfall this winter, each from a different tongue. *Grade: Stretch.*
 
 ## Further

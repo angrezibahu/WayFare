@@ -60,12 +60,14 @@ The Great Square of Pegasus is a giant, nearly empty square of sky — four brig
 
 ## Stretch — Challenges
 
-1. **Find the Great Square.** On any clear autumn evening, find the big empty square south of overhead. Log the date, time, and one thing you notice about it. *Grade: Starter. Unlocks the rest of this chapter’s field triggers.*
+*Six invitations under autumn skies. One of them lets you look further than any other challenge in this book.*
+
+1. **Find the Great Square.** On any clear autumn evening, see if you can find the big empty square south of overhead. Note the date, the time, and one thing that surprises you about it. *Grade: Starter. Unlocks the rest of this chapter’s field triggers.*
 1. **Walk the chain.** From Alpheratz, trace the two streams of stars that make Andromeda. Sketch the shape in the Fieldbook. *Grade: Starter.*
-1. **Name the four corners.** Markab, Scheat, Algenib, Alpheratz. Know which is which and what each means. *Grade: Core.*
-1. **The Andromeda Galaxy.** On the darkest night you can reach, find M31 by naked eye. Hold it in averted vision for thirty seconds and describe what you see. Binoculars are allowed if the sky defeats you. *Grade: Core. Counts towards the Autumn Capstone.*
-1. **The Double Cluster.** With binoculars, find the pair of fuzzy patches between Cassiopeia and Perseus. Count how many stars you can resolve in each. *Grade: Stretch.*
-1. **Autumn clock.** Over three months, sketch the Great Square at the same time (say 9pm) on the first clear night of each month. Watch it drift from the east sky through the zenith to the west. *Grade: Stretch.*
+1. **Name the four corners.** See if you can learn Markab, Scheat, Algenib, Alpheratz — which is which, and what each Arabic root is saying. *Grade: Core.*
+1. **The Andromeda Galaxy.** On the darkest night you can reach, see if you can find M31 with the naked eye. Hold it in averted vision for thirty seconds and describe what you see. Binoculars are fine if the sky defeats you. (This is the furthest thing your eye can see without a lens — 2.5 million light years.) *Grade: Core. Counts towards the Autumn Capstone.*
+1. **The Double Cluster.** With binoculars, find the pair of fuzzy patches between Cassiopeia and Perseus. See how many stars you can resolve in each. *Grade: Stretch.*
+1. **Autumn clock.** Over three months, sketch the Great Square at the same time (say 9pm) on the first clear night of each month. Watch it drift from the east sky through the zenith and down into the west. *Grade: Stretch.*
 
 ## Further
 

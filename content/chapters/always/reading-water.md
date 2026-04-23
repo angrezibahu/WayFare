@@ -56,11 +56,13 @@ sources:
 
 ## Stretch — Challenges
 
-1. **Source to Sea (Map).** On an OS map, trace a local stream from its source to where it joins a bigger river. How many fields, roads and villages does it cross? *Grade: Starter.*
-1. **Tide Diary.** For a month, record the daily high-tide times for your nearest coast. Notice the pattern — how they shift roughly 50 minutes a day, how spring tides cluster at new and full Moon. *Grade: Core.*
-1. **Estuary Walk.** Walk an estuary at low tide and again at high tide on the same day. Sketch the same view twice. *Grade: Core.*
-1. **Rule of Twelfths in Practice.** On a slow-moving beach with a gentle gradient, mark the waterline every hour through a rising tide. Compare your six marks to the Rule of Twelfths. *Grade: Stretch.*
-1. **Waterway Home.** Pretend you've no phone, no compass, no map. From a hilltop you don't know, find your way home using only the tilt of the ground and the streams. (Actually walk it — staying safe.) *Grade: Stretch.*
+*Five invitations to go and listen to water. Take them in any order; the one that calls is the right one.*
+
+1. **Source to Sea (Map).** Pick a local stream and see if you can trace it on an OS map from its source all the way to where it joins a bigger river. How many fields, roads and villages does it slip through on the way? *Grade: Starter.*
+1. **Tide Diary.** For one month, jot down the daily high-tide times for your nearest coast. See if you can spot the patterns — how they drift about 50 minutes later each day, how the biggest tides cluster around new and full Moon. *Grade: Core.*
+1. **Estuary Walk.** Walk an estuary at low tide, and again at high tide, on the same day. Sketch the same view twice and see what the water rearranged while you weren't looking. *Grade: Core.*
+1. **Rule of Twelfths in Practice.** On a slow-moving beach with a gentle gradient, mark the waterline every hour through a rising tide. Compare your six marks to the Rule of Twelfths. How well does the rule describe your beach? *Grade: Stretch.*
+1. **Waterway Home.** Imagine you have no phone, no compass, no map. From a hilltop you don't know, see if you could find your way home using only the tilt of the ground and the streams. (Safely, and for real — actually walk it.) *Grade: Stretch.*
 
 ## Further
 

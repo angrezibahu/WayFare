@@ -64,13 +64,15 @@ Learn these four and you can read the season from Cassiopeia at a glance.
 
 ## Stretch — Challenges
 
-1. **Find the W.** On any clear autumn evening, look north. Find the five-star zigzag. Log the date, time, weather. *Grade: Starter. Unlocks the rest of this chapter's field triggers.*
-1. **Cassiopeia-to-Polaris.** Use the perpendicular-from-the-middle-star trick to find Polaris from the W alone. Confirm with a compass. *Grade: Starter.*
-1. **Name the W.** Learn Caph, Schedar, Gamma Cas, Ruchbah, Segin — what each means and which is which. *Grade: Core.*
-1. **Cassiopeia-and-Plough pair.** On one night, find both the Plough and Cassiopeia. Sketch the two together with Polaris marked between them. You are drawing the northern anchor of your entire sky life. *Grade: Core.*
-1. **Cluster-hunt.** With binoculars, find the Double Cluster (between Cassiopeia and Perseus) and sketch what you see. If you can, find the Owl / Christmas Tree Cluster (NGC 457) within Cassiopeia. *Grade: Core.*
+*Seven invitations under autumn skies. The W is a patient companion — it's up every clear night.*
+
+1. **Find the W.** On any clear autumn evening, look north and see if you can pick out the five-star zigzag. Note the date, the time, the weather. *Grade: Starter. Unlocks the rest of this chapter's field triggers.*
+1. **Cassiopeia-to-Polaris.** Try the perpendicular-from-the-middle-star trick to find Polaris from the W alone. Check with a compass — how close did you get? *Grade: Starter.*
+1. **Name the W.** See if you can learn Caph, Schedar, Gamma Cas, Ruchbah, Segin — what each Arabic root means and which star is which. *Grade: Core.*
+1. **Cassiopeia-and-Plough pair.** On one clear night, find both the Plough and Cassiopeia. Sketch the two together with Polaris marked between them. You are drawing the northern anchor of your entire sky life. *Grade: Core.*
+1. **Cluster-hunt.** With binoculars, see if you can find the Double Cluster (between Cassiopeia and Perseus). Sketch what you see. Bonus: have a go at the Owl / Christmas Tree Cluster (NGC 457) inside Cassiopeia. *Grade: Core.*
 1. **The four positions.** Over the course of a year, sketch the W at the same time of night (say 9pm) in each of the four seasons. Four sketches, four positions — one page of the Fieldbook with the year on it. *Grade: Stretch.*
-1. **Tycho's spot.** Using a star chart, find the position where Tycho's supernova appeared in 1572. Imagine a new star, bright as Venus, appearing there tonight. What would the family do? Write a paragraph. *Grade: Stretch.*
+1. **Tycho's spot.** Using a star chart, find the position where Tycho's supernova appeared in 1572. Imagine a new star, bright as Venus, appearing there tonight. What would your family do? Write a paragraph. *Grade: Stretch.*
 
 ## Further
 
