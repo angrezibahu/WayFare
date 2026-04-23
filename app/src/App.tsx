@@ -6,24 +6,26 @@ import ChapterView from './screens/ChapterView';
 import Challenges from './screens/Challenges';
 import Fieldbook from './screens/Fieldbook';
 import { useDayNight } from './lib/useDayNight';
+import { OverviewPopover, useOverviewPopover } from './OverviewPopover';
 
 const THEME_COLOR = { day: '#bcdcf2', night: '#1c2230' } as const;
 const ICON_192 = { day: './icon-day-192.svg', night: './icon-night-192.svg' } as const;
 const ICON_512 = { day: './icon-day-512.svg', night: './icon-night-512.svg' } as const;
 
-function Nav({ mode }: { mode: 'day' | 'night' }) {
+function Nav({ mode, onAbout }: { mode: 'day' | 'night'; onAbout: () => void }) {
   const link = ({ isActive }: { isActive: boolean }) => (isActive ? 'active' : '');
   return (
     <nav className="nav">
       <div className="nav-inner">
         <span className="nav-brand">WayFare</span>
         <NavLink to="/sky" className={link}>
-          {mode === 'day' ? "Today's sky" : "Tonight’s sky"}
+          {mode === 'day' ? "Today's sky" : "Tonight's sky"}
         </NavLink>
         <NavLink to="/chapters" className={link}>Chapters</NavLink>
         <NavLink to="/challenges" className={link}>Challenges</NavLink>
         <NavLink to="/fieldbook" className={link}>Fieldbook</NavLink>
         <a href="./printables/" className="nav-external">Printables</a>
+        <button className="nav-about" onClick={onAbout} title="About WayFare">About</button>
       </div>
     </nav>
   );
@@ -63,9 +65,10 @@ function useApplyMode() {
 
 export default function App() {
   const mode = useApplyMode();
+  const { open, dismiss, reopen } = useOverviewPopover();
   return (
     <>
-      <Nav mode={mode} />
+      <Nav mode={mode} onAbout={reopen} />
       <main className="page">
         <Routes>
           <Route path="/" element={<Navigate to="/sky" replace />} />
@@ -78,6 +81,7 @@ export default function App() {
         </Routes>
       </main>
       <Footer />
+      <OverviewPopover open={open} onDismiss={dismiss} />
     </>
   );
 }
