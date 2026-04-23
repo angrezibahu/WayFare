@@ -12,9 +12,12 @@
  *      browser's native print-to-PDF sheet.
  *
  * Output:
- *   printables/<template>.html — one per page, mobile-responsive + printable.
- *   printables/fieldbook.html  — all pages bundled, one tap to print.
- *   printables/index.html      — catalog, with share + dark-mode support.
+ *   app/public/printables/<template>.html — one per page, mobile-responsive + printable.
+ *   app/public/printables/fieldbook.html  — all pages bundled, one tap to print.
+ *   app/public/printables/index.html      — catalog, with share + dark-mode support.
+ *
+ * Vite copies app/public/ into app/dist/ at build time, so the printables
+ * are included in the service-worker precache when built after this script runs.
  */
 
 import { readdir, readFile, writeFile, mkdir } from 'node:fs/promises';
@@ -24,7 +27,7 @@ import { fileURLToPath } from 'node:url';
 const here = dirname(fileURLToPath(import.meta.url));
 const root = join(here, '..');
 const templatesDir = join(root, 'content', 'fieldbook-templates');
-const outDir = join(root, 'printables');
+const outDir = join(root, 'app', 'public', 'printables');
 
 const sharedStyles = `
   @page { size: A4; margin: 0; }
@@ -340,7 +343,7 @@ ${cards}
   ].join('\n');
   await writeFile(join(outDir, 'README.md'), readme);
   console.log('wrote', 'README.md');
-  console.log(`\nDone. Open printables/index.html to browse, or fieldbook.html to print everything.`);
+  console.log(`\nDone. Open app/public/printables/index.html to browse, or fieldbook.html to print everything.`);
 }
 
 run().catch((err) => {

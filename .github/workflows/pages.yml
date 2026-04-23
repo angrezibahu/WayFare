@@ -42,18 +42,12 @@ jobs:
       - name: Install
         run: npm ci
 
-      - name: Build
-        run: npm run build
-
       - name: Generate printables
         working-directory: .
         run: node scripts/build-printables.mjs
 
-      - name: Bundle printables with PWA
-        working-directory: .
-        run: |
-          mkdir -p app/dist/printables
-          cp -r printables/. app/dist/printables/
+      - name: Build
+        run: npm run build
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
