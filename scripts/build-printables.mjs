@@ -126,8 +126,9 @@ const actionBar = (titleText) => `<div class="bar">
   <a href="./" aria-label="Back to all printables">← all printables</a>
   <span class="title">${escapeHtml(titleText)}</span>
   <span class="spacer"></span>
-  <button type="button" onclick="window.print()">Save as PDF / print</button>
+  <button type="button" id="print-btn">Save as PDF / print</button>
 </div>
+<script>document.getElementById('print-btn').addEventListener('click', function(){ window.print(); });</script>
 `;
 
 const hint = `<p class="hint">
@@ -142,6 +143,7 @@ const pageShellStart = (title, headTitle) => `<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; img-src 'self' data:; frame-ancestors 'none'">
 <title>${escapeHtml(headTitle)}</title>
 <style>${sharedStyles}</style>
 </head>
@@ -283,6 +285,7 @@ async function run() {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'unsafe-inline'; script-src 'none'; img-src 'self' data:; frame-ancestors 'none'">
 <title>WayFare printables</title>
 <meta name="description" content="The WayFare Fieldbook pages — view on any phone, or print on A4 for the paper book.">
 <style>${indexStyles}</style>

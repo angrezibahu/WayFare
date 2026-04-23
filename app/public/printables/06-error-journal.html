@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; img-src 'self' data:; frame-ancestors 'none'">
 <title>error journal — WayFare printable</title>
 <style>
   @page { size: A4; margin: 0; }
@@ -103,8 +104,9 @@
   <a href="./" aria-label="Back to all printables">← all printables</a>
   <span class="title">error journal</span>
   <span class="spacer"></span>
-  <button type="button" onclick="window.print()">Save as PDF / print</button>
+  <button type="button" id="print-btn">Save as PDF / print</button>
 </div>
+<script>document.getElementById('print-btn').addEventListener('click', function(){ window.print(); });</script>
 <div class="sheet"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 297" width="210mm" height="297mm">
   <style>
     text { font-family: Georgia, 'Times New Roman', serif; fill: #1a1a1a; }
