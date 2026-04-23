@@ -1,6 +1,7 @@
 import { Link, useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import rehypeRaw from 'rehype-raw';
 import { chapterById } from '../lib/content';
 import { resolveUnlock } from '../lib/unlock';
 import { useEntries } from '../lib/useEntries';
@@ -48,7 +49,7 @@ export default function ChapterView() {
           Sources: {chapter.sources.join('; ')}.
         </p>
       ) : null}
-      <ReactMarkdown remarkPlugins={[remarkGfm]}>{chapter.body}</ReactMarkdown>
+      <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>{chapter.body}</ReactMarkdown>
       <hr />
       <div className="toolbar">
         <Link to="/fieldbook"><button type="button">Add a Fieldbook entry</button></Link>

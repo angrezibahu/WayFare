@@ -235,8 +235,174 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2rem 0; }
   border-top: 1px solid var(--rule);
 }
 
+/* ---------------------------------------------------------
+ * Historical "vibe" cards — each section of the Historical
+ * block wears the dress of its civilisation.
+ * Use in markdown with a raw div:
+ *   <div class="vibe vibe-egypt">…</div>
+ * --------------------------------------------------------- */
+
+.vibe {
+  margin: 1.4rem 0;
+  padding: 1rem 1.15rem 1.1rem;
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  position: relative;
+}
+.vibe h3, .vibe h4 { margin-top: 0.2rem; }
+.vibe p:last-child, .vibe ul:last-child, .vibe ol:last-child { margin-bottom: 0; }
+.vibe::before,
+.vibe::after {
+  display: block;
+  font-size: 0.85rem;
+  letter-spacing: 0.22em;
+  text-align: center;
+  opacity: 0.75;
+  user-select: none;
+}
+.vibe::before {
+  margin: -0.2rem 0 0.65rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid currentColor;
+}
+.vibe::after {
+  margin-top: 0.7rem;
+  padding-top: 0.4rem;
+  border-top: 1px solid currentColor;
+}
+
+/* Ancient Egypt — papyrus, sand, hieroglyphs. */
+.vibe-egypt {
+  background: #efe1b9;
+  color: #3a2a0f;
+  border-color: #c9a96b;
+  font-family: 'Iowan Old Style', Palatino, Georgia, serif;
+}
+.vibe-egypt::before { content: "\01330E \013283 \0132F4 \013171 \013098 \01325F \0133FF \0132AA \01318E \0131CB \01330E \013283 \0132F4 \013171 \013098"; }
+.vibe-egypt::after  { content: "\0131CB \01318E \0132AA \0133FF \01325F \013098 \013171 \0132F4 \013283 \01330E"; }
+
+/* Ancient Greece — terracotta, meander key. */
+.vibe-greece {
+  background: #f0dcc4;
+  color: #4a1f0a;
+  border-color: #9c3a1a;
+  font-family: 'Iowan Old Style', Palatino, Georgia, serif;
+}
+.vibe-greece::before { content: "\2597\2596\2597\2596  \2597\2596\2597\2596  \0391 \039D \03A4 \0399 \039A \0397  \0395 \039B \039B \0391 \03A3  \2597\2596\2597\2596  \2597\2596\2597\2596"; }
+.vibe-greece::after  { content: "\2597\2596\2597\2596\2597\2596\2597\2596\2597\2596\2597\2596\2597\2596\2597\2596\2597\2596\2597\2596\2597\2596\2597\2596"; }
+
+/* Ancient Japan — rice paper, sumi ink, hanko red. */
+.vibe-japan {
+  background: #f4ecd8;
+  color: #1c1c1c;
+  border: 1px solid #1c1c1c;
+  border-left: 4px solid #a83232;
+  font-family: 'Iowan Old Style', Palatino, Georgia, serif;
+}
+.vibe-japan::before {
+  content: "\96EA \2003 \96E8 \2003 \98A8 \2003 \6708 \2003 \5C71 \2003 \5DDD \2003 \6D77";
+  letter-spacing: 0.35em;
+  color: #a83232;
+}
+.vibe-japan::after {
+  content: "\6771 \2003 \897F \2003 \5357 \2003 \5317";
+  letter-spacing: 0.35em;
+  color: #a83232;
+}
+
+/* Ancient Greece alt / Rome would go here if ever needed. */
+
+/* Pre-sat-nav: WW2 MI9 — escape map, typewriter, rubber stamp. */
+.vibe-ww2 {
+  background: #e5dfca;
+  color: #1f2114;
+  border: 1px dashed #3a3a2a;
+  font-family: 'Courier New', ui-monospace, monospace;
+}
+.vibe-ww2::before {
+  content: "\2022 \2022 \2022   M I 9   \2014   M O S T   S E C R E T   \2014   E S C A P E   &   E V A S I O N   \2022 \2022 \2022";
+  font-family: 'Courier New', monospace;
+  letter-spacing: 0.18em;
+  color: #6a1a1a;
+}
+.vibe-ww2::after {
+  content: "\2014  F O R   O F F I C I A L   U S E   \2014  B U R N   A F T E R   R E A D I N G  \2014";
+  font-family: 'Courier New', monospace;
+  letter-spacing: 0.18em;
+  color: #6a1a1a;
+}
+.vibe-ww2 strong { color: #6a1a1a; }
+
+/* Modern science — clean, lab-notebook, sans-serif. */
+.vibe-modern {
+  background: var(--bg-muted);
+  color: var(--ink);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent);
+  font-family: 'Helvetica Neue', Arial, 'Segoe UI', system-ui, sans-serif;
+}
+.vibe-modern::before {
+  content: "\25CE   M O D E R N   S C I E N C E   \2014   I N S T R U M E N T E D   \2014   M E A S U R E D";
+  letter-spacing: 0.18em;
+  color: var(--accent);
+}
+.vibe-modern::after {
+  content: "\2014   p e e r - r e v i e w e d   \2014   r e p r o d u c i b l e   \2014";
+  letter-spacing: 0.16em;
+  color: var(--accent);
+}
+
+/* Try-It blocks — "use this old knowledge today". */
+.vibe-try {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--ink);
+  border-style: solid double solid double;
+}
+.vibe-try::before {
+  content: "\2723   T R Y   I T   \2014   F I E L D   M E T H O D   \2723";
+  letter-spacing: 0.22em;
+}
+.vibe-try::after {
+  content: "\2014   l o g   w h a t   h a p p e n e d   i n   y o u r   F i e l d b o o k   \2014";
+  letter-spacing: 0.12em;
+  color: var(--ink-muted);
+}
+
+/* Multilingual word-table — one concept, five tongues. */
+.tongues {
+  margin: 1rem 0 1.4rem;
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  padding: 0.8rem 1rem 0.6rem;
+  background: var(--bg);
+}
+.tongues h4 {
+  margin: 0 0 0.55rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+.tongues dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.3rem 1rem;
+  margin: 0;
+}
+.tongues dt {
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  color: var(--ink-muted);
+  font-weight: 600;
+}
+.tongues dd { margin: 0; }
+
+/* When printed, keep the vibe readable but flatten the ornament. */
 @media print {
   .nav, .footer, .toolbar, button { display: none !important; }
   .page { max-width: none; padding: 0; }
   body { background: #fff; color: #000; }
+  .vibe { background: #fff !important; color: #000 !important; border: 1px solid #555 !important; }
+  .vibe::before, .vibe::after { opacity: 1; color: #555 !important; }
 }
