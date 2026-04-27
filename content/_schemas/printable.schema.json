@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "./printable.schema.json",
+  "title": "Printable",
+  "description": "A single entry in content/printables.yaml — fieldbook SVG template metadata read by build-printables.mjs.",
+  "type": "object",
+  "required": ["id", "page_number", "title", "svg", "fieldbook_section"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable slug used as a cross-reference target."
+    },
+    "page_number": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Physical page number in the assembled fieldbook PDF."
+    },
+    "title": { "type": "string" },
+    "svg": {
+      "type": "string",
+      "description": "Relative path to the SVG template file (source of truth for artwork)."
+    },
+    "fieldbook_section": {
+      "type": "string",
+      "enum": [
+        "front-matter", "sky-log", "landcraft",
+        "error-journal", "story", "year-map"
+      ]
+    },
+    "related_chapters": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "related_experiments": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    }
+  }
+}

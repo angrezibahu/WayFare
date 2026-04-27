@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "./experiment.schema.json",
+  "title": "Experiment",
+  "description": "A single entry in content/experiments.yaml — the single source of truth for activities (Try-It blocks, deck cards, Stretch items).",
+  "type": "object",
+  "required": ["id", "title", "grade", "kind", "day_or_night"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable slug used as a cross-reference target."
+    },
+    "title": { "type": "string" },
+    "short": {
+      "type": "string",
+      "description": "One-sentence summary shown in chapter renders and deck card previews."
+    },
+    "grade": {
+      "type": "string",
+      "enum": ["Starter", "Core", "Stretch"]
+    },
+    "kind": {
+      "type": "string",
+      "enum": ["Sky", "Land", "Story", "Error"]
+    },
+    "day_or_night": {
+      "type": "string",
+      "enum": ["day", "night", "either"]
+    },
+    "duration_minutes": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "gear": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "requires": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "season": {
+          "type": "string",
+          "enum": ["any", "winter", "spring", "summer", "autumn"]
+        },
+        "weather": { "type": "string" },
+        "hemisphere": {
+          "type": "string",
+          "enum": ["any", "northern", "southern"]
+        }
+      }
+    },
+    "cultures": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/culture" },
+      "uniqueItems": true
+    },
+    "provenance": {
+      "type": "string",
+      "description": "Free-text note on historical or cultural origin of the technique."
+    },
+    "related_sky_objects": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "related_ground_objects": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "chapters": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "deck_card": {
+      "type": "string",
+      "description": "Id of the corresponding entry in challenges/deck.yaml. Absent if this is a pure Try-It block with no draw-deck card."
+    },
+    "body_md": {
+      "type": "string",
+      "description": "Inline markdown body. Replaces the vibe-try block in chapter prose when the renderer includes experiment by id."
+    }
+  },
+  "$defs": {
+    "culture": {
+      "type": "string",
+      "enum": [
+        "greek", "latin", "egyptian", "arabic", "persian", "babylonian",
+        "norse", "celtic", "welsh", "irish", "scots", "english-folk", "british-folk",
+        "chinese", "japanese", "korean",
+        "hindustani", "sanskrit",
+        "polynesian", "hawaiian", "māori",
+        "aboriginal-australian", "yolŋu", "gamilaraay", "boorong",
+        "inuit", "mi-kmaq", "abenaki", "cherokee",
+        "sami", "san", "finnish", "baltic",
+        "universal"
+      ]
+    }
+  }
+}
