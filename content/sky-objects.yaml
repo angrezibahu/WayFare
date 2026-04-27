@@ -1,0 +1,30 @@
+sky_objects:
+  - id: ursa-major
+    type: constellation
+    canonical: Ursa Major
+    names:
+      - { culture: latin,        name: "Ursa Major",        gloss: "Greater Bear" }
+      - { culture: english-folk, name: "The Plough" }
+      - { culture: english-folk, name: "The Big Dipper", region: north-america }
+      - { culture: hindustani,   name: "Saptarshi",          gloss: "Seven Sages" }
+      - { culture: arabic,       name: "Banat Naʿsh",        gloss: "daughters of the bier" }
+      - { culture: egyptian,     name: "Meskhetyu",          gloss: "the bull's foreleg" }
+      - { culture: mi-kmaq,      name: "the celestial bear hunt", referenced_only: true }
+    visibility:
+      hemisphere: northern
+      circumpolar_above_lat: 41
+      best_seasons: [spring, autumn]
+    related_sky_objects: [polaris, alcor, mizar, arcturus]
+    chapters: [ursa-major]
+
+  - id: betelgeuse
+    type: star
+    canonical: Betelgeuse
+    parent: orion
+    names:
+      - { culture: arabic, name: "Yad al-Jauzāʾ", gloss: "hand of the Central One" }
+    properties:
+      magnitude: 0.5
+      colour: red
+      distance_ly: 550
+    chapters: [orion]
