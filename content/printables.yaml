@@ -1,0 +1,79 @@
+printables:
+  - id: title-page
+    page_number: 1
+    title: Title Page
+    svg: ./fieldbook-templates/01-title-page.svg
+    fieldbook_section: front-matter
+    related_chapters: []
+    related_experiments: []
+
+  - id: moon-diary-month
+    page_number: 2
+    title: Moon Diary — Month
+    svg: ./fieldbook-templates/02-moon-diary-month.svg
+    fieldbook_section: sky-log
+    related_chapters: [moon]
+    related_experiments: []
+
+  - id: sky-log
+    page_number: 3
+    title: Sky Log
+    svg: ./fieldbook-templates/03-sky-log.svg
+    fieldbook_section: sky-log
+    related_chapters:
+      - orion
+      - ursa-major
+      - summer-triangle
+      - pegasus-andromeda
+      - cassiopeia
+      - leo
+      - bootes-arcturus
+      - scorpius-antares
+      - milky-way
+      - cygnus-revisited
+    related_experiments: []
+
+  - id: constellation-study
+    page_number: 4
+    title: Constellation Study
+    svg: ./fieldbook-templates/04-constellation-study.svg
+    fieldbook_section: sky-log
+    related_chapters:
+      - orion
+      - ursa-major
+      - summer-triangle
+      - pegasus-andromeda
+      - cassiopeia
+    related_experiments: []
+
+  - id: landcraft-log
+    page_number: 5
+    title: Landcraft Log
+    svg: ./fieldbook-templates/05-landcraft-log.svg
+    fieldbook_section: landcraft
+    related_chapters: []
+    related_experiments: []
+
+  - id: error-journal
+    page_number: 6
+    title: Error Journal
+    svg: ./fieldbook-templates/06-error-journal.svg
+    fieldbook_section: error-journal
+    related_chapters: []
+    related_experiments: []
+
+  - id: story-of-this-place
+    page_number: 7
+    title: Story of This Place
+    svg: ./fieldbook-templates/07-story-of-this-place.svg
+    fieldbook_section: story
+    related_chapters: []
+    related_experiments: []
+
+  - id: year-map
+    page_number: 8
+    title: Year Map
+    svg: ./fieldbook-templates/08-year-map.svg
+    fieldbook_section: year-map
+    related_chapters: []
+    related_experiments: []
