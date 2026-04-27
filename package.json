@@ -5,6 +5,7 @@
   "description": "A family apprenticeship in finding your way — by sky, by land, by story.",
   "scripts": {
     "printables": "node scripts/build-printables.mjs",
+    "validate:content": "node scripts/validate-content.mjs",
     "app:install": "npm --prefix app install",
     "app:dev": "npm --prefix app run dev",
     "app:build": "npm --prefix app run build",
