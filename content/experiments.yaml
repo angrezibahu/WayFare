@@ -1,0 +1,37 @@
+experiments:
+  - id: shadow-stick-noon
+    title: Shadow Stick at Noon
+    short: "Mark a shadow tip, wait fifteen minutes, mark again — west-east line."
+    grade: Starter
+    kind: Land
+    day_or_night: day
+    duration_minutes: 20
+    gear: [stick, two stones]
+    requires:
+      season: any
+      weather: sunny
+      hemisphere: any
+    cultures: [universal]
+    provenance: "Universal pre-modern technique."
+    related_sky_objects: [sun]
+    related_ground_objects: []
+    chapters: [landcraft-first-steps]
+    deck_card: shadow-stick-at-noon
+    body_md: |
+      Push a stick upright into the ground...
+
+  - id: merkhet-polaris
+    title: Polaris by Plumb-Line (after the Egyptian merkhet)
+    short: "Suspend a plumb-line, sight Polaris through a slotted card, peg the line."
+    grade: Stretch
+    kind: Sky
+    day_or_night: night
+    duration_minutes: 45
+    gear: [string, weight, card with slot, two pegs]
+    requires:
+      season: any
+      weather: clear-night
+      hemisphere: northern
+    cultures: [egyptian]
+    related_sky_objects: [polaris, ursa-major]
+    chapters: [landcraft-first-steps]
