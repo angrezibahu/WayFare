@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "./chapter.schema.json",
+  "title": "Chapter",
+  "description": "Extended front-matter for a WayFare chapter markdown file.",
+  "type": "object",
+  "required": ["id", "title", "season", "day_or_night", "kind"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable slug used as a cross-reference target."
+    },
+    "title": {
+      "type": "string"
+    },
+    "season": {
+      "type": "string",
+      "enum": ["always", "winter", "spring", "summer", "autumn"]
+    },
+    "day_or_night": {
+      "type": "string",
+      "enum": ["day", "night", "either"]
+    },
+    "kind": {
+      "type": "string",
+      "enum": ["sky", "land"]
+    },
+    "cultures": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/culture" },
+      "uniqueItems": true
+    },
+    "themes": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/theme" },
+      "uniqueItems": true
+    },
+    "unlock": {
+      "type": "object",
+      "description": "Kept as-is; the existing unlock resolver in app/src/lib/unlock.ts consumes this without changes."
+    },
+    "related_sky_objects": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "related_ground_objects": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "suggested_experiments": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "follow_up_quests": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "body_path": {
+      "type": "string",
+      "description": "Relative path to the markdown body. Defaults to the file containing this front-matter."
+    },
+    "source_links": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/source_link" }
+    }
+  },
+  "$defs": {
+    "culture": {
+      "type": "string",
+      "enum": [
+        "greek", "latin", "egyptian", "arabic", "persian", "babylonian",
+        "norse", "celtic", "welsh", "irish", "scots", "english-folk", "british-folk",
+        "chinese", "japanese", "korean",
+        "hindustani", "sanskrit",
+        "polynesian", "hawaiian", "māori",
+        "aboriginal-australian", "yolŋu", "gamilaraay", "boorong",
+        "inuit", "mi-kmaq", "abenaki", "cherokee",
+        "sami", "san", "finnish", "baltic",
+        "universal"
+      ]
+    },
+    "theme": {
+      "type": "string",
+      "enum": [
+        "science", "language", "folktale", "history", "instrument", "safety",
+        "error-curriculum", "seasonal-clock", "wayfinding", "weather",
+        "storytelling", "capstone"
+      ]
+    },
+    "source_link": {
+      "type": "object",
+      "required": ["label"],
+      "additionalProperties": false,
+      "properties": {
+        "label": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "note": { "type": "string" },
+        "cultures": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/culture" },
+          "uniqueItems": true
+        }
+      }
+    }
+  }
+}

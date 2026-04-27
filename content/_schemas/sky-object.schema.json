@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "./sky-object.schema.json",
+  "title": "Sky Object",
+  "description": "A single entry in content/sky-objects.yaml — constellation, star, planet, moon-phase, etc.",
+  "type": "object",
+  "required": ["id", "type", "canonical"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable slug used as a cross-reference target."
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "constellation", "asterism", "star", "planet",
+        "moon-phase", "nebula", "galaxy", "meteor-shower", "dark-cloud"
+      ]
+    },
+    "canonical": {
+      "type": "string",
+      "description": "The display name used when no cultural context is specified."
+    },
+    "parent": {
+      "type": "string",
+      "description": "Id of the constellation or asterism this object belongs to (stars, asterisms)."
+    },
+    "names": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/named_form" }
+    },
+    "visibility": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "hemisphere": {
+          "type": "string",
+          "enum": ["northern", "southern", "both"]
+        },
+        "circumpolar_above_lat": {
+          "type": "number",
+          "description": "Latitude above which the object never sets (degrees)."
+        },
+        "best_seasons": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["winter", "spring", "summer", "autumn"]
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "properties": {
+      "type": "object",
+      "description": "Loose bag of type-specific physical or observational properties.",
+      "additionalProperties": false,
+      "properties": {
+        "magnitude": { "type": "number" },
+        "colour": { "type": "string" },
+        "distance_ly": { "type": "number" },
+        "illumination_range_pct": {
+          "type": "array",
+          "items": { "type": "number" },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "visibility_window": { "type": "string" }
+      }
+    },
+    "related_sky_objects": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "chapters": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true,
+      "description": "Back-reference to chapters that feature this object. Build-derivable but kept explicit."
+    }
+  },
+  "$defs": {
+    "culture": {
+      "type": "string",
+      "enum": [
+        "greek", "latin", "egyptian", "arabic", "persian", "babylonian",
+        "norse", "celtic", "welsh", "irish", "scots", "english-folk", "british-folk",
+        "chinese", "japanese", "korean",
+        "hindustani", "sanskrit",
+        "polynesian", "hawaiian", "māori",
+        "aboriginal-australian", "yolŋu", "gamilaraay", "boorong",
+        "inuit", "mi-kmaq", "abenaki", "cherokee",
+        "sami", "san", "finnish", "baltic",
+        "universal"
+      ]
+    },
+    "named_form": {
+      "type": "object",
+      "required": ["culture", "name"],
+      "additionalProperties": false,
+      "properties": {
+        "culture": { "$ref": "#/$defs/culture" },
+        "name": { "type": "string" },
+        "gloss": {
+          "type": "string",
+          "description": "English translation or explanatory gloss."
+        },
+        "region": {
+          "type": "string",
+          "description": "Sub-region qualifier when a culture has regional variants (e.g. north-america)."
+        },
+        "referenced_only": {
+          "type": "boolean",
+          "description": "When true this name is cited and linked out; the body must not retell the tradition."
+        }
+      }
+    }
+  }
+}

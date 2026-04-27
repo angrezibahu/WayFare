@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "./ground-object.schema.json",
+  "title": "Ground Object",
+  "description": "A single entry in content/ground-objects.yaml — trees, tracks, rocks, weather signs, terrain features, etc.",
+  "type": "object",
+  "required": ["id", "type", "canonical"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable slug used as a cross-reference target."
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "cloud-genus", "snow-feature", "river-feature", "human-mark",
+        "living-compass", "track", "rock-feature", "tide-feature",
+        "weather-sign", "terrain-feature"
+      ]
+    },
+    "canonical": {
+      "type": "string",
+      "description": "The display name used when no cultural context is specified."
+    },
+    "short": {
+      "type": "string",
+      "description": "One-sentence plain-English description shown in lists and tooltips."
+    },
+    "names": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/named_form" }
+    },
+    "related_experiments": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "chapters": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true,
+      "description": "Back-reference to chapters that feature this object."
+    }
+  },
+  "$defs": {
+    "culture": {
+      "type": "string",
+      "enum": [
+        "greek", "latin", "egyptian", "arabic", "persian", "babylonian",
+        "norse", "celtic", "welsh", "irish", "scots", "english-folk", "british-folk",
+        "chinese", "japanese", "korean",
+        "hindustani", "sanskrit",
+        "polynesian", "hawaiian", "māori",
+        "aboriginal-australian", "yolŋu", "gamilaraay", "boorong",
+        "inuit", "mi-kmaq", "abenaki", "cherokee",
+        "sami", "san", "finnish", "baltic",
+        "universal"
+      ]
+    },
+    "named_form": {
+      "type": "object",
+      "required": ["culture", "name"],
+      "additionalProperties": false,
+      "properties": {
+        "culture": { "$ref": "#/$defs/culture" },
+        "name": { "type": "string" },
+        "gloss": {
+          "type": "string",
+          "description": "English translation or explanatory gloss."
+        }
+      }
+    }
+  }
+}
