@@ -6,16 +6,20 @@ sky_objects:
       - { culture: latin,        name: "Ursa Major",        gloss: "Greater Bear" }
       - { culture: english-folk, name: "The Plough" }
       - { culture: english-folk, name: "The Big Dipper", region: north-america }
-      - { culture: hindustani,   name: "Saptarshi",          gloss: "Seven Sages" }
+      - { culture: english-folk, name: "Charles' Wain", note: "from Old English Carles wægn — the churl's wagon, later Charlemagne's wagon" }
+      - { culture: anglo-saxon,  name: "Carles wægn",        gloss: "the churl's wagon" }
+      - { culture: hindustani,   name: "Saptarshi",          gloss: "the Seven Sages" }
       - { culture: arabic,       name: "Banat Naʿsh",        gloss: "daughters of the bier" }
       - { culture: egyptian,     name: "Meskhetyu",          gloss: "the bull's foreleg" }
+      - { culture: norse,        name: "Karlavagninn",       gloss: "Karl's wagon" }
+      - { culture: welsh,        name: "Y Sêr Mawr",         gloss: "the great stars" }
       - { culture: mi-kmaq,      name: "the celestial bear hunt", referenced_only: true }
     visibility:
       hemisphere: northern
       circumpolar_above_lat: 41
       best_seasons: [spring, autumn]
-    related_sky_objects: [polaris, alcor, mizar, arcturus]
-    chapters: [ursa-major]
+    related_sky_objects: [polaris, alcor, mizar, mizar-alcor, arcturus]
+    chapters: [ursa-major, saptarshi, wodens-wain]
 
   - id: betelgeuse
     type: star
@@ -28,3 +32,142 @@ sky_objects:
       colour: red
       distance_ly: 550
     chapters: [orion]
+
+  - id: orion
+    type: constellation
+    canonical: Orion
+    names:
+      - { culture: greek,       name: "Orion" }
+      - { culture: arabic,      name: "Al-Jauzāʾ",       gloss: "the Central One" }
+      - { culture: egyptian,    name: "Sah",             gloss: "the soul of Osiris" }
+      - { culture: māori,       name: "Tautoru",         gloss: "the three together (the Belt)" }
+      - { culture: hindustani,  name: "Mṛgaśīrṣa / Mrigashira",  gloss: "deer's head — the head of Orion (Belt + sword tip)" }
+      - { culture: hindustani,  name: "Vyādha",          gloss: "the hunter — Sirius and the figure pursuing the deer" }
+      - { culture: welsh,       name: "Y Saethwr",       gloss: "the archer", note: "modern Welsh usage" }
+      - { culture: yolŋu,       name: "Djulpan",         gloss: "three brothers in a canoe", referenced_only: true }
+    visibility:
+      hemisphere: equatorial
+      best_seasons: [winter]
+    related_sky_objects: [betelgeuse, rigel, sirius, aldebaran, pleiades, orion-nebula]
+    chapters: [orion, mrigashira-vyadha]
+
+  - id: pleiades
+    type: asterism
+    parent: taurus
+    canonical: Pleiades
+    names:
+      - { culture: greek,        name: "The Seven Sisters" }
+      - { culture: japanese,     name: "Subaru",       gloss: "united / cluster" }
+      - { culture: māori,        name: "Matariki",     gloss: "small eyes / new-year marker" }
+      - { culture: hindustani,   name: "Kṛttikā / Krittika", gloss: "the cutters — six wives of the Saptarshi, mothers of Kārttikeya" }
+      - { culture: anglo-saxon,  name: "Sefon Steorran", gloss: "the seven stars" }
+      - { culture: arabic,       name: "Al-Thurayyā",  gloss: "the abundant one" }
+      - { culture: cherokee,     name: "Aniʼtsutsa",  referenced_only: true }
+      - { culture: aboriginal-australian, name: "Mulayndynang / many names",  referenced_only: true, note: "different stories across Country" }
+    properties:
+      distance_ly: 444
+    related_sky_objects: [aldebaran, orion]
+    chapters: [taurus-pleiades, saptarshi, mrigashira-vyadha]
+
+  - id: polaris
+    type: star
+    canonical: Polaris
+    names:
+      - { culture: latin,        name: "Stella Polaris", gloss: "pole star" }
+      - { culture: arabic,       name: "Al-Judayy",      gloss: "the kid (young goat)" }
+      - { culture: hindustani,   name: "Dhruva",         gloss: "the steadfast / unmoving one" }
+      - { culture: anglo-saxon,  name: "Scip-steorra",   gloss: "ship-star (attested in late OE / early ME)" }
+      - { culture: hawaiian,     name: "Hōkū-paʻa",      gloss: "fixed star", referenced_only: true }
+    properties:
+      declination: "+89° 16'"
+      offset_from_pole_deg: 0.7
+      type: cepheid-variable
+    related_sky_objects: [ursa-major, ursa-minor, cassiopeia]
+    chapters: [ursa-major, dhruva-pole-star, saptarshi, wodens-wain]
+
+  - id: mizar-alcor
+    type: star-pair
+    parent: ursa-major
+    canonical: Mizar and Alcor
+    names:
+      - { culture: arabic,      name: "al-Miʾzar / Suhā",                gloss: "the girdle / the forgotten one" }
+      - { culture: hindustani,  name: "Vasiṣṭha and Arundhatī",          gloss: "the sage Vasishtha and his wife Arundhati — pointed out at Hindu weddings" }
+    related_sky_objects: [ursa-major]
+    chapters: [ursa-major, saptarshi]
+
+  - id: sirius
+    type: star
+    canonical: Sirius
+    parent: canis-major
+    names:
+      - { culture: greek,       name: "Seirios",          gloss: "the scorcher" }
+      - { culture: egyptian,    name: "Sopdet / Sothis",  gloss: "the heralding goddess of the Nile flood" }
+      - { culture: arabic,      name: "Al-Shiʿrā",        gloss: "the leader / shining one" }
+      - { culture: hindustani,  name: "Lubdhaka / Mṛgavyādha",   gloss: "the hunter pursuing the deer (Mrigashira)" }
+      - { culture: hawaiian,    name: "ʻAʻā",             gloss: "to burn", referenced_only: true }
+      - { culture: māori,       name: "Takurua",          gloss: "winter star", referenced_only: true }
+    properties:
+      magnitude: -1.46
+      distance_ly: 8.6
+    chapters: [canis-major-sirius, mrigashira-vyadha]
+
+  - id: corona-borealis
+    type: constellation
+    canonical: Corona Borealis
+    names:
+      - { culture: latin,       name: "Corona Borealis",       gloss: "northern crown" }
+      - { culture: greek,       name: "Stephanos",             gloss: "crown of Ariadne" }
+      - { culture: welsh,       name: "Caer Arianrhod",        gloss: "the fortress of Arianrhod" }
+      - { culture: arabic,      name: "Al-Fakkah",             gloss: "the broken one (an incomplete circle of stars)" }
+      - { culture: shawnee,     name: "the celestial sisters", referenced_only: true }
+    related_sky_objects: [bootes, hercules]
+    chapters: [caer-gwydion]
+
+  - id: milky-way
+    type: galaxy
+    canonical: The Milky Way
+    names:
+      - { culture: greek,        name: "Galaxias",         gloss: "the milky one" }
+      - { culture: latin,        name: "Via Lactea",       gloss: "milky road" }
+      - { culture: chinese,      name: "Yínhé / Tiānhé",   gloss: "Silver River / Celestial River" }
+      - { culture: finnish,      name: "Linnunrata",       gloss: "the birds' road" }
+      - { culture: welsh,        name: "Caer Gwydion",     gloss: "the fortress of Gwydion" }
+      - { culture: hindustani,   name: "Ākāśagaṅgā",       gloss: "the celestial Ganga" }
+      - { culture: norse,        name: "Vetrarbraut",      gloss: "winter way" }
+      - { culture: anglo-saxon,  name: "Wætlinga Stræt",   gloss: "Watling Street — Roman road extended to the sky", note: "attested in Layamon's Brut and earlier" }
+      - { culture: san,          name: "the backbone of night", referenced_only: true }
+      - { culture: aboriginal-australian, name: "the Emu in the Sky", referenced_only: true }
+    chapters: [milky-way, caer-gwydion]
+
+  - id: aldebaran
+    type: star
+    parent: taurus
+    canonical: Aldebaran
+    names:
+      - { culture: arabic,      name: "Al-Dabarān",   gloss: "the follower (of the Pleiades)" }
+      - { culture: hindustani,  name: "Rohiṇī",       gloss: "the red one — fourth nakshatra, beloved of Chandra" }
+      - { culture: persian,     name: "Tascheter",    gloss: "royal star of the east" }
+    chapters: [taurus-pleiades, mrigashira-vyadha, nakshatras-lunar-mansions]
+
+  - id: cygnus
+    type: constellation
+    canonical: Cygnus
+    names:
+      - { culture: greek,       name: "Cygnus",            gloss: "the swan" }
+      - { culture: english-folk, name: "the Northern Cross" }
+      - { culture: arabic,      name: "al-Dajāja",         gloss: "the hen" }
+      - { culture: irish,       name: "Clann Lir",         gloss: "the Children of Lir — referenced in Caer Gwydion chapter as a Welsh / Irish swan-tale neighbour" }
+    related_sky_objects: [deneb, albireo, milky-way]
+    chapters: [summer-triangle, cygnus-revisited, caer-gwydion]
+
+  - id: sun
+    type: star
+    canonical: The Sun
+    names:
+      - { culture: latin,        name: "Sol" }
+      - { culture: greek,        name: "Helios" }
+      - { culture: anglo-saxon,  name: "Sunne" }
+      - { culture: norse,        name: "Sól / Sunna" }
+      - { culture: hindustani,   name: "Sūrya" }
+      - { culture: irish,        name: "Grian" }
+    chapters: [sun-at-its-height, lughnasadh, imbolc-and-brigid, norse-sun-stone, wodens-wain]
