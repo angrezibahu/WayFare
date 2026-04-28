@@ -19,7 +19,7 @@ sky_objects:
       circumpolar_above_lat: 41
       best_seasons: [spring, autumn]
     related_sky_objects: [polaris, alcor, mizar, mizar-alcor, arcturus]
-    chapters: [ursa-major, saptarshi, wodens-wain]
+    chapters: [ursa-major, saptarshi, wodens-wain, wayfinding-star-bearings]
 
   - id: betelgeuse
     type: star
@@ -49,7 +49,7 @@ sky_objects:
       hemisphere: equatorial
       best_seasons: [winter]
     related_sky_objects: [betelgeuse, rigel, sirius, aldebaran, pleiades, orion-nebula]
-    chapters: [orion, mrigashira-vyadha]
+    chapters: [orion, mrigashira-vyadha, wayfinding-star-bearings]
 
   - id: pleiades
     type: asterism
@@ -83,7 +83,7 @@ sky_objects:
       offset_from_pole_deg: 0.7
       type: cepheid-variable
     related_sky_objects: [ursa-major, ursa-minor, cassiopeia]
-    chapters: [ursa-major, dhruva-pole-star, saptarshi, wodens-wain]
+    chapters: [ursa-major, dhruva-pole-star, saptarshi, wodens-wain, wayfinding-star-bearings]
 
   - id: mizar-alcor
     type: star-pair
@@ -109,7 +109,7 @@ sky_objects:
     properties:
       magnitude: -1.46
       distance_ly: 8.6
-    chapters: [canis-major-sirius, mrigashira-vyadha]
+    chapters: [canis-major-sirius, mrigashira-vyadha, wayfinding-star-bearings]
 
   - id: corona-borealis
     type: constellation
@@ -170,4 +170,43 @@ sky_objects:
       - { culture: norse,        name: "Sól / Sunna" }
       - { culture: hindustani,   name: "Sūrya" }
       - { culture: irish,        name: "Grian" }
-    chapters: [sun-at-its-height, lughnasadh, imbolc-and-brigid, norse-sun-stone, wodens-wain]
+    chapters:
+      - sun-at-its-height
+      - lughnasadh
+      - imbolc-and-brigid
+      - norse-sun-stone
+      - wodens-wain
+      - reading-the-sky-by-day
+      - landcraft-first-steps
+      - wayfinding-shadow-stick
+      - wayfinding-watch-compass
+      - wayfinding-moon-horns
+      - wayfinding-moss-myth
+      - wayfinding-prevailing-wind
+      - wayfinding-star-bearings
+      - wayfinding-terrain-aspect
+
+  - id: moon-waxing-crescent
+    type: moon-phase
+    canonical: Waxing Crescent
+    parent: moon
+    names:
+      - { culture: arabic,    name: "Hilāl",         gloss: "the crescent (the new-Moon sliver)" }
+      - { culture: latin,     name: "Luna crescens", gloss: "growing Moon" }
+      - { culture: hindustani, name: "Shukla pakṣa", gloss: "the bright fortnight (waxing half of the lunar month)" }
+    properties:
+      illumination_range_pct: [1, 49]
+      visibility_window: "evening sky, west after sunset; horns point left and up in the Northern Hemisphere"
+    chapters: [moon, wayfinding-moon-horns]
+
+  - id: moon-waning-crescent
+    type: moon-phase
+    canonical: Waning Crescent
+    parent: moon
+    names:
+      - { culture: latin,     name: "Luna decrescens", gloss: "shrinking Moon" }
+      - { culture: hindustani, name: "Kṛṣṇa pakṣa",    gloss: "the dark fortnight (waning half of the lunar month)" }
+    properties:
+      illumination_range_pct: [1, 49]
+      visibility_window: "morning sky, east before sunrise; horns point right and up in the Northern Hemisphere"
+    chapters: [moon, wayfinding-moon-horns]
