@@ -18,6 +18,14 @@ export interface UnlockRules {
   };
 }
 
+export type FollowUpQuestKind = 'sky' | 'ground' | 'story';
+
+export interface FollowUpQuest {
+  kind: FollowUpQuestKind;
+  text: string;
+  auto_generated?: boolean;
+}
+
 export interface ChapterMeta {
   id: string;
   title: string;
@@ -25,6 +33,7 @@ export interface ChapterMeta {
   season: Season;
   unlock?: UnlockRules;
   sources?: string[];
+  follow_up_quests?: FollowUpQuest[];
 }
 
 export interface Chapter extends ChapterMeta {

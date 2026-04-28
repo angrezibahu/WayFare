@@ -18,6 +18,16 @@ sources:
   - Arabic astronomy (Qalb al-ʿAqrab)
   - Māori (Te Matau a Māui, the fishhook of Māui — referenced, not taught)
   - Polynesian (Ka Makau Nui o Māui, Hawaiian — referenced, not taught)
+follow_up_quests:
+  - kind: sky
+    text: "Tonight, find a clear southern horizon and look low for one warm red star — Antares, the heart of the scorpion. From Britain it never climbs high; catch it while summer holds it up."
+    auto_generated: true
+  - kind: ground
+    text: "By day, scout for a south-facing beach, hill or open field with no trees on the southern horizon. That's your scorpion-watching spot for the next clear night."
+    auto_generated: true
+  - kind: story
+    text: "Carry the Arabic *Qalb al-ʿAqrab* — *heart of the scorpion* — and the older fact that when Orion rises, this scorpion sets, and they have never met in three thousand years."
+    auto_generated: true
 ---
 
 ## Story

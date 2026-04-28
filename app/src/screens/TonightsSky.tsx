@@ -10,6 +10,7 @@ import {
   featuredConstellation,
 } from '../lib/astronomy';
 import { currentSeason } from '../lib/unlock';
+import { LastNightsStory } from '../LastNightsStory';
 
 function Tile({ label, value, note }: { label: string; value: string; note?: string }) {
   return (
@@ -120,6 +121,7 @@ export default function TonightsSky() {
 
   return (
     <div>
+      {mode === 'day' ? <LastNightsStory /> : null}
       <h1>{heading}</h1>
       <p className="muted">
         {now.toLocaleDateString(undefined, {

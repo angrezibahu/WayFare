@@ -17,6 +17,16 @@ sources:
   - Babylonian (UR.GU.LA, "the great lion")
   - Arabic astronomy (star naming)
   - Persian and Indian lunar mansion systems (referenced, not taught)
+follow_up_quests:
+  - kind: sky
+    text: "Tonight, face south after dark and look for the Sickle — a backwards question mark high in the sky. The bright dot at the bottom of the hook is Regulus, the lion's heart."
+    auto_generated: true
+  - kind: ground
+    text: "By day, find the Plough on a star chart and follow the bottom of the bowl down — see for yourself how that line lands on Leo. Then take that geometry outside tonight."
+    auto_generated: true
+  - kind: story
+    text: "Carry the Arabic *Qalb al-Asad* — *the heart of the lion* — for the bright royal star that sits almost exactly on the Sun's path through the sky."
+    auto_generated: true
 ---
 
 ## Story

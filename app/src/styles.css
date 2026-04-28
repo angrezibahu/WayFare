@@ -463,6 +463,111 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2rem 0; }
 }
 .nav-about:hover { color: var(--ink); background: none; border: none; }
 
+/* ---- Tomorrow's Quest panel & Last Night's Story strip ---- */
+
+.quest-panel {
+  margin: 2rem 0 1rem;
+  padding: 1rem 1.15rem 1.1rem;
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent);
+  background: var(--bg-muted);
+  border-radius: 2px;
+}
+.quest-panel .quest-header {
+  margin-bottom: 0.6rem;
+}
+.quest-eyebrow {
+  display: block;
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+.quest-panel p {
+  margin: 0.15rem 0 0;
+}
+
+.quest-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.4rem 0 0;
+}
+.quest-list .quest-item {
+  margin: 0.45rem 0;
+  padding: 0;
+  max-width: none;
+}
+.quest-list .quest-item label {
+  display: grid;
+  grid-template-columns: auto max-content 1fr;
+  gap: 0.55rem;
+  align-items: baseline;
+  cursor: pointer;
+}
+.quest-list .quest-item input[type='checkbox'] {
+  width: 1rem;
+  height: 1rem;
+  margin: 0.2rem 0 0;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+.quest-list .quest-kind {
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  font-weight: 700;
+}
+.quest-list .quest-text {
+  color: var(--ink);
+}
+.quest-list .quest-item.checked .quest-text {
+  color: var(--ink-muted);
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+}
+
+.last-night-strip {
+  margin: 0 0 1.4rem;
+  padding: 0.85rem 1rem 0.95rem;
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent);
+  background: var(--bg-muted);
+  border-radius: 2px;
+}
+.last-night-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 0.9rem;
+  margin-bottom: 0.35rem;
+}
+.last-night-eyebrow {
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 700;
+}
+.last-night-title {
+  font-weight: 700;
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+.last-night-title:hover {
+  color: var(--accent);
+}
+.quest-list.compact .quest-item {
+  margin: 0.3rem 0;
+}
+.quest-list.compact .quest-text {
+  font-size: 0.95rem;
+}
+
 /* When printed, keep the vibe readable but flatten the ornament. */
 @media print {
   .nav, .footer, .toolbar, button { display: none !important; }

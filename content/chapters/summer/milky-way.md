@@ -17,6 +17,16 @@ sources:
   - Finnish (Linnunrata — the birds' path)
   - San / ǃKung (the backbone of night — referenced, not taught)
   - Aboriginal Australian (the Emu in the Sky — referenced, not taught)
+follow_up_quests:
+  - kind: sky
+    text: "On the next moonless clear night you can reach a dark-sky site, lie down for thirty minutes with no torch and let your eyes adapt. The pale band that appears is your own galaxy."
+    auto_generated: true
+  - kind: ground
+    text: "By day, plan the pilgrimage: a dark-sky reserve, a moonless week, blankets, hot drinks, no white light. Put a date on the calendar."
+    auto_generated: true
+  - kind: story
+    text: "Carry the Greek root: *galaxy* from *gala*, milk. Every galaxy ever named is a sister of one spilled drink."
+    auto_generated: true
 ---
 
 ## Story

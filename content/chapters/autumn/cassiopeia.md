@@ -16,6 +16,16 @@ sources:
   - Greek mythology (the Perseus cycle)
   - Arabic astronomy (star naming)
   - Inuit (Pituaq, the lamp stand — referenced, not taught)
+follow_up_quests:
+  - kind: sky
+    text: "Tonight, look high in the north for the W of Cassiopeia. Use the deep V of the W to point roughly at Polaris, and check it with a compass."
+    auto_generated: true
+  - kind: ground
+    text: "By day, work out where due north is from your home. Cassiopeia and the Plough sit on opposite sides of Polaris and take turns being your night-time pointer."
+    auto_generated: true
+  - kind: story
+    text: "Carry the story of Tycho's 1572 supernova — a new star in this same W, bright enough to see at noon. What would your family do if one appeared tonight?"
+    auto_generated: true
 ---
 
 ## Story

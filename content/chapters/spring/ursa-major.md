@@ -17,6 +17,16 @@ sources:
   - Ancient Egyptian (Meskhetyu — the thigh of the bull)
   - Arabic astronomy (star naming)
   - Mi'kmaq (the celestial bear hunt — referenced, not taught)
+follow_up_quests:
+  - kind: sky
+    text: "Tonight, find the Plough. Use Merak and Dubhe as pointers — straight up, five times the gap — and land on Polaris. Check it with a compass tomorrow."
+    auto_generated: true
+  - kind: ground
+    text: "By daylight, work out which way is due north from your back door. That is where Polaris will sit tonight, no matter the season."
+    auto_generated: true
+  - kind: story
+    text: "Carry the rhyme *arc to Arcturus, spike to Spica* — and have a go at remembering which Plough-star means *the leader* (it's *Alkaid*)."
+    auto_generated: true
 ---
 
 ## Story

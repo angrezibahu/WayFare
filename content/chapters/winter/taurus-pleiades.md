@@ -15,6 +15,16 @@ sources:
   - Japanese (Subaru)
   - Māori (Matariki)
   - Cherokee (Ani'tsutsa)
+follow_up_quests:
+  - kind: sky
+    text: "Tonight, follow Orion's Belt up-right to the red eye of Taurus (Aldebaran), then keep going to the small fuzzy knot of the Pleiades. How many stars in the knot can you count?"
+    auto_generated: true
+  - kind: ground
+    text: "Tomorrow daytime, ask three people what *Subaru* means — most know it as a car, few as the seven sisters. Show them the badge if you can."
+    auto_generated: true
+  - kind: story
+    text: "Carry the Māori word *Matariki* — the same little knot of stars, marking the new year in the other hemisphere."
+    auto_generated: true
 ---
 
 <!-- NEEDS SOURCING: Aldebaran's Persian / Arab naming history to be checked against Kunitzsch before writing. Chapter to be drafted for Year One — front-matter and season placement confirmed. -->
