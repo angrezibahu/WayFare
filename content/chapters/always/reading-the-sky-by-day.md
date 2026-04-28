@@ -10,6 +10,16 @@ sources:
   - International Cloud Atlas (World Meteorological Organization)
   - Luke Howard (1772–1864) — cloud classifier, Quaker Londoner
   - Universal bird-and-smoke weather observation
+follow_up_quests:
+  - kind: sky
+    text: "At dusk, look high up for cirrus 'mare's tails.' If you spot them, predict whether rain arrives in the next 24 hours and check tomorrow."
+    auto_generated: true
+  - kind: ground
+    text: "Tomorrow morning, do a 30-second cloud census from the breakfast window. Name as many of Luke Howard's ten cloud types as you can see."
+    auto_generated: true
+  - kind: story
+    text: "Carry Luke Howard's gift — *cumulus, stratus, cirrus* — and try saying *cumulonimbus* aloud the next time a storm builds."
+    auto_generated: true
 ---
 
 ## Story

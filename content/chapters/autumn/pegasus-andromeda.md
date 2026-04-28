@@ -16,6 +16,16 @@ sources:
   - Greek mythology (Perseus cycle)
   - Arabic astronomy (star naming, lunar mansions)
   - Persian (the Great Square as a well-known asterism)
+follow_up_quests:
+  - kind: sky
+    text: "Tonight, look high in the south for the Great Square — four stars around a patch of almost-nothing. From Alpheratz, trace the chain northeast to find the faint smudge of the Andromeda Galaxy."
+    auto_generated: true
+  - kind: ground
+    text: "By day, work out the distance to Andromeda in your own words — 2.5 million light-years, the furthest thing your unaided eye can see. Tell someone the number aloud."
+    auto_generated: true
+  - kind: story
+    text: "Carry the name *Alpheratz* — one star with two jobs, the navel of the horse and the head of the chained woman. The sky does not mind."
+    auto_generated: true
 ---
 
 ## Story

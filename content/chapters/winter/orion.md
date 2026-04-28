@@ -18,6 +18,16 @@ sources:
   - Yolŋu people of Arnhem Land (Australia) — referenced, not taught
   - Arabic astronomy (star naming)
   - Māori (Tautoru)
+follow_up_quests:
+  - kind: sky
+    text: "Tonight, face south after dusk and find Orion's Belt. Follow the Belt down-left to Sirius and up-right past Aldebaran to the Pleiades."
+    auto_generated: true
+  - kind: ground
+    text: "By daylight, point south at the patch of sky where Orion will be tonight around 9pm. The hunter is below the horizon, but the bearing is the same."
+    auto_generated: true
+  - kind: story
+    text: "Carry one Arabic name aloud — *Betelgeuse* (the hand of the Central One) or *Rigel* (the foot). They are some of the oldest sky-words still in use."
+    auto_generated: true
 ---
 
 ## Story

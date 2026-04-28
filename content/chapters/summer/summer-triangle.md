@@ -17,6 +17,16 @@ sources:
   - Arabic astronomy (star naming)
   - Greek mythology (Lyra, Cygnus, Aquila)
   - Polynesian (Vega as zenith star of Hawai‘i — referenced, not taught)
+follow_up_quests:
+  - kind: sky
+    text: "Tonight after 10pm, lie back and look straight up. Find Vega (brightest), then Deneb to the northeast and Altair to the south. Three stars, one giant triangle."
+    auto_generated: true
+  - kind: ground
+    text: "Tomorrow afternoon, find a south-facing spot you could lie back in tonight, and check the moon phase. A near-new Moon is your dark-sky window for the Milky Way."
+    auto_generated: true
+  - kind: story
+    text: "Carry the tale of *Qixi* — Vega the weaver and Altair the cowherd, separated by the river of stars that flows between them, allowed to meet once a year."
+    auto_generated: true
 ---
 
 ## Story

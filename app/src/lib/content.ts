@@ -1,6 +1,12 @@
 import yaml from 'js-yaml';
 import { parseFrontMatter } from './frontmatter';
-import type { Chapter, ChapterMeta, ChallengeCard } from './types';
+import type {
+  Chapter,
+  ChapterMeta,
+  ChallengeCard,
+  FollowUpQuest,
+  FollowUpQuestKind,
+} from './types';
 
 // Eager-import all markdown chapters from ../../content/chapters/**/*.md as raw text.
 // Vite resolves these at build time so the PWA is self-contained.
@@ -17,8 +23,36 @@ const deckFiles = import.meta.glob('../../../content/challenges/deck.yaml', {
   import: 'default',
 }) as Record<string, string>;
 
+const QUEST_KINDS: readonly FollowUpQuestKind[] = ['sky', 'ground', 'story'];
+
+function normaliseFollowUpQuests(input: unknown, path: string): FollowUpQuest[] | undefined {
+  if (input == null) return undefined;
+  if (!Array.isArray(input)) {
+    console.warn('Chapter follow_up_quests must be an array:', path);
+    return undefined;
+  }
+  const out: FollowUpQuest[] = [];
+  for (const raw of input) {
+    if (!raw || typeof raw !== 'object') continue;
+    const obj = raw as Record<string, unknown>;
+    const kind = obj.kind;
+    const text = obj.text;
+    if (typeof kind !== 'string' || !QUEST_KINDS.includes(kind as FollowUpQuestKind)) {
+      console.warn(`Skipping follow_up_quest with unknown kind in ${path}:`, kind);
+      continue;
+    }
+    if (typeof text !== 'string' || !text.trim()) continue;
+    out.push({
+      kind: kind as FollowUpQuestKind,
+      text: text.trim(),
+      auto_generated: obj.auto_generated === true,
+    });
+  }
+  return out.length > 0 ? out : undefined;
+}
+
 function parseChapter(raw: string, path: string): Chapter | null {
-  const { data, content } = parseFrontMatter<Partial<ChapterMeta>>(raw);
+  const { data, content } = parseFrontMatter<Partial<ChapterMeta> & { follow_up_quests?: unknown }>(raw);
   if (!data || !data.id || !data.title) {
     console.warn('Skipping chapter missing id/title:', path);
     return null;
@@ -30,6 +64,7 @@ function parseChapter(raw: string, path: string): Chapter | null {
     season: (data.season ?? 'always') as ChapterMeta['season'],
     unlock: data.unlock,
     sources: data.sources ?? [],
+    follow_up_quests: normaliseFollowUpQuests(data.follow_up_quests, path),
     body: content.trim() + '\n',
   };
 }

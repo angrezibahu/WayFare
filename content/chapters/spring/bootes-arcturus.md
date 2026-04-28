@@ -16,6 +16,16 @@ sources:
   - Greek mythology (Arcas, the Herdsman)
   - Arabic astronomy (Al-Simāk al-Rāmih)
   - Polynesian navigation (Hōkūleʻa, zenith star of Hawai‘i — referenced, not taught)
+follow_up_quests:
+  - kind: sky
+    text: "Tonight, find the Plough and trace the arc of its handle outward until you land on Arcturus. Really look at the colour — what name would you give it?"
+    auto_generated: true
+  - kind: ground
+    text: "By day, find Hawai'i on a map. Arcturus passes directly overhead from there — for Polynesian wayfinders it was the latitude marker for the canoe *Hōkūleʻa*."
+    auto_generated: true
+  - kind: story
+    text: "Carry the Greek *Arktouros* — *guardian of the bear* — and the fact that one star opened the 1933 Chicago World's Fair with a forty-year-old beam of light."
+    auto_generated: true
 ---
 
 ## Story

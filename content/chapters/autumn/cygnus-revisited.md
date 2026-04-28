@@ -16,6 +16,16 @@ sources:
   - Greek mythology (the swan of Zeus, the fall of Phaethon)
   - Arabic astronomy (Dhanab al-Dajāja)
   - Chinese (the magpie bridge — referenced alongside the Qixi story)
+follow_up_quests:
+  - kind: sky
+    text: "Tonight, find Deneb at the top of the Northern Cross. Note exactly where it sits — overhead, high west, low west? Sketch it. Each month it will be lower at the same hour."
+    auto_generated: true
+  - kind: ground
+    text: "By day, mark on the western horizon you can see from home where Deneb stood last night. The swan dives that way through autumn and is gone from evenings by January."
+    auto_generated: true
+  - kind: story
+    text: "Carry *Phaethon* — the friend who dove for him became the swan, and the swan flies south each autumn as if still searching."
+    auto_generated: true
 ---
 
 ## Story

@@ -10,6 +10,16 @@ sources:
   - Norse (Máni)
   - Japanese (Tsukuyomi)
   - Islamic, Hebrew, Chinese lunar calendars (referenced)
+follow_up_quests:
+  - kind: sky
+    text: "Tomorrow night, find the Moon and name its phase aloud. Notice which way the lit side points — that line points straight at the Sun."
+    auto_generated: true
+  - kind: ground
+    text: "Sometime during daylight, see if you can catch the Moon in a blue sky. First and last quarter are the easiest phases for a daytime sighting."
+    auto_generated: true
+  - kind: story
+    text: "Carry the word *Tsukuyomi* — the cold Japanese lord of the night — and the small fact that *month* and *Moon* share a root."
+    auto_generated: true
 ---
 
 ## Story

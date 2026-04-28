@@ -57,8 +57,8 @@
     },
     "follow_up_quests": {
       "type": "array",
-      "items": { "type": "string" },
-      "uniqueItems": true
+      "description": "Structured 'Tomorrow's Quest' items: typically one sky/night thing, one ground/daylight thing, and one word or story-hook to carry forward.",
+      "items": { "$ref": "#/$defs/follow_up_quest" }
     },
     "body_path": {
       "type": "string",
@@ -104,6 +104,23 @@
           "type": "array",
           "items": { "$ref": "#/$defs/culture" },
           "uniqueItems": true
+        }
+      }
+    },
+    "follow_up_quest": {
+      "type": "object",
+      "required": ["kind", "text"],
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": ["sky", "ground", "story"],
+          "description": "sky = an evening or sky-watch thing to find; ground = a daylight or land thing to try; story = a word, phrase or story-hook to carry forward."
+        },
+        "text": { "type": "string" },
+        "auto_generated": {
+          "type": "boolean",
+          "description": "True if this quest was drafted by tooling and still needs human review. Tracked in quests-todo.md."
         }
       }
     }
