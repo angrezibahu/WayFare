@@ -35,3 +35,224 @@ experiments:
     cultures: [egyptian]
     related_sky_objects: [polaris, ursa-major]
     chapters: [landcraft-first-steps]
+
+  # --- Daytime wayfinding strand ---
+
+  - id: shadow-stick-bearings-and-time
+    title: Shadow Stick Bearings and Time
+    short: "Lay out a whole-morning sundial in pebbles; the shortest shadow is true north and noon."
+    grade: Core
+    kind: Land
+    day_or_night: day
+    duration_minutes: 180
+    gear: [1 m garden cane, 15 small stones, masking tape, pencil]
+    requires:
+      season: any
+      weather: sunny
+      hemisphere: any
+    cultures: [universal, egyptian]
+    provenance: "Universal pre-modern technique; the Egyptian gnomon and merkhet at full scale."
+    related_sky_objects: [sun]
+    related_ground_objects: [shadow-stick]
+    chapters: [wayfinding-shadow-stick, landcraft-first-steps]
+    deck_card: shadow-stick-at-noon
+    body_md: |
+      Push a 1 m cane vertically into a flat lawn in full sun. Every fifteen minutes
+      from 10:00 a.m. until 1:30 p.m., place a small stone (with the time written on
+      tape stuck to it) at the tip of the shadow. The shortest stone is solar noon —
+      the line from the cane through it is true north (Northern Hemisphere). The
+      other stones are an hour-clock at roughly 15° per hour either side.
+
+  - id: watch-as-compass-test
+    title: Watch as Compass — Three-Souths Test
+    short: "Compare watch-as-compass, shadow stick, and a real compass at the same place and hour."
+    grade: Core
+    kind: Land
+    day_or_night: day
+    duration_minutes: 30
+    gear: [analogue watch (or drawn clock face), 1 m stick, two stones, magnetic compass]
+    requires:
+      season: any
+      weather: sunny
+      hemisphere: any
+    cultures: [british-folk, universal]
+    provenance: "European pre-GPS folk tradition; *Scouting for Boys* (1908) describes it."
+    related_sky_objects: [sun]
+    related_ground_objects: []
+    chapters: [wayfinding-watch-compass, landcraft-first-steps]
+    deck_card: watch-as-compass
+    body_md: |
+      In a familiar place where you already know which way is south, take three
+      readings of "where is south?" — by analogue watch (hour hand at the Sun,
+      bisect to 12, or to 1 in BST), by shadow stick (15-minute method), and
+      by magnetic compass. Note the spread.
+
+  - id: moon-horns-bearing-test
+    title: Moon Horns to the Horizon — Half-Moon Test
+    short: "On a half-Moon evening, drop a horns-line to a clear horizon and compare with a compass."
+    grade: Core
+    kind: Sky
+    day_or_night: either
+    duration_minutes: 20
+    gear: [magnetic compass, length of string, pencil]
+    requires:
+      season: any
+      weather: clear-evening
+      hemisphere: any
+    cultures: [british-folk, arabic, universal]
+    provenance: "English maritime folk tradition; *Scouting for Boys* (1908) describes the trick."
+    related_sky_objects: [moon-waxing-crescent, moon-waning-crescent, sun]
+    related_ground_objects: []
+    chapters: [wayfinding-moon-horns, moon]
+    deck_card: horns-to-horizon
+    body_md: |
+      With a clear low horizon (sea wall, hilltop, playing field), find the crescent
+      Moon. Hold a taut string between the two horn-tips and let it drop straight to
+      the horizon. The point where it meets the horizon is roughly south (Northern
+      Hemisphere). Take a compass reading of the same point. Note the spread.
+
+  - id: moss-five-tree-survey
+    title: The Five-Tree Moss Survey
+    short: "Five trees in five settings; tally the mossiest side and the reason for it."
+    grade: Starter
+    kind: Land
+    day_or_night: day
+    duration_minutes: 45
+    gear: [magnetic compass, pencil, Fieldbook]
+    requires:
+      season: any
+      weather: damp
+      hemisphere: any
+    cultures: [british-folk, universal]
+    provenance: "Outdoor error-curriculum — the most-repeated wrong fact in British folk navigation."
+    related_sky_objects: [sun]
+    related_ground_objects: [moss-patch, tree-trunk]
+    chapters: [wayfinding-moss-myth, landcraft-first-steps]
+    deck_card: moss-is-a-liar
+    body_md: |
+      Visit five mature trees in five different settings: an isolated tree in an open
+      field; a tree in the middle of a wood; a tree by a stream; a tree on a slope; a
+      tree near a wall. For each, note the bearing of the mossiest side and what else
+      is happening on that side (lee of the wind, facing a wet flush, shade from a
+      wall). Most readings will not be "north".
+
+  - id: wind-flag-tree-and-cloud-survey
+    title: Flag-Tree and Cloud Survey
+    short: "Read prevailing wind from five flag-trees and three single clouds; compare layers."
+    grade: Stretch
+    kind: Land
+    day_or_night: day
+    duration_minutes: 45
+    gear: [magnetic compass, pencil, Fieldbook]
+    requires:
+      season: any
+      weather: breezy
+      hemisphere: any
+    cultures: [british-folk, english-folk, scots, irish, welsh]
+    provenance: "British shepherd / hill-farming observational tradition."
+    related_sky_objects: [sun]
+    related_ground_objects: [tree-lean, flag-tree, cumulus, cirrus, smoke-plume]
+    chapters: [wayfinding-prevailing-wind, reading-terrain, wind-and-weather]
+    deck_card: tree-lean-survey
+    body_md: |
+      In an exposed place, log the flag-direction of five flag-trees with a compass.
+      Pick three single clouds, one at a time, and watch each for at least 30 seconds
+      against a fixed landmark; convert each track to a compass bearing. Log the
+      surface wind by feel. The cloud-level wind in the Northern Hemisphere is usually
+      rotated clockwise from the surface wind by 20°–40° (Ekman spiral).
+
+  - id: pace-count-and-leg
+    title: 100 m Pace-Count and a Mystery Leg
+    short: "Find your 100 m pace-count, then walk a planned three-leg route by bearing and steps alone."
+    grade: Core
+    kind: Land
+    day_or_night: day
+    duration_minutes: 45
+    gear: [magnetic compass, wristwatch, ranger beads (optional), Fieldbook]
+    requires:
+      season: any
+      weather: any
+      hemisphere: any
+    cultures: [latin, british-folk, universal]
+    provenance: "Roman *bematist* tradition; British military pace-counting; modern UK orienteering."
+    related_sky_objects: []
+    related_ground_objects: [footpath-marker]
+    chapters: [wayfinding-pace-counting]
+    deck_card: pace-count-100m
+    body_md: |
+      On a measured 100 m stretch (a football pitch end-to-end works), walk three
+      times at a normal relaxed pace and count each right-foot strike. Take the
+      average — that is your 100 m pace-count. Then have an adult plan a three-leg
+      mystery route in bearings and pace-counts; walk it by compass and feet alone.
+
+  - id: river-bend-watershed-walk
+    title: The Bend-and-Watershed Walk
+    short: "Read a meander on the ground; trace a watershed on a map; stand on the line."
+    grade: Stretch
+    kind: Land
+    day_or_night: day
+    duration_minutes: 90
+    gear: [Ordnance Survey map, magnetic compass, pencil, Fieldbook]
+    requires:
+      season: any
+      weather: any
+      hemisphere: any
+    cultures: [british-folk, english-folk, hindustani, universal]
+    provenance: "British and Irish drainage / hydrology folk tradition; modern UK Environment Agency."
+    related_sky_objects: []
+    related_ground_objects: [oxbow-lake, meander, confluence, watershed-divide, stream]
+    chapters: [wayfinding-river-watershed, reading-water]
+    deck_card: stream-reading
+    body_md: |
+      Part 1 — At a small stream bend, identify the cut bank (outside, deep, undercut)
+      and the point-bar (inside, shallow, gravelly). Sketch the bend with arrows.
+      Part 2 — On an OS map, trace the watershed line of the river your stream feeds
+      into. Walk to a piece of that line on the ground; stand on it; drop a pebble
+      each side and name the river each pebble has begun the journey to.
+
+  - id: dusk-star-bearing
+    title: The Twilight Bearing — Polaris Peg
+    short: "At dusk, set a 'true north peg' on the horizon below Polaris and hold it through the night."
+    grade: Core
+    kind: Sky
+    day_or_night: either
+    duration_minutes: 20
+    gear: [pencil, Fieldbook, magnetic compass (for next-morning check)]
+    requires:
+      season: any
+      weather: clear-evening
+      hemisphere: northern
+    cultures: [polynesian, arabic, british-folk]
+    provenance: "Universal twilight navigation — Polynesian wayfinders, Arab *kamāl* navigators, European maritime tradition."
+    related_sky_objects: [polaris, ursa-major, orion, sirius, sun]
+    related_ground_objects: []
+    chapters: [wayfinding-star-bearings, ursa-major, polynesian-star-compass]
+    body_md: |
+      About 30 minutes after sunset, find the Plough; trace the pointer-stars to
+      Polaris. Drop the eye vertically from Polaris to a landmark on the horizon
+      directly below. Sketch the landmark and label it TRUE NORTH. The peg is good
+      for the rest of the night and the next dawn; check with a compass next morning.
+
+  - id: aspect-traverse
+    title: The Two-Sides Traverse
+    short: "Walk one hill on its sun-side and shade-side; tally the differences in plants, damp, and time."
+    grade: Core
+    kind: Land
+    day_or_night: day
+    duration_minutes: 60
+    gear: [pencil, Fieldbook, magnetic compass]
+    requires:
+      season: spring
+      weather: any
+      hemisphere: any
+    cultures: [british-folk, scots, welsh, irish, hindustani]
+    provenance: "British shepherd / hill-farming observational tradition; European aspect-ecology."
+    related_sky_objects: [sun]
+    related_ground_objects: [north-facing-slope, south-facing-slope, holloway, tree-lean]
+    chapters: [wayfinding-terrain-aspect, reading-terrain]
+    body_md: |
+      On a spring morning, walk to the south-facing slope of a local hill. Sit for
+      five minutes; sketch one square metre of ground; note flowers, grass colour,
+      smell, and air temperature. Cross the ridge to the north-facing slope; repeat.
+      Compare the two sketches — plants, time, dampness — and the differences will
+      be the lesson.

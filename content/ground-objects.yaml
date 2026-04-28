@@ -1,0 +1,161 @@
+ground_objects:
+  # --- Trees, scrub, living compasses ---
+  - id: tree-lean
+    type: living-compass
+    canonical: Tree-lean
+    short: "Mature exposed trees lean away from the prevailing wind — a fifty-year compass."
+    related_experiments: [wind-flag-tree-and-cloud-survey]
+    chapters: [landcraft-first-steps, reading-terrain, wind-and-weather, wayfinding-prevailing-wind, wayfinding-terrain-aspect]
+
+  - id: flag-tree
+    type: living-compass
+    canonical: Flag-tree
+    short: "An exposed tree whose canopy has grown only on the lee side, like a flag pointing downwind."
+    related_experiments: [wind-flag-tree-and-cloud-survey]
+    chapters: [wayfinding-prevailing-wind, wayfinding-shadow-stick]
+
+  - id: tree-trunk
+    type: living-compass
+    canonical: Tree-trunk
+    short: "The vertical surface where moss, lichen, and wind-erosion record local microclimate."
+    related_experiments: [moss-five-tree-survey]
+    chapters: [wayfinding-moss-myth]
+
+  - id: moss-patch
+    type: living-compass
+    canonical: Moss-patch
+    short: "A small mat of moss on bark, stone, or soil. Indicates damp and shade — *not* north."
+    related_experiments: [moss-five-tree-survey]
+    chapters: [wayfinding-moss-myth, landcraft-first-steps]
+
+  - id: lichen-crustose
+    type: living-compass
+    canonical: Crustose lichen
+    short: "Pale, dry, sun-tolerant lichens that often favour drier south-facing bark and stone."
+    chapters: [wayfinding-moss-myth]
+
+  # --- River and water features ---
+  - id: oxbow-lake
+    type: river-feature
+    canonical: Oxbow lake
+    short: "A curved pond left when a river meander cuts off its own neck."
+    related_experiments: [river-bend-watershed-walk]
+    chapters: [reading-water, wayfinding-river-watershed]
+
+  - id: meander
+    type: river-feature
+    canonical: Meander
+    short: "A river bend, with a fast cut bank on the outside and a slow point-bar on the inside."
+    related_experiments: [river-bend-watershed-walk]
+    chapters: [reading-water, wayfinding-river-watershed]
+
+  - id: confluence
+    type: river-feature
+    canonical: Confluence
+    short: "Where a smaller river (a tributary) joins a larger one."
+    related_experiments: [river-bend-watershed-walk]
+    chapters: [reading-water, wayfinding-river-watershed]
+
+  - id: stream
+    type: river-feature
+    canonical: Stream
+    short: "Small running water; tells you which way the ground tilts, even where you can't see the slope."
+    related_experiments: [river-bend-watershed-walk]
+    chapters: [reading-water, wayfinding-river-watershed, rain-and-running-water]
+
+  # --- Terrain features ---
+  - id: watershed-divide
+    type: terrain-feature
+    canonical: Watershed divide
+    short: "The line of high ground separating one river's catchment from another's."
+    names:
+      - { culture: hindustani, name: "Jalavibhājaka", gloss: "the water-divider" }
+    related_experiments: [river-bend-watershed-walk]
+    chapters: [wayfinding-river-watershed, reading-terrain]
+
+  - id: north-facing-slope
+    type: terrain-feature
+    canonical: North-facing slope
+    short: "The shade-side of a hill in the Northern Hemisphere; cool, damp, late into spring."
+    names:
+      - { culture: hindustani, name: "Uttar-dhalān", gloss: "the north slope" }
+      - { culture: irish,      name: "Taobh ó thuaidh", gloss: "the north side" }
+    related_experiments: [aspect-traverse]
+    chapters: [wayfinding-terrain-aspect, reading-terrain]
+
+  - id: south-facing-slope
+    type: terrain-feature
+    canonical: South-facing slope
+    short: "The sun-side of a hill in the Northern Hemisphere; warm, dry, early into spring."
+    names:
+      - { culture: hindustani, name: "Dakkhinī-dhalān", gloss: "the south slope" }
+      - { culture: irish,      name: "Taobh na gréine", gloss: "the sun-side" }
+      - { culture: welsh,      name: "Godre haul",      gloss: "the sunny foot" }
+    related_experiments: [aspect-traverse]
+    chapters: [wayfinding-terrain-aspect, reading-terrain]
+
+  - id: holloway
+    type: human-mark
+    canonical: Holloway
+    short: "A path worn into a sunken hollow by centuries of feet and carts; often biased south-facing."
+    chapters: [reading-terrain, wayfinding-terrain-aspect, wayfinding-pace-counting]
+
+  - id: footpath-marker
+    type: human-mark
+    canonical: Footpath marker
+    short: "A waymark, post, or stone that pegs an established walking line to the land."
+    related_experiments: [pace-count-and-leg]
+    chapters: [wayfinding-pace-counting, rules-of-road-and-country]
+
+  - id: shadow-stick
+    type: human-mark
+    canonical: Shadow stick
+    short: "Any vertical stick whose shadow tip is marked over time. The oldest navigational instrument on Earth."
+    names:
+      - { culture: greek,    name: "Gnomon", gloss: "the one that knows" }
+      - { culture: egyptian, name: "Tekhenu", gloss: "obelisk; pillar shadow-stick" }
+    related_experiments: [shadow-stick-bearings-and-time]
+    chapters: [wayfinding-shadow-stick, landcraft-first-steps]
+
+  # --- Cloud and weather signs ---
+  - id: cumulonimbus
+    type: cloud-genus
+    canonical: Cumulonimbus
+    short: "The towering anvil-topped storm cloud — heap-rain. Take note if one stands up-wind."
+    names:
+      - { culture: latin, name: "Cumulonimbus", gloss: "heap-rain" }
+    chapters: [reading-the-sky-by-day, wind-and-weather]
+
+  - id: cumulus
+    type: cloud-genus
+    canonical: Cumulus
+    short: "The cotton-wool cloud of a fair summer day; flat bottom, cauliflower top."
+    names:
+      - { culture: latin, name: "Cumulus", gloss: "heap" }
+    related_experiments: [wind-flag-tree-and-cloud-survey]
+    chapters: [reading-the-sky-by-day, wayfinding-prevailing-wind]
+
+  - id: cirrus
+    type: cloud-genus
+    canonical: Cirrus
+    short: "Wispy high-altitude ice cloud; the mare's tails. Often a sign of weather changing within a day."
+    names:
+      - { culture: latin, name: "Cirrus", gloss: "curl of hair" }
+    related_experiments: [wind-flag-tree-and-cloud-survey]
+    chapters: [reading-the-sky-by-day, wayfinding-prevailing-wind, wind-and-weather]
+
+  - id: smoke-plume
+    type: weather-sign
+    canonical: Smoke plume
+    short: "Smoke from a chimney or fire; a free wind-and-pressure indicator. Straight = stable, flat = inversion, twisting = gusty."
+    related_experiments: [wind-flag-tree-and-cloud-survey]
+    chapters: [reading-the-sky-by-day, wayfinding-prevailing-wind, wind-and-weather]
+
+  # --- Snow features (worked example from the model spec) ---
+  - id: sastrugi
+    type: snow-feature
+    canonical: Sastrugi
+    short: "Wind-carved ridges on a snow surface; align with prevailing wind."
+    names:
+      - { culture: baltic, name: "sastrugi", gloss: "wind-carved snow ridge (loanword from Russian)" }
+    chapters: [snow-ice-and-frost]
