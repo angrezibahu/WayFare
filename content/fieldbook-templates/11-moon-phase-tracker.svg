@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 297" width="210mm" height="297mm">
+  <style>
+    text { font-family: Georgia, 'Times New Roman', serif; fill: #1a1a1a; }
+    .title  { font-size: 12px; letter-spacing: 0.5px; font-weight: bold; }
+    .label  { font-size: 4.5px; letter-spacing: 0.35px; fill: #555; }
+    .prompt { font-size: 5px; font-style: italic; fill: #888; }
+    .day-n  { font-size: 4px; fill: #888; }
+    .frame  { stroke: #1a1a1a; fill: none; stroke-width: 0.5; }
+    .ring   { stroke: #c8bfa9; fill: none; stroke-width: 0.4; }
+    .dark   { stroke: #1a1a1a; stroke-width: 0.4; fill: none; }
+    .shade  { fill: #1a1a1a; }
+    .empty  { fill: #ffffff; stroke: #1a1a1a; stroke-width: 0.4; }
+  </style>
+
+  <!-- outer border -->
+  <rect x="10" y="10" width="190" height="277" class="frame"/>
+
+  <!-- title -->
+  <text x="20" y="24" class="title">Moon Phase Tracker</text>
+  <text x="20" y="32" font-size="6" font-style="italic" fill="#555" font-family="Georgia,'Times New Roman',serif">One lunar cycle is 29½ days. Watch the Moon every clear night and shade in what you see.</text>
+
+  <!-- month / year line -->
+  <text x="20" y="41" class="label">MONTH / YEAR</text>
+  <line x1="57" y1="42" x2="130" y2="42" stroke="#1a1a1a" stroke-width="0.3" fill="none"/>
+  <text x="135" y="41" class="label">OBSERVER</text>
+  <line x1="158" y1="42" x2="198" y2="42" stroke="#1a1a1a" stroke-width="0.3" fill="none"/>
+
+  <!-- ── MOON GRID ───────────────────────────────────────────────
+       30 cells in a 5-col × 6-row grid.
+       Cell size: col-spacing = 36mm, row-spacing = 34mm
+       Grid starts x=17, y=48
+       Moon circle radius in each cell: 10mm
+       Cell centres:
+         col 0 = 17+18 = 35   col 1 = 35+36 = 71   col 2 = 71+36 = 107
+         col 3 = 107+36 = 143  col 4 = 143+36 = 179
+         row 0: 48+17=65  row 1: 65+34=99  row 2: 99+34=133
+         row 3: 133+34=167 row 4: 167+34=201 row 5: 201+34=235
+  ──────────────────────────────────────────────────────────────── -->
+
+  <!-- Day 1 — New Moon (dark circle) -->
+  <circle cx="35"  cy="65"  r="10" class="dark"/><circle cx="35"  cy="65"  r="10" class="shade"/>
+  <text x="35"  y="58"  text-anchor="middle" class="day-n">1</text>
+  <text x="35"  y="79"  text-anchor="middle" class="prompt">New</text>
+
+  <!-- Day 2 — waxing crescent (faint guide) -->
+  <circle cx="71"  cy="65"  r="10" class="ring"/>
+  <text x="71"  y="58"  text-anchor="middle" class="day-n">2–4</text>
+
+  <!-- Day 3 -->
+  <circle cx="107" cy="65"  r="10" class="ring"/>
+  <text x="107" y="58"  text-anchor="middle" class="day-n">5–7</text>
+
+  <!-- Day 7 — First Quarter (half moon guide) -->
+  <circle cx="143" cy="65"  r="10" class="dark"/>
+  <!-- right half shaded to suggest first-quarter hint -->
+  <path d="M143,55 A10,10 0 0,1 143,75 Z" fill="#e0e0e0"/>
+  <text x="143" y="58"  text-anchor="middle" class="day-n">7–8</text>
+  <text x="143" y="79"  text-anchor="middle" class="prompt">¼</text>
+
+  <!-- Day 10 -->
+  <circle cx="179" cy="65"  r="10" class="ring"/>
+  <text x="179" y="58"  text-anchor="middle" class="day-n">9–10</text>
+
+  <!-- Row 2 -->
+  <circle cx="35"  cy="99"  r="10" class="ring"/>
+  <text x="35"  y="92"  text-anchor="middle" class="day-n">11–12</text>
+
+  <circle cx="71"  cy="99"  r="10" class="ring"/>
+  <text x="71"  y="92"  text-anchor="middle" class="day-n">13</text>
+
+  <!-- Day 14–15 — Full Moon (open circle, kids fill) -->
+  <circle cx="107" cy="99"  r="10" class="dark"/>
+  <text x="107" y="92"  text-anchor="middle" class="day-n">14–15</text>
+  <text x="107" y="113" text-anchor="middle" class="prompt">Full</text>
+
+  <circle cx="143" cy="99"  r="10" class="ring"/>
+  <text x="143" y="92"  text-anchor="middle" class="day-n">16–17</text>
+
+  <circle cx="179" cy="99"  r="10" class="ring"/>
+  <text x="179" y="92"  text-anchor="middle" class="day-n">18–19</text>
+
+  <!-- Row 3 -->
+  <circle cx="35"  cy="133" r="10" class="ring"/>
+  <text x="35"  y="126" text-anchor="middle" class="day-n">20</text>
+
+  <!-- Day 21 — Last Quarter hint -->
+  <circle cx="71"  cy="133" r="10" class="dark"/>
+  <path d="M71,123 A10,10 0 0,0 71,143 Z" fill="#e0e0e0"/>
+  <text x="71"  y="126" text-anchor="middle" class="day-n">21–22</text>
+  <text x="71"  y="147" text-anchor="middle" class="prompt">¾</text>
+
+  <circle cx="107" cy="133" r="10" class="ring"/>
+  <text x="107" y="126" text-anchor="middle" class="day-n">23–24</text>
+
+  <circle cx="143" cy="133" r="10" class="ring"/>
+  <text x="143" y="126" text-anchor="middle" class="day-n">25</text>
+
+  <circle cx="179" cy="133" r="10" class="ring"/>
+  <text x="179" y="126" text-anchor="middle" class="day-n">26</text>
+
+  <!-- Row 4 -->
+  <circle cx="35"  cy="167" r="10" class="ring"/>
+  <text x="35"  y="160" text-anchor="middle" class="day-n">27</text>
+
+  <circle cx="71"  cy="167" r="10" class="ring"/>
+  <text x="71"  y="160" text-anchor="middle" class="day-n">28</text>
+
+  <!-- Day 29 — back to New Moon -->
+  <circle cx="107" cy="167" r="10" class="dark"/><circle cx="107" cy="167" r="10" class="shade"/>
+  <text x="107" y="160" text-anchor="middle" class="day-n">29–30</text>
+  <text x="107" y="181" text-anchor="middle" class="prompt">New</text>
+
+  <!-- spare blank cells for missed nights -->
+  <circle cx="143" cy="167" r="10" class="ring"/>
+  <text x="143" y="160" text-anchor="middle" class="day-n">missed</text>
+
+  <circle cx="179" cy="167" r="10" class="ring"/>
+  <text x="179" y="160" text-anchor="middle" class="day-n">missed</text>
+
+  <!-- ── KEY ─────────────────────────────────────────── -->
+  <line x1="17" y1="186" x2="198" y2="186" stroke="#c8bfa9" stroke-width="0.3" fill="none"/>
+
+  <text x="20" y="194" class="label">HOW TO SHADE:</text>
+  <text x="20" y="201" font-size="5.5" fill="#555" font-family="Georgia,'Times New Roman',serif">Shade the dark part of the Moon as you see it. Full moon = leave blank or shade lightly to show disc.</text>
+  <text x="20" y="209" font-size="5.5" fill="#555" font-family="Georgia,'Times New Roman',serif">In the Northern Hemisphere the waxing crescent brightens on the right; in the Southern, on the left.</text>
+
+  <!-- ── NOTES LINES ───────────────────────────────── -->
+  <text x="20" y="222" class="label">NOTES / WHAT ELSE I NOTICED</text>
+  <line x1="20" y1="229" x2="198" y2="229" stroke="#1a1a1a" stroke-width="0.3" fill="none"/>
+  <line x1="20" y1="237" x2="198" y2="237" stroke="#1a1a1a" stroke-width="0.3" fill="none"/>
+  <line x1="20" y1="245" x2="198" y2="245" stroke="#1a1a1a" stroke-width="0.3" fill="none"/>
+  <line x1="20" y1="253" x2="198" y2="253" stroke="#1a1a1a" stroke-width="0.3" fill="none"/>
+  <line x1="20" y1="261" x2="198" y2="261" stroke="#1a1a1a" stroke-width="0.3" fill="none"/>
+  <line x1="20" y1="269" x2="198" y2="269" stroke="#1a1a1a" stroke-width="0.3" fill="none"/>
+  <line x1="20" y1="277" x2="198" y2="277" stroke="#1a1a1a" stroke-width="0.3" fill="none"/>
+
+  <!-- footer -->
+  <text x="105" y="291" text-anchor="middle" class="label">wayfare · moon phase tracker · v1</text>
+</svg>

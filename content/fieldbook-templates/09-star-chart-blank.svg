@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 297" width="210mm" height="297mm">
+  <style>
+    text { font-family: Georgia, 'Times New Roman', serif; fill: #1a1a1a; }
+    .title  { font-size: 11px; letter-spacing: 0.5px; font-weight: bold; }
+    .sub    { font-size: 6.5px; font-style: italic; fill: #555; }
+    .label  { font-size: 5px; letter-spacing: 0.3px; fill: #555; }
+    .ring   { stroke: #1a1a1a; fill: none; }
+    .tick   { stroke: #1a1a1a; }
+    .guide  { stroke: #c8bfa9; fill: none; stroke-dasharray: 1.5,2; }
+    .frame  { stroke: #1a1a1a; fill: none; stroke-width: 0.5; }
+    .thin   { stroke-width: 0.3; }
+    .med    { stroke-width: 0.5; }
+    .zenith { fill: #1a1a1a; }
+  </style>
+
+  <!-- outer border -->
+  <rect x="10" y="10" width="190" height="277" class="frame"/>
+
+  <!-- title block -->
+  <text x="20" y="24" class="title">Seasonal Star Chart</text>
+  <text x="20" y="32" class="sub">Plot the stars you see tonight. Mark the date and time in the box below.</text>
+
+  <!-- date / time / observer fields -->
+  <text x="20" y="42" class="label">DATE</text>
+  <line x1="35"  y1="43" x2="95"  y2="43" stroke="#1a1a1a" stroke-width="0.3" fill="none"/>
+  <text x="100" y="42" class="label">TIME</text>
+  <line x1="113" y1="43" x2="150" y2="43" stroke="#1a1a1a" stroke-width="0.3" fill="none"/>
+  <text x="155" y="42" class="label">PLACE</text>
+  <line x1="170" y1="43" x2="198" y2="43" stroke="#1a1a1a" stroke-width="0.3" fill="none"/>
+
+  <!-- ── horizon circle ─────────────────────────────────── -->
+  <!-- Centre of chart: 105, 163. Horizon radius: 76mm -->
+
+  <!-- altitude guide rings (dashed) — 60° alt, 30° alt -->
+  <!-- horizon r=76, 30°alt r=76*(60/90)≈50.7, 60°alt r=76*(30/90)≈25.3 -->
+  <circle cx="105" cy="163" r="76"    class="ring guide med"/>
+  <circle cx="105" cy="163" r="50.7"  class="ring guide thin"/>
+  <circle cx="105" cy="163" r="25.3"  class="ring guide thin"/>
+
+  <!-- solid horizon ring -->
+  <circle cx="105" cy="163" r="76" class="ring med" stroke="#1a1a1a" stroke-dasharray="none"/>
+
+  <!-- zenith dot -->
+  <circle cx="105" cy="163" r="1.2" class="zenith"/>
+
+  <!-- cardinal direction tick-marks and labels -->
+  <!-- N -->
+  <line x1="105" y1="87" x2="105" y2="93" stroke="#1a1a1a" stroke-width="0.6" fill="none"/>
+  <text x="105" y="84" text-anchor="middle" font-size="8" font-weight="bold" fill="#1a1a1a" font-family="Georgia,'Times New Roman',serif">N</text>
+
+  <!-- S -->
+  <line x1="105" y1="233" x2="105" y2="239" stroke="#1a1a1a" stroke-width="0.6" fill="none"/>
+  <text x="105" y="247" text-anchor="middle" font-size="8" font-weight="bold" fill="#1a1a1a" font-family="Georgia,'Times New Roman',serif">S</text>
+
+  <!-- E (east = left on a sky chart; here we put it on the right to match looking-up orientation) -->
+  <line x1="181" y1="163" x2="175" y2="163" stroke="#1a1a1a" stroke-width="0.6" fill="none"/>
+  <text x="186" y="166" text-anchor="start" font-size="8" font-weight="bold" fill="#1a1a1a" font-family="Georgia,'Times New Roman',serif">E</text>
+
+  <!-- W -->
+  <line x1="29" y1="163" x2="35" y2="163" stroke="#1a1a1a" stroke-width="0.6" fill="none"/>
+  <text x="24" y="166" text-anchor="end" font-size="8" font-weight="bold" fill="#1a1a1a" font-family="Georgia,'Times New Roman',serif">W</text>
+
+  <!-- intercardinal labels -->
+  <text x="159" y="115" text-anchor="middle" font-size="5.5" fill="#888" font-family="Georgia,'Times New Roman',serif">NE</text>
+  <text x="52"  y="115" text-anchor="middle" font-size="5.5" fill="#888" font-family="Georgia,'Times New Roman',serif">NW</text>
+  <text x="159" y="216" text-anchor="middle" font-size="5.5" fill="#888" font-family="Georgia,'Times New Roman',serif">SE</text>
+  <text x="52"  y="216" text-anchor="middle" font-size="5.5" fill="#888" font-family="Georgia,'Times New Roman',serif">SW</text>
+
+  <!-- altitude labels on the N spoke -->
+  <text x="107" y="115" font-size="4" fill="#aaa" font-family="Georgia,'Times New Roman',serif">60°</text>
+  <text x="107" y="140" font-size="4" fill="#aaa" font-family="Georgia,'Times New Roman',serif">30°</text>
+  <text x="107" y="162" font-size="4" fill="#aaa" font-family="Georgia,'Times New Roman',serif">z</text>
+
+  <!-- instruction legend -->
+  <text x="20" y="252" class="label">HOW TO USE:</text>
+  <text x="20" y="259" class="label">1. Hold the chart above your head, N pointing North.</text>
+  <text x="20" y="266" class="label">2. Mark each star with a dot. Label brighter ones with their name or a number.</text>
+  <text x="20" y="273" class="label">3. Note the horizon ring = 0° altitude; inner rings = 30° and 60°; centre = directly overhead.</text>
+
+  <!-- footer -->
+  <text x="105" y="289" text-anchor="middle" class="label">wayfare · seasonal star chart · v1</text>
+</svg>
