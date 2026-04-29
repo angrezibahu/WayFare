@@ -103,3 +103,13 @@ The Hindustani Orion has the same stars as the Greek Orion — but the cuts of t
 - **The Sūrya Siddhānta** — Ebenezer Burgess's 1860 translation is on archive.org; the Sanskrit original is c. 4th–5th century CE. The single most important text in the Hindustani astronomical tradition.
 - **Drik Panchang** — drikpanchang.com — for the living calendar. Bookmark it.
 - **Aitareya Brāhmaṇa**, A.B. Keith translation (public domain) — for the older form of the Prajāpati / Rohiṇī sky story.
+
+## Go deeper
+
+**The science.** Subhash Kak, *The Astronomical Code of the Ṛigveda* — open-access on arXiv (search "Kak astronomical code Rigveda"); the astronomical references in the Vedic corpus decoded, with careful sourcing.
+
+**The cultural context.** Drik Panchang (drikpanchang.com) — the living Hindu calendar that still uses nakshatra positions daily; see which nakshatra the Moon is in tonight and how it relates to Mrigashira.
+
+**App or tool.** Stellarium (stellarium.org, free) — under Sky and Viewing Options → Sky, select *Indian (Vedic)* to overlay the 27-nakshatra grid; find Orion/Mrigashira in its Hindustani context.
+
+**Book.** *The Sūrya Siddhānta*, Burgess translation (1860) — the central text of Hindustani positional astronomy; free on archive.org; the system this chapter sits within.

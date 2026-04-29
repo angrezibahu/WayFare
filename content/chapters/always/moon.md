@@ -77,3 +77,13 @@ The lit side always faces the Sun. So if you can see a crescent, you know where 
 - Tyler Nordgren, *Sun, Moon, Earth* — friendly astronomy, good for adults and older tweens.
 - The *Time and Date* website for accurate moonrise/moonset data for your location.
 - For Chang’e: seek out a children’s book by a Chinese author (e.g. Grace Lin) rather than a generic retelling.
+
+## Go deeper
+
+**The science.** NASA Solar System Exploration — Moon (solarsystem.nasa.gov/moons/earths-moon/) — orbital mechanics, phases explained geometrically, and the long-running debate over the Moon’s origin via the giant-impact hypothesis.
+
+**The cultural context.** Grace Lin, *Where the Mountain Meets the Moon* (Little, Brown, 2009) — a middle-grade novel that carries the Chang’e tradition forward from within it; or search *Chang’e* on the British Museum’s online collection for the earliest painted versions.
+
+**App or tool.** Stellarium Web (stellarium-web.org, free) — simulate any Moon phase from any latitude on any date; use it the night before to plan your observations.
+
+**Book.** Tyler Nordgren, *Sun, Moon, Earth* (Basic Books, 2016) — friendly astronomy for adults and older tweens; the best accessible treatment of the Moon’s geometry and its cultural shadow.

@@ -144,3 +144,13 @@ All of this pours into a **numerical weather prediction model** — at the Met O
 - The Beaufort Scale on the Met Office website — printable, put it inside the Fieldbook cover.
 - For the Tower of the Winds: the American School of Classical Studies in Athens hosts open-access archaeology notes; the tower itself can be visited free.
 - John Kington, *Climate and Weather* (Collins New Naturalist) — a chapter on the Met Flight and its legacy.
+
+## Go deeper
+
+**The science.** Met Office Surface Pressure Charts (metoffice.gov.uk — search "surface pressure chart", free daily) — watch the fronts approach and match the isobars to what you see outside; the skill this chapter teaches in systematic form.
+
+**The cultural context.** BBC Radio 4 Shipping Forecast — broadcast at 00:48, 05:20, 12:01, and 17:54 daily; also as a podcast; the language is centuries old and remains the most precise weather communication in British public life.
+
+**App or tool.** Windy (windy.com, free) — animated isobar, wind, and precipitation layers updated every three hours; the best free tool for understanding what the Shipping Forecast is describing in three dimensions.
+
+**Book.** Tristan Gooley, *The Secret World of Weather* (Sceptre, 2021) — dense, accurate, and field-testable; the book that turns the Beaufort Scale into something you can practise daily.

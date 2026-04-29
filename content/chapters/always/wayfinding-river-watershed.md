@@ -138,3 +138,13 @@ The two parts are the same idea at two scales. The bend tells you where the wate
 - Environment Agency Catchment Data Explorer — free online; gives the names, lengths, and history of every watercourse in England.
 - Oliver Rackham, *The History of the Countryside* — for the place of rivers in shaping British villages.
 - Robert Macfarlane, *Landmarks* — chapter on water-words; a glossary of British river vocabulary.
+
+## Go deeper
+
+**The science.** Environment Agency Catchment Data Explorer (environment.data.gov.uk/catchment-planning, free) — names, lengths, catchment areas, and histories of every watercourse in England; trace your local stream all the way to the sea.
+
+**The cultural context.** Robert Macfarlane, *Landmarks* (Hamish Hamilton, 2015) — a chapter on water-words; the British vocabulary for streams, confluences, and watershed divides that the Ordnance Survey doesn't always map.
+
+**App or tool.** OS Maps (ordnancesurvey.co.uk) — the blue-features layer is the best tool for tracing watersheds; download for offline use before going into the field.
+
+**Book.** Tristan Gooley, *How to Read Water* (Sceptre, 2016) — meanders, cut-banks, and confluences covered in detail; the book-length companion to the Bend-and-Watershed Walk.

@@ -86,3 +86,13 @@ The Great Square of Pegasus is a giant, nearly empty square of sky — four brig
 - Paul Kunitzsch, *Arabic Star Names* — for Alpheratz, Markab, Scheat, Algenib, Mirach.
 - For the Arab lunar mansion system: Daniel Martin Varisco, *Medieval Folk Astronomy and Agriculture in Arabia and the Yemen*.
 - For the Milky Way–Andromeda collision: NASA’s original press material is good and readable.
+
+## Go deeper
+
+**The science.** NASA — the Andromeda Galaxy (M31) and the Milky Way–Andromeda collision predicted in ~4.5 billion years; search "NASA Andromeda collision" for the simulated images of the eventual merger.
+
+**The cultural context.** Paul Kunitzsch & Tim Smart, *A Dictionary of Modern Star Names* (Sky Publishing, 2006) — the Arabic roots of Alpheratz, Markab, Scheat, Algenib, and Mirach; every name in the Great Square has a medieval Arabic history.
+
+**App or tool.** Stellarium (stellarium.org, free) — the easiest way to locate M31 before your first attempt; the app shows it as a faint smear, which is exactly what your eye will find with binoculars.
+
+**Book.** Ian Ridpath, *Star Tales* (Lutterworth Press) — the full Perseus cycle, sourced to classical authors; Cassiopeia, Andromeda, Perseus, and Cetus as a connected story.

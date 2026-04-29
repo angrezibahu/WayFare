@@ -135,3 +135,13 @@ Sketch the five trees in the Fieldbook with the moss side marked. The page becom
 - The British Bryological Society — for the actual ecology of moss in the UK.
 - Oliver Rackham, *The History of the Countryside* — the wider context of how British woods are read.
 - The Royal Horticultural Society — for moss in gardens (a different microclimate, same principles).
+
+## Go deeper
+
+**The science.** British Bryological Society (britishbryologicalsociety.org.uk) — the actual ecology of moss in the UK; their published guides explain what really governs which side of a tree moss grows on (moisture and microclimate, not the compass).
+
+**The cultural context.** The error-curriculum tradition itself — this is the most-repeated wrong fact in British outdoor education; trace the myth back to the 1908 *Scouting for Boys* passage that may have launched it (available free on Project Gutenberg).
+
+**App or tool.** iNaturalist (inaturalist.org, free) — photograph and identify local mosses; your identifications contribute to real scientific research; use it on the Five-Tree Survey.
+
+**Book.** Tristan Gooley, *The Walker's Guide to Outdoor Clues and Signs* (Hodder & Stoughton, 2014) — careful, evidence-driven chapter on plant indicators, including moss; makes the case for curiosity over rule-of-thumb.

@@ -116,3 +116,13 @@ The first of February lies almost exactly halfway between the winter solstice an
 - **Garrett Olmsted**, *The Gaulish Calendar* (1992) — the standard scholarly reconstruction of the Coligny tablet.
 - **Solas Bhríde** — *solasbhride.ie* — the Brigidine Sisters' centre in Kildare, a contemporary living-tradition reference for the Christian feast.
 - **Met Office** — for sunrise/sunset times and modern seasonal definitions to cross-check the cross-quarter dates against astronomy.
+
+## Go deeper
+
+**The science.** Time and Date (timeanddate.com — search "cross-quarter day") — the calculator gives the exact moment of the astronomical cross-quarter each year; compare the traditional date (1 February) with the true midpoint between solstice and equinox.
+
+**The cultural context.** Solas Bhríde (solasbhride.ie) — the Brigidine Sisters' centre in Kildare; a contemporary living-tradition reference for the feast of Brigid; read from those who keep the flame.
+
+**App or tool.** Stellarium (stellarium.org, free) — simulate sunrise on 1 February from Kildare (53.2°N, 6.9°W) to explore whether any ancient site shows solar alignment on this date.
+
+**Book.** *Carmina Gadelica*, vols. I & III (Alexander Carmichael, 1900) — Hebridean Imbolc and Brigid songs and prayers; free scans on archive.org; the field-collected primary source.

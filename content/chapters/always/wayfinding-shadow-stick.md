@@ -137,3 +137,13 @@ Total time: 15 minutes. Total gear: a stick and two pebbles. Total accuracy: wit
 - Tristan Gooley, *The Natural Navigator* — chapter on the Sun is the best modern treatment.
 - National Physical Laboratory online — *equation of time* explainer.
 - Stellarium (free desktop app) — set the date and watch the modelled shadow-tip move on a virtual stick.
+
+## Go deeper
+
+**The science.** National Physical Laboratory (npl.co.uk — search "equation of time") — explains why solar noon doesn't match clock noon; the maths behind the ±16-minute correction that makes a precise shadow-stick work.
+
+**The cultural context.** Robert Baden-Powell, *Scouting for Boys* (1908) — Camp Yarn 16; public domain on Project Gutenberg; the shadow-stick exactly as a Scout-master would have taught it in 1909.
+
+**App or tool.** Stellarium (stellarium.org, free) — set the date and location, open the landscape view, and watch the shadow-tip move across the ground in real time; use it to predict the noon moment before going outside.
+
+**Book.** Tristan Gooley, *The Natural Navigator* (Virgin Books, 2010) — the best modern treatment of Sun-based navigation; includes the equation-of-time correction in plain language.

@@ -4,6 +4,7 @@ import type {
   Chapter,
   ChapterMeta,
   ChallengeCard,
+  Experiment,
   FollowUpQuest,
   FollowUpQuestKind,
 } from './types';
@@ -18,6 +19,13 @@ const chapterFiles = import.meta.glob('../../../content/chapters/**/*.md', {
 
 // Deck, loaded as raw YAML text.
 const deckFiles = import.meta.glob('../../../content/challenges/deck.yaml', {
+  eager: true,
+  query: '?raw',
+  import: 'default',
+}) as Record<string, string>;
+
+// Experiments catalog, loaded as raw YAML text.
+const experimentsFile = import.meta.glob('../../../content/experiments.yaml', {
   eager: true,
   query: '?raw',
   import: 'default',
@@ -107,4 +115,17 @@ export function allCards(): ChallengeCard[] {
 
 export function cardById(id: string): ChallengeCard | undefined {
   return allCards().find((c) => c.id === id);
+}
+
+let _experimentsCache: Experiment[] | null = null;
+export function allExperiments(): Experiment[] {
+  if (_experimentsCache) return _experimentsCache;
+  const raw = Object.values(experimentsFile)[0];
+  if (!raw) {
+    _experimentsCache = [];
+    return _experimentsCache;
+  }
+  const doc = yaml.load(raw) as { experiments?: Experiment[] } | null;
+  _experimentsCache = doc?.experiments ?? [];
+  return _experimentsCache;
 }

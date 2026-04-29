@@ -7,6 +7,7 @@ import Challenges from './screens/Challenges';
 import Fieldbook from './screens/Fieldbook';
 import Printables from './screens/Printables';
 import About from './screens/About';
+import TryThis from './screens/TryThis';
 import { useDayNight } from './lib/useDayNight';
 import { OverviewPopover, useOverviewPopover } from './OverviewPopover';
 
@@ -26,6 +27,7 @@ function Nav({ mode, onAbout }: { mode: 'day' | 'night'; onAbout: () => void }) 
         <NavLink to="/chapters" className={link}>Chapters</NavLink>
         <NavLink to="/challenges" className={link}>Challenges</NavLink>
         <NavLink to="/fieldbook" className={link}>Fieldbook</NavLink>
+        <NavLink to="/try-this" className={link}>Try This</NavLink>
         <NavLink to="/printables" className={link}>Printables</NavLink>
         <button className="nav-about" onClick={onAbout} aria-haspopup="dialog">About</button>
       </div>
@@ -96,6 +98,7 @@ export default function App() {
           <Route path="/chapters/:id" element={<ChapterView />} />
           <Route path="/challenges" element={<Challenges />} />
           <Route path="/fieldbook" element={<Fieldbook />} />
+          <Route path="/try-this" element={<TryThis />} />
           <Route path="/printables" element={<Printables />} />
           <Route path="*" element={<Navigate to="/sky" replace />} />
         </Routes>

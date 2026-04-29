@@ -134,3 +134,13 @@ Repeat the experiment in *winter* and again in *summer*, and you will have a sma
 - Tristan Gooley, *The Walker's Guide to Outdoor Clues and Signs* — careful chapter on Sun-direction methods including the watch.
 - The *Royal Navy Reservists Handbook* (online historical editions) — for the maritime history of the trick.
 - Christopher Clayton Hutton, *Official Secret* (1960) — Clutty's own memoir of MI9 and the button compass.
+
+## Go deeper
+
+**The science.** National Physical Laboratory (npl.co.uk — search "solar time") — time standards and solar time vs mean time; the maths behind why the watch-trick needs a BST correction in summer.
+
+**The cultural context.** Christopher Clayton Hutton, *Official Secret* (1960) — Clutty's memoir of MI9; the button compass, silk maps, and the tradition of improvised direction-finding that this trick sits inside.
+
+**App or tool.** Photopills (photopills.com) or SunCalc (suncalc.org, free) — shows azimuth and altitude of the Sun at any time and place; use it to calibrate your watch-compass result against the computed position.
+
+**Book.** Robert Baden-Powell, *Scouting for Boys* (1908) — the "Direction" Camp Yarn; public domain on Project Gutenberg; the watch-trick as taught a hundred years ago.

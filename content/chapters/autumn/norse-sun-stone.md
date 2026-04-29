@@ -124,3 +124,13 @@ Even without a calcite crystal, you can read the sun through cloud — to less p
 - **Skuldelev ship excavations**, Roskilde Viking Ship Museum (vikingeskibsmuseet.dk) — for the actual ships.
 - **L'Anse aux Meadows World Heritage Site** (Parks Canada, pc.gc.ca) — for the Norse landfall in North America.
 - **Helgustadir calcite mine, Iceland** — well-documented in Icelandic mineralogy resources; the world's only significant pre-modern source of optical-quality calcite.
+
+## Go deeper
+
+**The science.** Ropars et al. (2013), *"A depolarizer as a possible precise sunstone for Viking navigation"* (Proceedings of the Royal Society A) — the peer-reviewed experiment demonstrating that Icelandic spar can locate the Sun to within 1° even under overcast; search "Ropars 2013 Viking sun compass Royal Society".
+
+**The cultural context.** Viking Ship Museum Roskilde (vikingeskibsmuseet.dk) — the actual Skuldelev ships, their construction and navigation; educational material on Norse seamanship from the museum that holds the physical evidence.
+
+**App or tool.** SunCalc (suncalc.org, free) or Photopills — to find the Sun's azimuth at any time, even under cloud, for comparison with the crystal method; use it to calibrate your solar-stone experiment.
+
+**Book.** *Konungs skuggsjá (The King's Mirror)*, trans. Larson (1917) — public domain on archive.org; the medieval Norwegian text that describes ship-craft and, arguably, the solar stone.

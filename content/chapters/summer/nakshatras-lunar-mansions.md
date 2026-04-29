@@ -138,3 +138,13 @@ Walking the 27 nakshatras is something you can do in a single lunar month, on th
 - **Subhash Kak**, *The Astronomical Code of the Ṛigveda* — open-access on arXiv. Some claims are contested; the textual citations are the part to trust.
 - **David Pingree**, *Jyotiḥśāstra* (Otto Harrassowitz, 1981) — the standard Western scholarly survey of the Hindustani astronomical literature.
 - **For comparison with the Chinese lunar mansion system**: Joseph Needham, *Science and Civilisation in China*, vol. III (1959). Library reference.
+
+## Go deeper
+
+**The science.** Vedāṅga Jyotiṣa — the oldest surviving Sanskrit astronomical text; T.S. Kuppanna Sastry's scholarly edition (Indian National Science Academy, 1985) is the standard reference for the 27-nakshatra system's original mathematical basis.
+
+**The cultural context.** Drik Panchang (drikpanchang.com) — the daily living Hindu calendar that still uses nakshatra positions; see which nakshatra the Moon is in tonight; the system remains in active use.
+
+**App or tool.** Stellarium (stellarium.org, free) — select *Indian (Vedic)* sky mode to overlay the 27-nakshatra grid; watch the Moon move through them over a month.
+
+**Book.** *Sūrya Siddhānta*, Burgess translation (1860) — the central text of Hindustani positional astronomy; free on archive.org; the system behind the nakshatras laid out mathematically.

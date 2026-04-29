@@ -82,3 +82,13 @@ Leo is one of the few constellations that genuinely looks like the thing it’s 
 - *Stellarium* (desktop or web) — to find Leo from your latitude tonight.
 - Paul Kunitzsch & Tim Smart, *A Dictionary of Modern Star Names* — for the Arabic roots of Regulus, Denebola, Algieba, and the rest.
 - For the Babylonian lion: Gavin White, *Babylonian Star-Lore* — academic but accessible.
+
+## Go deeper
+
+**The science.** ESA Hipparcos data on Regulus — a rapidly rotating blue-white star 79 light-years away that bulges at the equator from its spin; search "Regulus rapid rotation ESA" for the scientific context.
+
+**The cultural context.** Gavin White, *Babylonian Star-Lore* (Solaria Publications, 2008) — the Babylonian lion and the original royal-star tradition behind Regulus; the chapter that predates the Greek version by two thousand years.
+
+**App or tool.** Stellarium (stellarium.org, free) or Sky Map (Android, free) — find Leo from your garden tonight; use the Plough as the signpost by curving a line from the Pointers south.
+
+**Book.** Gavin White, *Babylonian Star-Lore* (Solaria Publications, 2008) — academic but accessible; the Babylonian constellation system decoded tablet by tablet.

@@ -161,3 +161,13 @@ A LiDAR hill-shade map beside an OS Explorer map is the closest thing to terrain
 - Your county's *Sites and Monuments Record* (often online) — gives names and ages to earthworks near home.
 - Environment Agency LiDAR Composite DTM — free download at environment.data.gov.uk (and via the National LiDAR Programme viewer).
 - Alberto A. Martínez, *The Cult of Pythagoras* — a chapter on Eratosthenes with the maths laid out.
+
+## Go deeper
+
+**The science.** Environment Agency National LiDAR Programme (environment.data.gov.uk — search "LiDAR Composite DTM", free to download) — bare-earth digital elevation data that reveals ridge lines, earthworks, and ancient features invisible on the surface or on a standard map.
+
+**The cultural context.** Oliver Rackham, *The History of the Countryside* (Dent, 1986) — how to read a British landscape as a historical document; the standard reference for understanding what holloways, wood-banks, and hedgerow trees mean.
+
+**App or tool.** British Orienteering (britishorienteering.org.uk) — club events welcome families; orienteering maps are the most detailed terrain-reading resource available and every session is a practical lesson.
+
+**Book or video.** Oliver Rackham, *The History of the Countryside* (Dent, 1986); also the *Rackham's Wood* lecture series on YouTube — free, and Rackham himself explaining ancient-woodland signs.

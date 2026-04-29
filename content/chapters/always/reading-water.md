@@ -168,3 +168,13 @@ In your Fieldbook, draw the cross-section — a silhouette of the streambed as i
 - GEBCO (gebco.net) — the global ocean depth map, free to view and download.
 - For the *wHmw*: the Petrie Museum of Egyptian Archaeology online has open-access notes on river navigation and Nile boat crews.
 - The UK Hydrographic Office's *How Charts Are Made* (short video series, free, on their website) — shows lead-line marks and modern multibeam side by side.
+
+## Go deeper
+
+**The science.** GEBCO (gebco.net, free) — the global ocean depth map; see the underwater mountain ranges and trenches that govern the tides and currents this chapter describes.
+
+**The cultural context.** Polynesian Voyaging Society (pvs.hawaii.edu) — the Hōkūleʻa project, wave-piloting, and the living tradition of reading the sea; read from those who practise it.
+
+**App or tool.** EasyTide (easytide.admiralty.co.uk, free) — seven-day tide predictions anywhere around the UK coast from the UK Hydrographic Office; use it to check predictions against your field observations.
+
+**Book.** Tristan Gooley, *How to Read Water* (Sceptre, 2016) — the nearest book-length equivalent to this chapter; meanders, tides, surf, and puddles all covered.

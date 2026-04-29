@@ -144,3 +144,13 @@ On the ground, automatic weather stations log **snow water equivalent** — the 
 - Tristan Gooley, *The Natural Navigator* — a chapter on snow and wind-scoured surfaces.
 - Matsuo Bashō, *The Narrow Road to the Deep North* (Penguin Classics, trans. Nobuyuki Yuasa) — the winter poems of a travelling poet-navigator.
 - For Sámi perspectives, start with the Sámi-led site samediggi.no and published authors such as Ann-Helén Laestadius.
+
+## Go deeper
+
+**The science.** Mountain Weather Information Service (mwis.org.uk, free) — specialist forecasts written by mountaineers for mountain conditions; Scottish Avalanche Information Service (sais.gov.uk) for daily avalanche risk in Scotland.
+
+**The cultural context.** Sámediggi (samediggi.no) and the published work of Ann-Helén Laestadius — starting points for Sámi perspectives on winter landscape; read from within the tradition rather than through a retelling.
+
+**App or tool.** Met Office Mountain Weather (metoffice.gov.uk — search "mountain weather") or the MWIS app — essential before any winter hill day; predicts exactly the snow, ice, and wind conditions this chapter describes.
+
+**Book.** Tristan Gooley, *The Natural Navigator* (Virgin Books, 2010) — the chapter on snow and wind-scoured surfaces; sastrugi, cornices, and what compacted snow tells you about wind direction.

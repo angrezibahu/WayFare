@@ -74,3 +74,13 @@ Check an OS map or the Ramblers' website before a walk.
 - ordnance-survey.co.uk/mapzone — free OS learning resources for kids.
 - Ramblers: ramblers.org.uk — footpath maintenance and route ideas.
 - lnt.org — Leave No Trace, international.
+
+## Go deeper
+
+**The science.** Natural England open data on National Character Areas (data.gov.uk — search "National Character Areas") — ecological and landscape character zones mapped across England; background for understanding why the Countryside Code differs by terrain.
+
+**The cultural context.** Ramblers (ramblers.org.uk) — the organisation that has maintained and defended public rights of way in England and Wales since 1935; their history section explains how footpaths were won.
+
+**App or tool.** OS Maps (ordnancesurvey.co.uk) or Komoot (komoot.com, free tier available) — both overlay public rights of way on maps; useful for planning routes that stay legal and safe.
+
+**Reading.** The Ramblers' case-study archive on their website — short reads showing exactly what "right to roam" means on the ground and why it needs active defending.

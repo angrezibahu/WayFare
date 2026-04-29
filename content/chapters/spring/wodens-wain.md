@@ -137,3 +137,13 @@ The Anglo-Saxons named what they could see, plainly. Their sky-vocabulary surviv
 - **Bosworth-Toller Anglo-Saxon Dictionary** — bosworthtoller.com — for the actual words. Searchable.
 - **Layamon's Brut** — for *Wætlinga Stræt* as the Milky Way. The Cotton Caligula manuscript is the source; modern editions are widely available.
 - **Sam Newton**, *The Origins of Beowulf* — context for the wider Old English literary culture in which the Rune Poem and Bede sit.
+
+## Go deeper
+
+**The science.** Bosworth-Toller Anglo-Saxon Dictionary (bosworthtoller.com, free) — searchable online; look up *wægn*, *Wōden*, and *steorra* for the linguistic evidence behind the Anglo-Saxon sky vocabulary.
+
+**The cultural context.** Bede, *The Reckoning of Time*, trans. Faith Wallis (Liverpool University Press, 1999) — the source for Anglo-Saxon month-names, cosmology, and the place of the stars in the calendar; the most important early medieval text on time-keeping in the British Isles.
+
+**App or tool.** Stellarium (stellarium.org, free) — find the Plough and remember that the Norse and Anglo-Saxon eye saw a wagon (*wægn*) where the Greeks saw a bear; the stars are identical, only the story changes.
+
+**Book.** Bede, *The Reckoning of Time*, trans. Faith Wallis (Liverpool University Press, 1999) — readable for a scholarly text; essential for the context of this chapter.
