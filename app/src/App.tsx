@@ -1,11 +1,12 @@
 import { useEffect } from 'react';
-import { NavLink, Navigate, Route, Routes } from 'react-router-dom';
+import { Link, NavLink, Navigate, Route, Routes } from 'react-router-dom';
 import TonightsSky from './screens/TonightsSky';
 import Chapters from './screens/Chapters';
 import ChapterView from './screens/ChapterView';
 import Challenges from './screens/Challenges';
 import Fieldbook from './screens/Fieldbook';
 import Printables from './screens/Printables';
+import About from './screens/About';
 import { useDayNight } from './lib/useDayNight';
 import { OverviewPopover, useOverviewPopover } from './OverviewPopover';
 
@@ -16,7 +17,7 @@ const ICON_512 = { day: './icon-day-512.svg', night: './icon-night-512.svg' } as
 function Nav({ mode, onAbout }: { mode: 'day' | 'night'; onAbout: () => void }) {
   const link = ({ isActive }: { isActive: boolean }) => (isActive ? 'active' : '');
   return (
-    <nav className="nav">
+    <nav className="nav" aria-label="Main navigation">
       <div className="nav-inner">
         <span className="nav-brand">WayFare</span>
         <NavLink to="/sky" className={link}>
@@ -26,7 +27,7 @@ function Nav({ mode, onAbout }: { mode: 'day' | 'night'; onAbout: () => void }) 
         <NavLink to="/challenges" className={link}>Challenges</NavLink>
         <NavLink to="/fieldbook" className={link}>Fieldbook</NavLink>
         <NavLink to="/printables" className={link}>Printables</NavLink>
-        <button className="nav-about" onClick={onAbout} title="About WayFare">About</button>
+        <button className="nav-about" onClick={onAbout} aria-haspopup="dialog">About</button>
       </div>
     </nav>
   );
@@ -36,9 +37,24 @@ function Footer() {
   return (
     <footer className="footer">
       <p>
-        WayFare is a family apprenticeship. The paper Fieldbook is the real artefact;
-        this app is a companion. <a href="https://stellarium-web.org" target="_blank" rel="noreferrer">Stellarium</a>
-        &nbsp;is better for sky maps.
+        WayFare is a family project, shared in good faith. The paper Fieldbook is the real
+        artefact; this app is a companion.{' '}
+        <a href="https://stellarium-web.org" target="_blank" rel="noreferrer">Stellarium</a>
+        {' '}is better for sky maps. · <Link to="/about">About this project</Link>
+      </p>
+      <p>
+        <strong>Sources & acknowledgements.</strong>{' '}
+        Astronomical calculations follow standard algorithms (Jean Meeus,{' '}
+        <em>Astronomical Algorithms</em>). Polynesian wayfinding draws on the tradition of
+        Mau Piailug and the Polynesian Voyaging Society. Nakshatra material draws on
+        classical Sanskrit astronomical texts. The WW2 escape-and-evasion material references
+        MI9 and SOE training records. Egyptian, Greek, and Japanese cultural sections cite
+        primary and secondary historical scholarship; sources are listed at the top of each
+        chapter.
+      </p>
+      <p>
+        No content is claimed as original research. If something is wrong, open an issue —
+        the repository is public and corrections are welcome.
       </p>
     </footer>
   );
@@ -69,11 +85,13 @@ export default function App() {
   const { open, dismiss, reopen } = useOverviewPopover();
   return (
     <>
+      <a className="skip-link" href="#main-content">Skip to content</a>
       <Nav mode={mode} onAbout={reopen} />
-      <main className="page">
+      <main id="main-content" className="page">
         <Routes>
           <Route path="/" element={<Navigate to="/sky" replace />} />
           <Route path="/sky" element={<TonightsSky />} />
+          <Route path="/about" element={<About />} />
           <Route path="/chapters" element={<Chapters />} />
           <Route path="/chapters/:id" element={<ChapterView />} />
           <Route path="/challenges" element={<Challenges />} />
