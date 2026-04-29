@@ -5,6 +5,7 @@ import Chapters from './screens/Chapters';
 import ChapterView from './screens/ChapterView';
 import Challenges from './screens/Challenges';
 import Fieldbook from './screens/Fieldbook';
+import Printables from './screens/Printables';
 import { useDayNight } from './lib/useDayNight';
 import { OverviewPopover, useOverviewPopover } from './OverviewPopover';
 
@@ -24,7 +25,7 @@ function Nav({ mode, onAbout }: { mode: 'day' | 'night'; onAbout: () => void }) 
         <NavLink to="/chapters" className={link}>Chapters</NavLink>
         <NavLink to="/challenges" className={link}>Challenges</NavLink>
         <NavLink to="/fieldbook" className={link}>Fieldbook</NavLink>
-        <a href="./printables/" className="nav-external">Printables</a>
+        <NavLink to="/printables" className={link}>Printables</NavLink>
         <button className="nav-about" onClick={onAbout} title="About WayFare">About</button>
       </div>
     </nav>
@@ -77,6 +78,7 @@ export default function App() {
           <Route path="/chapters/:id" element={<ChapterView />} />
           <Route path="/challenges" element={<Challenges />} />
           <Route path="/fieldbook" element={<Fieldbook />} />
+          <Route path="/printables" element={<Printables />} />
           <Route path="*" element={<Navigate to="/sky" replace />} />
         </Routes>
       </main>

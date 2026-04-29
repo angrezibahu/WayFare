@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; img-src 'self' data:; frame-ancestors 'none'">
+<title>wayfinding cheat sheet — WayFare printable</title>
+<style>
+  @page { size: A4; margin: 0; }
+
+  :root {
+    --paper: #ffffff;
+    --paper-ink: #1a1a1a;
+    --mat: #f2efe8;
+    --ink: #1a1a1a;
+    --muted: #555;
+    --rule: #c8bfa9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --mat: #11131a;
+      --ink: #efe9da;
+      --muted: #aea99b;
+      --rule: #39404f;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--mat); color: var(--ink); }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .bar {
+    max-width: calc(210mm + 32px);
+    margin: 0 auto;
+    padding: 14px 16px 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+  }
+  .bar a, .bar button {
+    font: inherit;
+    color: var(--ink);
+    background: transparent;
+    border: 1px solid var(--rule);
+    border-radius: 2px;
+    padding: 7px 12px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .bar a:hover, .bar button:hover { border-color: currentColor; }
+  .bar .spacer { flex: 1 1 auto; }
+  .bar .title { color: var(--muted); font-style: italic; }
+
+  /* A4 sheet. Fluid on small screens, fixed 210mm above the breakpoint. */
+  .sheet {
+    width: min(210mm, calc(100vw - 32px));
+    aspect-ratio: 210 / 297;
+    margin: 16px auto;
+    background: var(--paper);
+    color: var(--paper-ink);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    page-break-after: always;
+  }
+  .sheet:last-child { page-break-after: auto; }
+  .sheet > svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hint {
+    max-width: calc(210mm + 32px);
+    margin: 0 auto;
+    padding: 0 16px 24px;
+    color: var(--muted);
+    font-size: 14px;
+  }
+
+  @media print {
+    html, body { background: #fff; }
+    .bar, .hint { display: none !important; }
+    .sheet {
+      width: 210mm;
+      height: 297mm;
+      aspect-ratio: auto;
+      margin: 0;
+      box-shadow: none;
+      background: #fff;
+    }
+    .sheet > svg { width: 210mm; height: 297mm; }
+  }
+</style>
+</head>
+<body>
+<div class="bar">
+  <a href="./" aria-label="Back to all printables">← all printables</a>
+  <span class="title">wayfinding cheat sheet</span>
+  <span class="spacer"></span>
+  <button type="button" id="print-btn">Save as PDF / print</button>
+</div>
+<script>document.getElementById('print-btn').addEventListener('click', function(){ window.print(); });</script>
+<div class="sheet"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 297" width="210mm" height="297mm">
+  <style>
+    text { font-family: Georgia, 'Times New Roman', serif; fill: #1a1a1a; }
+    .title  { font-size: 11px; letter-spacing: 0.5px; font-weight: bold; }
+    .h3     { font-size: 7.5px; font-weight: bold; letter-spacing: 0.3px; }
+    .body   { font-size: 5.5px; line-height: 1.4; }
+    .label  { font-size: 4.5px; letter-spacing: 0.3px; fill: #555; }
+    .warn   { font-size: 4.5px; font-style: italic; fill: #888; }
+    .frame  { stroke: #1a1a1a; fill: none; stroke-width: 0.5; }
+    .box    { stroke: #1a1a1a; fill: none; stroke-width: 0.4; }
+    .diag   { stroke: #1a1a1a; fill: none; stroke-width: 0.5; }
+    .thin   { stroke: #1a1a1a; fill: none; stroke-width: 0.3; }
+    .arr    { stroke: #1a1a1a; fill: #1a1a1a; stroke-width: 0.4; }
+    .div    { stroke: #c8bfa9; fill: none; stroke-width: 0.4; }
+  </style>
+
+  <!-- outer border -->
+  <rect x="10" y="10" width="190" height="277" class="frame"/>
+
+  <!-- title -->
+  <text x="105" y="22" text-anchor="middle" class="title">Daylight Wayfinding</text>
+  <text x="105" y="29" text-anchor="middle" font-size="5.5" font-style="italic" fill="#555" font-family="Georgia,'Times New Roman',serif">Four methods that work without instruments. Learn one at a time.</text>
+
+  <!-- divider between title and methods -->
+  <line x1="15" y1="32" x2="195" y2="32" class="div"/>
+
+  <!-- ─── 2×2 grid of method boxes ──────────────────────────
+       Box 1 (shadow stick): x=12 y=34 w=91 h=119
+       Box 2 (moon horns):   x=107 y=34 w=91 h=119
+       Box 3 (watch):        x=12 y=157 w=91 h=119
+       Box 4 (pacing):       x=107 y=157 w=91 h=119
+  ──────────────────────────────────────────────────────────── -->
+
+  <!-- ════ BOX 1: SHADOW STICK ══════════════════════════════ -->
+  <rect x="12" y="34" width="91" height="119" class="box"/>
+
+  <text x="57" y="44" text-anchor="middle" class="h3">1. Shadow Stick</text>
+  <text x="57" y="51" text-anchor="middle" font-size="4.5" fill="#555" font-family="Georgia,'Times New Roman',serif">works any sunny day</text>
+
+  <!-- diagram: ground line + stick + two shadows -->
+  <!-- ground: y=90, stick base at x=57 -->
+  <line x1="22" y1="90" x2="95" y2="90" class="diag"/>
+  <!-- vertical stick -->
+  <line x1="57" y1="90" x2="57" y2="68" class="diag"/>
+  <!-- first shadow (morning, going W/left) -->
+  <line x1="57" y1="90" x2="28" y2="86" stroke="#555" stroke-width="0.4" fill="none" stroke-dasharray="1,1"/>
+  <!-- first shadow tip marker -->
+  <circle cx="28" cy="86" r="1.2" fill="#1a1a1a"/>
+  <text x="24" y="84" font-size="3.5" fill="#555" font-family="Georgia,'Times New Roman',serif">T1</text>
+  <!-- second shadow (afternoon, going E/right) -->
+  <line x1="57" y1="90" x2="88" y2="85" stroke="#555" stroke-width="0.4" fill="none" stroke-dasharray="1,1"/>
+  <!-- second shadow tip marker -->
+  <circle cx="88" cy="85" r="1.2" fill="#1a1a1a"/>
+  <text x="89" y="83" font-size="3.5" fill="#555" font-family="Georgia,'Times New Roman',serif">T2</text>
+  <!-- E–W line connecting tips -->
+  <line x1="28" y1="86" x2="88" y2="85" stroke="#1a1a1a" stroke-width="0.6" fill="none"/>
+  <!-- W label -->
+  <text x="21" y="89" font-size="4.5" font-weight="bold" fill="#1a1a1a" font-family="Georgia,'Times New Roman',serif">W</text>
+  <!-- E label -->
+  <text x="91" y="88" font-size="4.5" font-weight="bold" fill="#1a1a1a" font-family="Georgia,'Times New Roman',serif">E</text>
+  <!-- North arrow up from midpoint of W-E line -->
+  <line x1="58" y1="86" x2="58" y2="78" class="arr"/>
+  <polygon points="58,75 56,80 60,80" fill="#1a1a1a"/>
+  <text x="59" y="77" font-size="3.5" font-weight="bold" fill="#1a1a1a" font-family="Georgia,'Times New Roman',serif">N</text>
+
+  <!-- steps -->
+  <text x="17" y="99"  class="body" fill="#1a1a1a">1. Push a straight stick upright in flat</text>
+  <text x="17" y="105" class="body" fill="#1a1a1a">   ground. Mark shadow tip (T1).</text>
+  <text x="17" y="112" class="body" fill="#1a1a1a">2. Wait 15–20 min. Mark new tip (T2).</text>
+  <text x="17" y="119" class="body" fill="#1a1a1a">3. T1 → T2 line runs West to East.</text>
+  <text x="17" y="126" class="body" fill="#1a1a1a">4. Stand with left foot on T1, right on</text>
+  <text x="17" y="132" class="body" fill="#1a1a1a">   T2: you face North.</text>
+  <text x="17" y="140" class="warn">Works anywhere with a shadow.</text>
+  <text x="17" y="147" class="warn">Accurate to ≈10° if ground is level.</text>
+
+  <!-- ════ BOX 2: MOON HORNS ════════════════════════════════ -->
+  <rect x="107" y="34" width="91" height="119" class="box"/>
+
+  <text x="152" y="44" text-anchor="middle" class="h3">2. Moon Horns</text>
+  <text x="152" y="51" text-anchor="middle" font-size="4.5" fill="#555" font-family="Georgia,'Times New Roman',serif">crescent moon, clear night</text>
+
+  <!-- diagram: crescent moon with horns pointing toward south -->
+  <!-- Draw a crescent: outer circle minus inner circle offset -->
+  <!-- Outer arc (full circle for reference) -->
+  <circle cx="152" cy="76" r="16" stroke="#c8bfa9" stroke-width="0.3" fill="none"/>
+  <!-- Crescent arc: right-opening crescent (Northern Hemisphere waxing) -->
+  <!-- Outer arc: right semicircle from top to bottom -->
+  <path d="M152,60 A16,16 0 0,1 152,92" stroke="#1a1a1a" stroke-width="0.6" fill="none"/>
+  <!-- Inner arc: offset to create crescent -->
+  <path d="M152,60 A10,16 0 0,0 152,92" stroke="#1a1a1a" stroke-width="0.6" fill="none"/>
+  <!-- horn tips -->
+  <circle cx="152" cy="60" r="1" fill="#1a1a1a"/>
+  <circle cx="152" cy="92" r="1" fill="#1a1a1a"/>
+
+  <!-- dashed line from horn tips downward to horizon -->
+  <line x1="152" y1="60" x2="152" y2="55" stroke="#555" stroke-width="0.4" fill="none" stroke-dasharray="1.5,1"/>
+  <line x1="152" y1="92" x2="152" y2="97" stroke="#555" stroke-width="0.4" fill="none" stroke-dasharray="1.5,1"/>
+  <!-- the "line through horns" -->
+  <line x1="152" y1="55" x2="152" y2="97" stroke="#1a1a1a" stroke-width="0.5" fill="none" stroke-dasharray="2,1.5"/>
+  <!-- S label at bottom of the line -->
+  <text x="152" y="103" text-anchor="middle" font-size="5" font-weight="bold" fill="#1a1a1a" font-family="Georgia,'Times New Roman',serif">S</text>
+  <text x="112" y="76" font-size="4" fill="#555" font-family="Georgia,'Times New Roman',serif" text-anchor="start">horn</text>
+  <text x="112" y="94" font-size="4" fill="#555" font-family="Georgia,'Times New Roman',serif" text-anchor="start">horn</text>
+
+  <!-- steps -->
+  <text x="112" y="110" class="body" fill="#1a1a1a">1. Find the crescent Moon.</text>
+  <text x="112" y="117" class="body" fill="#1a1a1a">2. Imagine a line from horn-tip</text>
+  <text x="112" y="123" class="body" fill="#1a1a1a">   to horn-tip, then extend it</text>
+  <text x="112" y="129" class="body" fill="#1a1a1a">   down to the horizon.</text>
+  <text x="112" y="136" class="body" fill="#1a1a1a">3. That point is roughly South</text>
+  <text x="112" y="142" class="body" fill="#1a1a1a">   (Northern Hemisphere).</text>
+  <text x="112" y="150" class="warn">Not precise but good enough to</text>
+  <text x="112" y="155" class="warn">check which way you are walking.</text>
+
+  <!-- ════ BOX 3: WATCH METHOD ══════════════════════════════ -->
+  <rect x="12" y="157" width="91" height="119" class="box"/>
+
+  <text x="57" y="167" text-anchor="middle" class="h3">3. Watch Method</text>
+  <text x="57" y="174" text-anchor="middle" font-size="4.5" fill="#555" font-family="Georgia,'Times New Roman',serif">analog watch, sunny day</text>
+
+  <!-- diagram: clock face -->
+  <circle cx="57" cy="206" r="20" stroke="#1a1a1a" stroke-width="0.5" fill="none"/>
+  <!-- clock hour marks (thin ticks) -->
+  <!-- 12 o'clock -->
+  <line x1="57" y1="186" x2="57" y2="190" stroke="#1a1a1a" stroke-width="0.6" fill="none"/>
+  <text x="57" y="185" text-anchor="middle" font-size="4" fill="#1a1a1a" font-family="Georgia,'Times New Roman',serif">12</text>
+  <!-- 3 o'clock -->
+  <line x1="77" y1="206" x2="73" y2="206" stroke="#1a1a1a" stroke-width="0.4" fill="none"/>
+  <text x="79" y="208" text-anchor="start" font-size="4" fill="#1a1a1a" font-family="Georgia,'Times New Roman',serif">3</text>
+  <!-- 6 o'clock -->
+  <line x1="57" y1="226" x2="57" y2="222" stroke="#1a1a1a" stroke-width="0.4" fill="none"/>
+  <text x="57" y="230" text-anchor="middle" font-size="4" fill="#1a1a1a" font-family="Georgia,'Times New Roman',serif">6</text>
+  <!-- 9 o'clock -->
+  <line x1="37" y1="206" x2="41" y2="206" stroke="#1a1a1a" stroke-width="0.4" fill="none"/>
+  <text x="35" y="208" text-anchor="end" font-size="4" fill="#1a1a1a" font-family="Georgia,'Times New Roman',serif">9</text>
+
+  <!-- hour hand pointing at ~2 o'clock (toward sun) -->
+  <line x1="57" y1="206" x2="70" y2="193" stroke="#1a1a1a" stroke-width="0.8" fill="none"/>
+  <!-- label: "point at sun" -->
+  <text x="71" y="192" font-size="3.5" fill="#555" font-family="Georgia,'Times New Roman',serif">→ sun</text>
+
+  <!-- bisecting line (halfway between hour hand and 12) → South -->
+  <!-- hour hand at ~2, bisect with 12 → roughly 1 o'clock angle = 30° from 12 = 30° from top -->
+  <!-- bisect angle: hand at ~60°, 12 at 0°, midpoint ~30° (1 o'clock direction) -->
+  <line x1="57" y1="206" x2="67" y2="189" stroke="#1a1a1a" stroke-width="0.5" fill="none" stroke-dasharray="1.5,1"/>
+  <text x="69" y="188" font-size="3.5" fill="#1a1a1a" font-weight="bold" font-family="Georgia,'Times New Roman',serif">S</text>
+
+  <!-- steps -->
+  <text x="17" y="232" class="body" fill="#1a1a1a">1. Hold watch flat, face up.</text>
+  <text x="17" y="238" class="body" fill="#1a1a1a">2. Point hour hand at the Sun.</text>
+  <text x="17" y="245" class="body" fill="#1a1a1a">3. South is halfway between the</text>
+  <text x="17" y="251" class="body" fill="#1a1a1a">   hour hand and the 12.</text>
+  <text x="17" y="258" class="body" fill="#1a1a1a">4. Before noon: bisect left side.</text>
+  <text x="17" y="264" class="body" fill="#1a1a1a">   After noon: bisect right side.</text>
+  <text x="17" y="272" class="warn">Northern Hemisphere only. Error up</text>
+  <text x="17" y="277" class="warn">to ~20° but beats no method at all.</text>
+
+  <!-- ════ BOX 4: PACING ════════════════════════════════════ -->
+  <rect x="107" y="157" width="91" height="119" class="box"/>
+
+  <text x="152" y="167" text-anchor="middle" class="h3">4. Pacing</text>
+  <text x="152" y="174" text-anchor="middle" font-size="4.5" fill="#555" font-family="Georgia,'Times New Roman',serif">count your steps, measure distance</text>
+
+  <!-- diagram: footprints along a path -->
+  <!-- path line -->
+  <line x1="115" y1="210" x2="192" y2="210" stroke="#c8bfa9" stroke-width="0.4" fill="none"/>
+  <!-- footstep ovals along path (alternating left/right) -->
+  <!-- step 1 (L) -->
+  <ellipse cx="120" cy="207" rx="3" ry="2" transform="rotate(-10,120,207)" stroke="#1a1a1a" stroke-width="0.4" fill="none"/>
+  <!-- step 2 (R) -->
+  <ellipse cx="130" cy="213" rx="3" ry="2" transform="rotate(10,130,213)" stroke="#1a1a1a" stroke-width="0.4" fill="none"/>
+  <!-- step 3 (L) -->
+  <ellipse cx="140" cy="207" rx="3" ry="2" transform="rotate(-10,140,207)" stroke="#1a1a1a" stroke-width="0.4" fill="none"/>
+  <!-- step 4 (R) -->
+  <ellipse cx="150" cy="213" rx="3" ry="2" transform="rotate(10,150,213)" stroke="#1a1a1a" stroke-width="0.4" fill="none"/>
+  <!-- step 5 (L) -->
+  <ellipse cx="160" cy="207" rx="3" ry="2" transform="rotate(-10,160,207)" stroke="#1a1a1a" stroke-width="0.4" fill="none"/>
+  <!-- step 6 (R) -->
+  <ellipse cx="170" cy="213" rx="3" ry="2" transform="rotate(10,170,213)" stroke="#1a1a1a" stroke-width="0.4" fill="none"/>
+  <!-- step 7 (L) -->
+  <ellipse cx="180" cy="207" rx="3" ry="2" transform="rotate(-10,180,207)" stroke="#1a1a1a" stroke-width="0.4" fill="none"/>
+  <!-- step 8 (R) -->
+  <ellipse cx="190" cy="213" rx="3" ry="2" transform="rotate(10,190,213)" stroke="#1a1a1a" stroke-width="0.4" fill="none"/>
+
+  <!-- double-headed bracket arrow for 100 paces = ~100m -->
+  <line x1="115" y1="220" x2="192" y2="220" stroke="#1a1a1a" stroke-width="0.4" fill="none"/>
+  <line x1="115" y1="218" x2="115" y2="222" stroke="#1a1a1a" stroke-width="0.4" fill="none"/>
+  <line x1="192" y1="218" x2="192" y2="222" stroke="#1a1a1a" stroke-width="0.4" fill="none"/>
+  <text x="153" y="227" text-anchor="middle" font-size="4" fill="#555" font-family="Georgia,'Times New Roman',serif">100 double-paces ≈ 100 m</text>
+
+  <!-- steps -->
+  <text x="112" y="236" class="body" fill="#1a1a1a">1. Calibrate: walk 100 m on</text>
+  <text x="112" y="242" class="body" fill="#1a1a1a">   flat ground, count every time</text>
+  <text x="112" y="248" class="body" fill="#1a1a1a">   your LEFT foot hits the ground.</text>
+  <text x="112" y="255" class="body" fill="#1a1a1a">2. Record your pace count here:</text>
+  <text x="112" y="263" class="label">100 m = _____ left-foot strikes</text>
+  <text x="112" y="271" class="body" fill="#1a1a1a">3. Divide known pace count to</text>
+  <text x="112" y="276" class="body" fill="#1a1a1a">   estimate any distance you walk.</text>
+
+  <!-- footer -->
+  <text x="105" y="291" text-anchor="middle" class="label">wayfare · daylight wayfinding · v1</text>
+</svg>
+</div>
+<p class="hint">
+  Tap <strong>Save as PDF / print</strong> above to save this page to your phone,
+  share it, or send it to a printer. For the paper Fieldbook, print at A4, margins zero.
+</p>
+</body></html>

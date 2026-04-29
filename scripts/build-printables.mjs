@@ -12,9 +12,10 @@
  *      browser's native print-to-PDF sheet.
  *
  * Output:
- *   app/public/printables/<template>.html — one per page, mobile-responsive + printable.
- *   app/public/printables/fieldbook.html  — all pages bundled, one tap to print.
- *   app/public/printables/index.html      — catalog, with share + dark-mode support.
+ *   app/public/printables/<template>.html          — one per SVG page, mobile-responsive + printable.
+ *   app/public/printables/constellation-<id>.html  — one per constellation dot-to-dot page.
+ *   app/public/printables/fieldbook.html           — all pages bundled, one tap to print.
+ *   app/public/printables/index.html               — catalog, with share + dark-mode support.
  *
  * Vite copies app/public/ into app/dist/ at build time, so the printables
  * are included in the service-worker precache when built after this script runs.
@@ -162,6 +163,126 @@ function humaniseStem(stem) {
   return stem.replace(/^\d+-/, '').replace(/-/g, ' ');
 }
 
+/**
+ * Build a dot-to-dot SVG for a single constellation.
+ * Returns the raw SVG string (no HTML wrapper).
+ */
+function buildConstellationSvg(constellation) {
+  const { id, label, subtitle, hint: hintText, other_names = [], stars = [], lines = [] } = constellation;
+
+  // Other-names line: first two entries
+  const otherNamesText = other_names
+    .slice(0, 2)
+    .map((o) => `${escapeHtml(o.culture)}: ${escapeHtml(o.name)} (${escapeHtml(o.gloss)})`)
+    .join(' · ');
+
+  // Build connection lines first (drawn before star circles so circles appear on top)
+  // Star lookup by number
+  const starByN = {};
+  for (const star of stars) starByN[star.n] = star;
+
+  const lineElems = lines.map(([a, b]) => {
+    const sa = starByN[a];
+    const sb = starByN[b];
+    if (!sa || !sb) return '';
+    const x1 = (20 + sa.x * 170).toFixed(3);
+    const y1 = (58 + sa.y * 155).toFixed(3);
+    const x2 = (20 + sb.x * 170).toFixed(3);
+    const y2 = (58 + sb.y * 155).toFixed(3);
+    return `  <line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="#ddd" stroke-width="0.5"/>`;
+  }).filter(Boolean).join('\n');
+
+  // Build star circles + labels
+  const starElems = stars.map((star) => {
+    const cx = (20 + star.x * 170).toFixed(3);
+    const cy = (58 + star.y * 155).toFixed(3);
+    const mag = star.mag !== undefined ? star.mag : 2.0;
+    const r = mag < 1.5 ? 3.2 : mag < 2.5 ? 2.5 : 2.0;
+    const numFontSize = r > 2.5 ? 4 : 3.5;
+    const labelY = (parseFloat(cy) + r + 5).toFixed(3);
+    return [
+      `  <circle cx="${cx}" cy="${cy}" r="${r}" fill="white" stroke="#1a1a1a" stroke-width="0.5"/>`,
+      `  <text x="${cx}" y="${cy}" text-anchor="middle" dominant-baseline="central" font-family="Georgia, serif" font-size="${numFontSize}" font-weight="bold">${escapeHtml(String(star.n))}</text>`,
+      `  <text x="${cx}" y="${labelY}" text-anchor="middle" font-family="Georgia, serif" font-size="4" fill="#aaa">${escapeHtml(star.label)}</text>`,
+    ].join('\n');
+  }).join('\n');
+
+  // Ruled lines helper: returns <line> elements for a set of y positions
+  const ruledLines = (ys) =>
+    ys.map((y) =>
+      `  <line x1="20" y1="${y}" x2="190" y2="${y}" stroke="#1a1a1a" stroke-width="0.3"/>`
+    ).join('\n');
+
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 297" width="210mm" height="297mm">
+  <!-- Outer frame -->
+  <rect x="10" y="10" width="190" height="277" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
+
+  <!-- Title -->
+  <text x="20" y="24" font-family="Georgia, serif" font-size="12" font-weight="bold">&#9733; ${escapeHtml(label)}</text>
+
+  <!-- Subtitle -->
+  <text x="20" y="31" font-family="Georgia, serif" font-size="6" font-style="italic" fill="#555">${escapeHtml(subtitle || '')}</text>
+
+  <!-- Other names -->
+  <text x="20" y="37" font-family="Georgia, serif" font-size="4.5" fill="#aaa">${otherNamesText}</text>
+
+  <!-- Instruction -->
+  <text x="20" y="47" font-family="Georgia, serif" font-size="5" font-style="italic" fill="#666">Connect the numbered stars &#8212; then flip over to write your notes.</text>
+
+  <!-- Hint -->
+  <text x="20" y="53" font-family="Georgia, serif" font-size="4.5" fill="#777">${escapeHtml(hintText || '')}</text>
+
+  <!-- Diagram box -->
+  <rect x="20" y="58" width="170" height="155" fill="none" stroke="#c8bfa9" stroke-width="0.4"/>
+
+  <!-- Connection lines -->
+${lineElems}
+
+  <!-- Stars -->
+${starElems}
+
+  <!-- Note prompts: THE STORY I WAS TOLD -->
+  <text x="20" y="222" font-family="Georgia, serif" font-size="5" font-weight="bold" fill="#1a1a1a">THE STORY I WAS TOLD</text>
+${ruledLines([229, 237, 245])}
+
+  <!-- Note prompts: WHEN AND WHERE I SAW IT -->
+  <text x="20" y="257" font-family="Georgia, serif" font-size="5" font-weight="bold" fill="#1a1a1a">WHEN AND WHERE I SAW IT</text>
+${ruledLines([264, 272, 280])}
+
+  <!-- Footer -->
+  <text x="105" y="291" text-anchor="middle" font-family="Georgia, serif" font-size="4.5" fill="#555">wayfare · constellation dots · ${escapeHtml(id)} · v1</text>
+</svg>`;
+
+  return svg;
+}
+
+/**
+ * Generate one HTML file per constellation and return metadata for the index.
+ * Returns an array of { id, label, subtitle, svg } objects.
+ */
+async function generateConstellationPages(outDir) {
+  const raw = await readFile(join(root, 'content', 'constellation-dots.json'), 'utf8');
+  const { constellations } = JSON.parse(raw);
+
+  const pages = [];
+
+  for (const constellation of constellations) {
+    const { id, label, subtitle } = constellation;
+    const svg = buildConstellationSvg(constellation);
+    const filename = `constellation-${id}.html`;
+    const pageTitle = `${label} dot-to-dot — WayFare printable`;
+    const html =
+      pageShellStart(label, pageTitle) +
+      `<div class="sheet">${svg}</div>\n` +
+      pageShellEnd;
+    await writeFile(join(outDir, filename), html);
+    console.log('wrote', filename);
+    pages.push({ id, label, subtitle, svg });
+  }
+
+  return pages;
+}
+
 async function run() {
   await mkdir(outDir, { recursive: true });
 
@@ -190,13 +311,20 @@ async function run() {
     console.log('wrote', `${stem}.html`);
   }
 
+  // ── Constellation dot-to-dot pages ────────────────────────────────────────
+  const constellationPages = await generateConstellationPages(outDir);
+
+  // Fieldbook bundle: SVG template pages + constellation pages
   const bundle =
     pageShellStart('all pages', 'WayFare Fieldbook — all pages') +
     allPages.join('\n') +
+    '\n' +
+    constellationPages.map((p) => `<div class="sheet">${p.svg}</div>`).join('\n') +
     pageShellEnd;
   await writeFile(join(outDir, 'fieldbook.html'), bundle);
   console.log('wrote', 'fieldbook.html');
 
+  // ── Index page (two-section) ───────────────────────────────────────────────
   const indexStyles = `
     :root {
       --bg: #f5efe3;
@@ -279,6 +407,16 @@ async function run() {
     })
     .join('\n');
 
+  const constellationCards = constellationPages
+    .map(
+      (p) =>
+        `      <li><a href="constellation-${escapeHtml(p.id)}.html">
+        <span class="num">constellation dot-to-dot</span>
+        <span class="name">${escapeHtml(p.label)}${p.subtitle ? ' — ' + escapeHtml(p.subtitle) : ''}</span>
+      </a></li>`
+    )
+    .join('\n');
+
   const index = `<!doctype html>
 <html lang="en">
 <head>
@@ -304,14 +442,19 @@ async function run() {
       <div class="small muted">All pages together. Save or print in one go.</div>
     </div>
 
-    <h2>Or open one page at a time</h2>
+    <h2>Fieldbook pages</h2>
     <ul class="pages">
 ${cards}
     </ul>
 
+    <h2>Constellation dot-to-dots</h2>
+    <ul class="pages">
+${constellationCards}
+    </ul>
+
     <p class="muted small" style="margin-top:2rem">
-      These pages are generated from SVGs in <code>content/fieldbook-templates/</code>.
-      Edit the SVGs and re-run <code>node scripts/build-printables.mjs</code> to regenerate.
+      These pages are generated from SVGs in <code>content/fieldbook-templates/</code> and data in <code>content/constellation-dots.json</code>.
+      Edit the sources and re-run <code>node scripts/build-printables.mjs</code> to regenerate.
     </p>
   </div>
 </body>

@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; img-src 'self' data:; frame-ancestors 'none'">
+<title>Cygnus dot-to-dot — WayFare printable</title>
+<style>
+  @page { size: A4; margin: 0; }
+
+  :root {
+    --paper: #ffffff;
+    --paper-ink: #1a1a1a;
+    --mat: #f2efe8;
+    --ink: #1a1a1a;
+    --muted: #555;
+    --rule: #c8bfa9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --mat: #11131a;
+      --ink: #efe9da;
+      --muted: #aea99b;
+      --rule: #39404f;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--mat); color: var(--ink); }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .bar {
+    max-width: calc(210mm + 32px);
+    margin: 0 auto;
+    padding: 14px 16px 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+  }
+  .bar a, .bar button {
+    font: inherit;
+    color: var(--ink);
+    background: transparent;
+    border: 1px solid var(--rule);
+    border-radius: 2px;
+    padding: 7px 12px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .bar a:hover, .bar button:hover { border-color: currentColor; }
+  .bar .spacer { flex: 1 1 auto; }
+  .bar .title { color: var(--muted); font-style: italic; }
+
+  /* A4 sheet. Fluid on small screens, fixed 210mm above the breakpoint. */
+  .sheet {
+    width: min(210mm, calc(100vw - 32px));
+    aspect-ratio: 210 / 297;
+    margin: 16px auto;
+    background: var(--paper);
+    color: var(--paper-ink);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    page-break-after: always;
+  }
+  .sheet:last-child { page-break-after: auto; }
+  .sheet > svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hint {
+    max-width: calc(210mm + 32px);
+    margin: 0 auto;
+    padding: 0 16px 24px;
+    color: var(--muted);
+    font-size: 14px;
+  }
+
+  @media print {
+    html, body { background: #fff; }
+    .bar, .hint { display: none !important; }
+    .sheet {
+      width: 210mm;
+      height: 297mm;
+      aspect-ratio: auto;
+      margin: 0;
+      box-shadow: none;
+      background: #fff;
+    }
+    .sheet > svg { width: 210mm; height: 297mm; }
+  }
+</style>
+</head>
+<body>
+<div class="bar">
+  <a href="./" aria-label="Back to all printables">← all printables</a>
+  <span class="title">Cygnus</span>
+  <span class="spacer"></span>
+  <button type="button" id="print-btn">Save as PDF / print</button>
+</div>
+<script>document.getElementById('print-btn').addEventListener('click', function(){ window.print(); });</script>
+<div class="sheet"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 297" width="210mm" height="297mm">
+  <!-- Outer frame -->
+  <rect x="10" y="10" width="190" height="277" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
+
+  <!-- Title -->
+  <text x="20" y="24" font-family="Georgia, serif" font-size="12" font-weight="bold">&#9733; Cygnus</text>
+
+  <!-- Subtitle -->
+  <text x="20" y="31" font-family="Georgia, serif" font-size="6" font-style="italic" fill="#555">The Swan — the Northern Cross</text>
+
+  <!-- Other names -->
+  <text x="20" y="37" font-family="Georgia, serif" font-size="4.5" fill="#aaa">Arabic: al-Dajāja (the hen) · Irish: Clann Lir (the Children of Lir)</text>
+
+  <!-- Instruction -->
+  <text x="20" y="47" font-family="Georgia, serif" font-size="5" font-style="italic" fill="#666">Connect the numbered stars &#8212; then flip over to write your notes.</text>
+
+  <!-- Hint -->
+  <text x="20" y="53" font-family="Georgia, serif" font-size="4.5" fill="#777">Look for the tall cross in summer. Deneb is its brightest star.</text>
+
+  <!-- Diagram box -->
+  <rect x="20" y="58" width="170" height="155" fill="none" stroke="#c8bfa9" stroke-width="0.4"/>
+
+  <!-- Connection lines -->
+  <line x1="105.000" y1="70.400" x2="105.000" y2="132.400" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="105.000" y1="132.400" x2="98.200" y2="200.600" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="37.000" y1="135.500" x2="105.000" y2="132.400" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="105.000" y1="132.400" x2="169.600" y2="123.100" stroke="#ddd" stroke-width="0.5"/>
+
+  <!-- Stars -->
+  <circle cx="105.000" cy="70.400" r="3.2" fill="white" stroke="#1a1a1a" stroke-width="0.5"/>
+  <text x="105.000" y="70.400" text-anchor="middle" dominant-baseline="central" font-family="Georgia, serif" font-size="4" font-weight="bold">1</text>
+  <text x="105.000" y="78.600" text-anchor="middle" font-family="Georgia, serif" font-size="4" fill="#aaa">Deneb</text>
+  <circle cx="105.000" cy="132.400" r="2.5" fill="white" stroke="#1a1a1a" stroke-width="0.5"/>
+  <text x="105.000" y="132.400" text-anchor="middle" dominant-baseline="central" font-family="Georgia, serif" font-size="3.5" font-weight="bold">2</text>
+  <text x="105.000" y="139.900" text-anchor="middle" font-family="Georgia, serif" font-size="4" fill="#aaa">Sadr</text>
+  <circle cx="37.000" cy="135.500" r="2" fill="white" stroke="#1a1a1a" stroke-width="0.5"/>
+  <text x="37.000" y="135.500" text-anchor="middle" dominant-baseline="central" font-family="Georgia, serif" font-size="3.5" font-weight="bold">3</text>
+  <text x="37.000" y="142.500" text-anchor="middle" font-family="Georgia, serif" font-size="4" fill="#aaa">Gienah</text>
+  <circle cx="169.600" cy="123.100" r="2" fill="white" stroke="#1a1a1a" stroke-width="0.5"/>
+  <text x="169.600" y="123.100" text-anchor="middle" dominant-baseline="central" font-family="Georgia, serif" font-size="3.5" font-weight="bold">4</text>
+  <text x="169.600" y="130.100" text-anchor="middle" font-family="Georgia, serif" font-size="4" fill="#aaa">δ Cyg</text>
+  <circle cx="98.200" cy="200.600" r="2" fill="white" stroke="#1a1a1a" stroke-width="0.5"/>
+  <text x="98.200" y="200.600" text-anchor="middle" dominant-baseline="central" font-family="Georgia, serif" font-size="3.5" font-weight="bold">5</text>
+  <text x="98.200" y="207.600" text-anchor="middle" font-family="Georgia, serif" font-size="4" fill="#aaa">Albireo</text>
+
+  <!-- Note prompts: THE STORY I WAS TOLD -->
+  <text x="20" y="222" font-family="Georgia, serif" font-size="5" font-weight="bold" fill="#1a1a1a">THE STORY I WAS TOLD</text>
+  <line x1="20" y1="229" x2="190" y2="229" stroke="#1a1a1a" stroke-width="0.3"/>
+  <line x1="20" y1="237" x2="190" y2="237" stroke="#1a1a1a" stroke-width="0.3"/>
+  <line x1="20" y1="245" x2="190" y2="245" stroke="#1a1a1a" stroke-width="0.3"/>
+
+  <!-- Note prompts: WHEN AND WHERE I SAW IT -->
+  <text x="20" y="257" font-family="Georgia, serif" font-size="5" font-weight="bold" fill="#1a1a1a">WHEN AND WHERE I SAW IT</text>
+  <line x1="20" y1="264" x2="190" y2="264" stroke="#1a1a1a" stroke-width="0.3"/>
+  <line x1="20" y1="272" x2="190" y2="272" stroke="#1a1a1a" stroke-width="0.3"/>
+  <line x1="20" y1="280" x2="190" y2="280" stroke="#1a1a1a" stroke-width="0.3"/>
+
+  <!-- Footer -->
+  <text x="105" y="291" text-anchor="middle" font-family="Georgia, serif" font-size="4.5" fill="#555">wayfare · constellation dots · cygnus · v1</text>
+</svg></div>
+<p class="hint">
+  Tap <strong>Save as PDF / print</strong> above to save this page to your phone,
+  share it, or send it to a printer. For the paper Fieldbook, print at A4, margins zero.
+</p>
+</body></html>
