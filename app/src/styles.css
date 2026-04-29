@@ -238,6 +238,21 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2rem 0; }
   border-top: 1px solid var(--rule);
 }
 
+.try-this-meta { margin-bottom: 0.2rem; }
+.try-this-chapters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.4rem;
+}
+.try-this-chapter-link {
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+.try-this-chapter-link:hover { color: var(--accent); }
+
 /* ---------------------------------------------------------
  * Historical "vibe" cards — each section of the Historical
  * block wears the dress of its civilisation.

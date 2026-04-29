@@ -256,3 +256,601 @@ experiments:
       smell, and air temperature. Cross the ridge to the north-facing slope; repeat.
       Compare the two sketches — plants, time, dampness — and the differences will
       be the lesson.
+
+  # --- Sky chapters strand ---
+
+  - id: cloud-identification-survey
+    title: Cloud Identification Survey
+    short: "Name five clouds overhead using the WMO genera; sketch each one."
+    grade: Starter
+    kind: Land
+    day_or_night: day
+    duration_minutes: 30
+    gear: [pencil, Fieldbook]
+    requires:
+      season: any
+      weather: varied
+      hemisphere: any
+    cultures: [universal]
+    provenance: "Luke Howard's cloud classification (1803), adopted by the WMO."
+    related_sky_objects: [sun]
+    related_ground_objects: [cumulus, cirrus]
+    chapters: [reading-the-sky-by-day]
+    body_md: |
+      Go outside and name five different clouds using the WMO genera: cumulus, stratus,
+      cirrus, nimbostratus, altocumulus, altostratus, cirrostratus, or cumulonimbus.
+      Sketch each one in the Fieldbook — shape, estimated altitude, direction of
+      movement. Note whether each layer is growing, flattening, or dissolving over
+      ten minutes.
+
+  - id: countryside-code-walk
+    title: Countryside Code Walk
+    short: "Walk a one-mile right-of-way route applying every Code point; note where it's easy and where it's hard."
+    grade: Starter
+    kind: Land
+    day_or_night: day
+    duration_minutes: 60
+    gear: [OS map or printed route, pencil, Fieldbook]
+    requires:
+      season: any
+      weather: any
+      hemisphere: any
+    cultures: [british-folk, english-folk]
+    provenance: "UK Countryside Code, current edition (gov.uk/countryside-code)."
+    related_sky_objects: []
+    related_ground_objects: [footpath-marker, holloway]
+    chapters: [rules-of-road-and-country]
+    body_md: |
+      Plan a one-mile loop on public rights of way near home. Walk it, consciously
+      applying every point of the Countryside Code: close gates, stay on the path,
+      take your litter, don't disturb livestock. Note three places where the Code
+      felt easy and one place where it felt unclear or genuinely difficult.
+
+  - id: orion-belt-find
+    title: Find Orion's Belt
+    short: "Locate the three Belt stars; follow them to Sirius and to Aldebaran."
+    grade: Starter
+    kind: Sky
+    day_or_night: night
+    duration_minutes: 15
+    gear: [pencil, Fieldbook]
+    requires:
+      season: winter
+      weather: clear-night
+      hemisphere: northern
+    cultures: [greek, arabic, egyptian, māori]
+    provenance: "Universal winter sky landmark — Orion is visible from every inhabited point on Earth."
+    related_sky_objects: [orion, sirius, aldebaran, pleiades]
+    related_ground_objects: []
+    chapters: [orion, canis-major-sirius, taurus-pleiades]
+    deck_card: find-orions-belt
+    body_md: |
+      On a clear winter evening between 8 pm and 11 pm, face south. Find three bright
+      stars in a tidy row — Orion's Belt. Follow the Belt down-left to Sirius (brightest
+      star in the sky). Follow it up-right to Aldebaran (red eye of Taurus) and on to
+      the Pleiades. Sketch the signpost lines in the Fieldbook.
+
+  - id: pleiades-count
+    title: Pleiades Count — Naked Eye and Binoculars
+    short: "Count the Pleiades with the naked eye, then with binoculars; compare the two numbers."
+    grade: Starter
+    kind: Sky
+    day_or_night: night
+    duration_minutes: 20
+    gear: [binoculars, pencil, Fieldbook]
+    requires:
+      season: winter
+      weather: clear-night
+      hemisphere: any
+    cultures: [greek, māori, japanese, cherokee]
+    provenance: "The Pleiades are the most cross-culturally named star group on Earth."
+    related_sky_objects: [pleiades, aldebaran, orion]
+    related_ground_objects: []
+    chapters: [taurus-pleiades, orion]
+    body_md: |
+      Find the Pleiades (follow Orion's Belt up-right past Aldebaran). With the naked
+      eye, count how many stars you can see in the cluster. Then look through binoculars.
+      The classic eye sees six or seven; keen eyes see nine; binoculars show dozens.
+      Record both counts and sketch the pattern.
+
+  - id: sirius-heliacal-story
+    title: The Nile Calendar — A Sirius Story
+    short: "Research and retell the Egyptian Nile-flood calendar built on Sirius's heliacal rising."
+    grade: Core
+    kind: Story
+    day_or_night: either
+    duration_minutes: 45
+    gear: [pencil, Fieldbook, access to library or internet]
+    requires:
+      season: any
+      weather: any
+      hemisphere: any
+    cultures: [egyptian]
+    provenance: "Ancient Egyptian Sopdet / Sothis calendar; Nile flood prediction documented from c. 3000 BCE."
+    related_sky_objects: [sirius, orion]
+    related_ground_objects: []
+    chapters: [canis-major-sirius, orion]
+    body_md: |
+      Research the Egyptian Nile-flood calendar: why did the heliacal rising of Sirius
+      (its first pre-dawn appearance after months of invisibility) matter so much?
+      When did it happen? What did it predict? Write the story in one paragraph in the
+      Fieldbook as you would tell it to a child. On the next clear winter night, find
+      Sirius and hold the story in mind.
+
+  - id: imbolc-sunrise-watch
+    title: Imbolc Sunrise Watch
+    short: "On or near 1 February, watch the sunrise; record the compass bearing and air temperature."
+    grade: Starter
+    kind: Land
+    day_or_night: day
+    duration_minutes: 30
+    gear: [magnetic compass, thermometer (optional), pencil, Fieldbook]
+    requires:
+      season: winter
+      weather: any
+      hemisphere: northern
+    cultures: [celtic, irish, scots, welsh]
+    provenance: "Celtic cross-quarter day; Brigid / Imbolc fire festival tradition."
+    related_sky_objects: [sun]
+    related_ground_objects: []
+    chapters: [imbolc-and-brigid]
+    body_md: |
+      On or near 1 February, get up before sunrise. Watch where the Sun rises and take
+      a compass bearing of that horizon point. Note the air temperature, the weather,
+      and what feels different about this morning compared with midwinter. Has the light
+      noticeably changed since the solstice? Record everything in the Fieldbook — this
+      is the field evidence for the turning of the seasonal wheel.
+
+  - id: nakshatra-moon-track
+    title: Moon Through the Nakshatras — Two-Week Log
+    short: "Track the Moon's nakshatra position for fourteen nights; map the cycle."
+    grade: Stretch
+    kind: Sky
+    day_or_night: night
+    duration_minutes: 15
+    gear: [nakshatra chart or Stellarium in Vedic mode, pencil, Moon Diary page]
+    requires:
+      season: any
+      weather: clear-night
+      hemisphere: any
+    cultures: [hindustani, sanskrit]
+    provenance: "Vedic lunar calendar; Vedāṅga Jyotiṣa (c. 1200 BCE)."
+    related_sky_objects: [moon-waxing-crescent, moon-waning-crescent, pleiades]
+    related_ground_objects: []
+    chapters: [mrigashira-vyadha, nakshatras-lunar-mansions]
+    body_md: |
+      Over fourteen consecutive nights starting near new moon, check the Moon's
+      position using Stellarium in Vedic mode or a printed nakshatra chart. Note which
+      nakshatra the Moon occupies each night. After two weeks you will have traced nearly
+      half the zodiac — the Moon moves roughly one nakshatra per day. Mark the cycle
+      on your Moon Diary page.
+
+  - id: track-survey-snow
+    title: Snow Track Survey
+    short: "Find and sketch five animal tracks in fresh snow; identify each animal and its gait."
+    grade: Core
+    kind: Land
+    day_or_night: day
+    duration_minutes: 60
+    gear: [pencil, ruler or hand-span, Fieldbook]
+    requires:
+      season: winter
+      weather: damp
+      hemisphere: any
+    cultures: [universal, sami, inuit]
+    provenance: "Hunter-gatherer track-reading tradition; UK Field Studies Council."
+    related_sky_objects: []
+    related_ground_objects: [snow-feature, track]
+    chapters: [snow-ice-and-frost]
+    body_md: |
+      After snowfall, find five different sets of animal tracks. For each: sketch the
+      track shape, measure the stride length with your hand-span, and estimate the gait
+      (walking, trotting, bounding). Try to identify the animal. Look for the story —
+      where did it come from, where did it go?
+
+  - id: leo-find
+    title: Find Leo and Regulus
+    short: "Locate Leo in the spring sky; identify Regulus and the Sickle asterism."
+    grade: Starter
+    kind: Sky
+    day_or_night: night
+    duration_minutes: 15
+    gear: [pencil, Fieldbook]
+    requires:
+      season: spring
+      weather: clear-night
+      hemisphere: northern
+    cultures: [greek, babylonian, arabic]
+    provenance: "Leo — one of the oldest zodiacal constellations; Babylonian lion in use c. 4000 BCE."
+    related_sky_objects: [leo, regulus, ursa-major]
+    related_ground_objects: []
+    chapters: [leo, ursa-major]
+    body_md: |
+      In spring, face south after dark. Draw a line from the Plough's Pointer stars
+      (Merak and Dubhe) southward past Polaris and far south to land near Regulus.
+      Leo looks like a backwards question mark (the Sickle) with a right-angle triangle
+      attached. Regulus is the bright star at the foot of the question mark. Sketch
+      the shape.
+
+  - id: arc-to-arcturus
+    title: Arc to Arcturus
+    short: "Follow the Plough's handle in a great arc to Arcturus; spike on to Spica."
+    grade: Starter
+    kind: Sky
+    day_or_night: night
+    duration_minutes: 15
+    gear: [pencil, Fieldbook]
+    requires:
+      season: spring
+      weather: clear-night
+      hemisphere: northern
+    cultures: [greek, arabic, polynesian]
+    provenance: "Arcturus — zenith star for Hawaiʻi in Polynesian navigation; fourth brightest star in the sky."
+    related_sky_objects: [arcturus, ursa-major, spica]
+    related_ground_objects: []
+    chapters: [bootes-arcturus, ursa-major]
+    body_md: |
+      "Arc to Arcturus, spike to Spica." Find the Plough. Follow the curve of its
+      handle in a great arc southward — the first bright star you reach is Arcturus,
+      an orange giant. Continue curving and you reach Spica (blue-white, in Virgo).
+      Arcturus is a zenith star for Hawaiʻi; if you hovered above the Pacific at
+      21°N, it would pass directly overhead. Sketch the arc.
+
+  - id: saptarshi-story
+    title: The Seven Sages — A Story Retelling
+    short: "Read the Saptarshi story; retell it in your own words; find the seven stars."
+    grade: Core
+    kind: Story
+    day_or_night: either
+    duration_minutes: 60
+    gear: [pencil, Fieldbook, access to library or internet]
+    requires:
+      season: any
+      weather: any
+      hemisphere: any
+    cultures: [hindustani, sanskrit]
+    provenance: "Mahābhārata, Ādi Parva; Śatapatha Brāhmaṇa."
+    related_sky_objects: [ursa-major]
+    related_ground_objects: []
+    chapters: [saptarshi, ursa-major]
+    body_md: |
+      Find and read the story of the seven rishis in the Mahābhārata (Ādi Parva,
+      available at sacred-texts.com) or a good retelling. Write the story in your own
+      words — the seven sages, their wives, Arundhatī, and their place near the pole.
+      On the next clear night, find the Plough and point to each star in turn.
+
+  - id: wodens-wain-story-night
+    title: Woden's Wain — A Story Under the Stars
+    short: "Read the Anglo-Saxon wain story aloud under the Plough; learn the Old English star names."
+    grade: Core
+    kind: Story
+    day_or_night: night
+    duration_minutes: 30
+    gear: [pencil, Fieldbook]
+    requires:
+      season: spring
+      weather: clear-night
+      hemisphere: northern
+    cultures: [norse, english-folk, british-folk]
+    provenance: "Old English Rune Poem; Bede, De temporibus anni; Anglo-Saxon astronomical tradition."
+    related_sky_objects: [ursa-major]
+    related_ground_objects: []
+    chapters: [wodens-wain, ursa-major]
+    body_md: |
+      Go out on a clear spring night and find the Plough. Read the Woden's Wain
+      story aloud — the wagon, the god, the wain that never sets below the horizon.
+      Try to learn the Old English word *wægn* and use it when pointing at the stars.
+      What does the Plough look like as a wagon? Sketch and label it.
+
+  - id: rainbow-and-rain-reading
+    title: Rainbow Hunt and Rain Reading
+    short: "Predict rain from clouds, find a rainbow, record the geometry of where it appeared."
+    grade: Starter
+    kind: Land
+    day_or_night: day
+    duration_minutes: 45
+    gear: [compass, pencil, Fieldbook]
+    requires:
+      season: spring
+      weather: mixed
+      hemisphere: any
+    cultures: [universal, british-folk, japanese]
+    provenance: "Universal rainbow observation; Japanese kigo spring-rain traditions."
+    related_sky_objects: [sun]
+    related_ground_objects: [cumulus]
+    chapters: [rain-and-running-water, reading-the-sky-by-day]
+    body_md: |
+      On a showery spring day, watch for cumulus clouds with dark bases. When a shower
+      approaches, take a compass bearing of its direction of travel. When a rainbow
+      appears, note which direction it is (always opposite the Sun) and estimate its
+      arc height. Does a fainter outer bow appear? Sketch the geometry — Sun, you,
+      rainbow — in the Fieldbook.
+
+  - id: summer-triangle-find
+    title: Find the Summer Triangle
+    short: "Identify Vega, Deneb, and Altair; compare their colours through binoculars."
+    grade: Starter
+    kind: Sky
+    day_or_night: night
+    duration_minutes: 20
+    gear: [binoculars (optional), pencil, Fieldbook]
+    requires:
+      season: summer
+      weather: clear-night
+      hemisphere: northern
+    cultures: [greek, chinese, arabic, japanese]
+    provenance: "Qixi (Chinese Tanabata festival); the Triangle named by Patrick Moore (20th c.)."
+    related_sky_objects: [vega, deneb, altair, milky-way]
+    related_ground_objects: []
+    chapters: [summer-triangle, milky-way]
+    body_md: |
+      After dark in summer, look nearly overhead. Three bright stars form a large
+      triangle: Vega (brightest, blue-white), Deneb (upper left), and Altair (lower,
+      slightly warmer white). Compare the colour contrast between Vega and Altair
+      through binoculars. On the darkest nights, the Milky Way runs through the
+      triangle. Sketch it.
+
+  - id: antares-find
+    title: Find Antares and the Scorpion
+    short: "Locate Antares on the southern horizon; trace the curved tail toward the galactic centre."
+    grade: Core
+    kind: Sky
+    day_or_night: night
+    duration_minutes: 20
+    gear: [pencil, Fieldbook, compass (optional)]
+    requires:
+      season: summer
+      weather: clear-night
+      hemisphere: northern
+    cultures: [greek, māori, arabic]
+    provenance: "Scorpius — among the oldest constellations; Antares means 'rival of Ares' in colour."
+    related_sky_objects: [scorpius, antares, milky-way]
+    related_ground_objects: []
+    chapters: [scorpius-antares, milky-way]
+    body_md: |
+      In midsummer, face south-southeast after dark. Near the horizon, look for a
+      reddish star — Antares. From northern Britain it barely clears the horizon; from
+      the Mediterranean it is spectacular. Sketch the curved scorpion shape you can
+      see. The galactic centre lies just beyond the tip of the tail — you are looking
+      toward the heart of the Milky Way.
+
+  - id: dark-sky-milky-way-sketch
+    title: Dark-Sky Pilgrimage — Sketch the Milky Way
+    short: "Travel to a dark-sky site; lie flat and sketch the Milky Way's structure by eye."
+    grade: Stretch
+    kind: Sky
+    day_or_night: night
+    duration_minutes: 120
+    gear: [red torch, pencil, Fieldbook, binoculars (optional)]
+    requires:
+      season: summer
+      weather: clear-night
+      hemisphere: any
+    cultures: [universal, aboriginal-australian, gamilaraay, māori]
+    provenance: "Dark-sky observation — the Milky Way was universally named before electric light."
+    related_sky_objects: [milky-way, summer-triangle, scorpius]
+    related_ground_objects: []
+    chapters: [milky-way, summer-triangle, scorpius-antares]
+    body_md: |
+      Travel to a certified dark-sky reserve or a site at least 30 km from a large
+      town (use lightpollutionmap.info). On a moonless summer night, lie flat and
+      let your eyes dark-adapt for 20 minutes. Sketch the structure of the Milky Way
+      in pencil — the bright arm, the dark rift, the denser cloud toward Sagittarius.
+      No photographs: draw what your eye actually sees.
+
+  - id: eratosthenes-experiment
+    title: The Eratosthenes Experiment
+    short: "Compare shadow angles at solar noon at two locations to measure Earth's circumference."
+    grade: Stretch
+    kind: Land
+    day_or_night: day
+    duration_minutes: 60
+    gear: [1 m stick, ruler, calculator, pencil, Fieldbook]
+    requires:
+      season: summer
+      weather: sunny
+      hemisphere: any
+    cultures: [greek, egyptian]
+    provenance: "Eratosthenes of Cyrene, c. 240 BCE — first accurate measurement of Earth's circumference."
+    related_sky_objects: [sun]
+    related_ground_objects: [shadow-stick]
+    chapters: [sun-at-its-height, wayfinding-shadow-stick]
+    body_md: |
+      At solar noon (check timeanddate.com for your location), measure the shadow of a
+      1 m stick. Calculate the angle: arctan(shadow ÷ stick). Ask a friend or relative
+      at least 100 km due north or south to do the same. The difference in angles,
+      divided into 360°, gives the fraction of Earth's circumference that separates
+      you. Multiply by your known distance to get the full circumference.
+
+  - id: lughnasadh-harvest-story
+    title: Lughnasadh — Harvest Meal and Hillfort Sunset
+    short: "Cook a harvest meal, tell the Lugh story, watch the sunset from a local high point."
+    grade: Core
+    kind: Story
+    day_or_night: either
+    duration_minutes: 120
+    gear: [ingredients for a simple harvest meal, pencil, Fieldbook]
+    requires:
+      season: summer
+      weather: any
+      hemisphere: northern
+    cultures: [celtic, irish, scots, welsh]
+    provenance: "Lughnasadh / Lammas — Celtic harvest festival; Máire MacNeill, The Festival of Lughnasa (1962)."
+    related_sky_objects: [sun]
+    related_ground_objects: []
+    chapters: [lughnasadh, imbolc-and-brigid]
+    body_md: |
+      On or near 1 August, mark Lughnasadh in three ways: cook a meal using something
+      grown locally (bread, berries, beans); read aloud the founding story of Lugh and
+      the Tailteann games; at sunset, go to a local high point and watch the Sun go
+      down. Note the compass bearing where it sets. Write the whole evening up.
+
+  - id: andromeda-galaxy-find
+    title: Find the Andromeda Galaxy (M31)
+    short: "Locate M31 with the naked eye using the Great Square of Pegasus as the signpost."
+    grade: Core
+    kind: Sky
+    day_or_night: night
+    duration_minutes: 30
+    gear: [binoculars, pencil, Fieldbook]
+    requires:
+      season: autumn
+      weather: clear-night
+      hemisphere: northern
+    cultures: [greek, arabic]
+    provenance: "M31 — the farthest object visible to the naked eye; 2.5 million light-years."
+    related_sky_objects: [andromeda, pegasus, cassiopeia]
+    related_ground_objects: []
+    chapters: [pegasus-andromeda, cassiopeia]
+    body_md: |
+      Find the Great Square of Pegasus (four medium-bright stars). From the top-left
+      star (Alpheratz), count two stars to the north-east, then one slightly north.
+      On a dark night you should see a faint smudge — the Andromeda Galaxy, 2.5 million
+      light-years away. The light left it before anatomically modern humans existed.
+      Sketch the smudge and its relationship to the Square.
+
+  - id: cassiopeia-clock
+    title: Cassiopeia as a Seasonal Clock
+    short: "Observe Cassiopeia's position at the same time each month for three months."
+    grade: Core
+    kind: Sky
+    day_or_night: night
+    duration_minutes: 10
+    gear: [pencil, Fieldbook, watch]
+    requires:
+      season: autumn
+      weather: clear-night
+      hemisphere: northern
+    cultures: [greek, arabic, inuit]
+    provenance: "Cassiopeia — circumpolar from northern Europe; rotates opposite the Plough around Polaris."
+    related_sky_objects: [cassiopeia, polaris, ursa-major]
+    related_ground_objects: []
+    chapters: [cassiopeia, ursa-major]
+    body_md: |
+      On three clear nights spaced a month apart, go outside at exactly the same time
+      (say, 10 pm) and sketch Cassiopeia's position relative to Polaris. The W rotates
+      about the pole — when the Plough is high, Cassiopeia is low and vice versa. You
+      have drawn three positions of a clock hand that takes one year to complete a
+      full rotation.
+
+  - id: northern-cross-find
+    title: The Northern Cross at Setting
+    short: "Watch Cygnus's Northern Cross descend and set upright on the north-west horizon."
+    grade: Core
+    kind: Sky
+    day_or_night: night
+    duration_minutes: 30
+    gear: [pencil, Fieldbook, compass]
+    requires:
+      season: autumn
+      weather: clear-night
+      hemisphere: northern
+    cultures: [greek, arabic, celtic]
+    provenance: "Cygnus as the Northern Cross — a Christian overlay on a Greek and Arabic sky tradition."
+    related_sky_objects: [cygnus, deneb, altair, milky-way]
+    related_ground_objects: []
+    chapters: [cygnus-revisited, summer-triangle]
+    body_md: |
+      In autumn evenings, find Cygnus — Deneb near the zenith, forming a clear cross
+      shape. As the night progresses, watch the Northern Cross descend toward the
+      north-west horizon and set nearly upright, like a crucifix being lowered. Take
+      a compass bearing where it sets. Sketch the orientation at three points during
+      its descent.
+
+  - id: mabinogion-sky-story
+    title: Gwydion's Road — A Story Under the Milky Way
+    short: "Read the Gwydion passage aloud outside under the Milky Way; sketch the Caer Gwydion arc."
+    grade: Core
+    kind: Story
+    day_or_night: night
+    duration_minutes: 45
+    gear: [copy of The Mabinogion or this chapter, pencil, Fieldbook, red torch]
+    requires:
+      season: autumn
+      weather: clear-night
+      hemisphere: northern
+    cultures: [welsh, celtic]
+    provenance: "The Mabinogion, Math fab Mathonwy; White Book of Rhydderch (c. 1350)."
+    related_sky_objects: [milky-way, ursa-major, cygnus]
+    related_ground_objects: []
+    chapters: [caer-gwydion, milky-way]
+    body_md: |
+      On a clear autumn night, find the Milky Way arching from Cygnus overhead to
+      Cassiopeia. Read aloud the passage from Math fab Mathonwy about Gwydion making
+      Caer Gwydion — the fortress of the Milky Way. What does the Milky Way look like
+      as a fortress? Note which stars form the ramparts. Sketch the arc in the
+      Fieldbook.
+
+  - id: polaris-height-latitude
+    title: Polaris Height — Your Latitude
+    short: "Measure Polaris's altitude above the horizon; this equals your geographic latitude."
+    grade: Core
+    kind: Sky
+    day_or_night: night
+    duration_minutes: 30
+    gear: [protractor or clinometer, string with plumb-bob, pencil, Fieldbook]
+    requires:
+      season: any
+      weather: clear-night
+      hemisphere: northern
+    cultures: [hindustani, sanskrit, greek, polynesian]
+    provenance: "Dhruva as the steadfast pole; precession of the equinoxes; Hipparchus c. 127 BCE."
+    related_sky_objects: [polaris, ursa-major, cassiopeia, vega]
+    related_ground_objects: []
+    chapters: [dhruva-pole-star, wayfinding-star-bearings]
+    body_md: |
+      Find Polaris and measure its altitude above the horizon using a plumb-line
+      protractor or clinometer. This angle equals your geographic latitude — record it
+      and compare with a map. Then look up: Vega will be the pole star in roughly
+      13,000 years (verify in Stellarium by setting the year to 14000). The pole
+      precesses in a 26,000-year circle — Dhruva was named when that idea did not
+      yet exist.
+
+  - id: solar-stone-experiment
+    title: The Solar Stone — Finding the Sun through Cloud
+    short: "Use Iceland spar (or a CD as polarising proxy) to locate the Sun on an overcast day."
+    grade: Stretch
+    kind: Land
+    day_or_night: day
+    duration_minutes: 45
+    gear: [Iceland spar calcite crystal (or old CD), compass, pencil, Fieldbook]
+    requires:
+      season: any
+      weather: overcast
+      hemisphere: any
+    cultures: [norse, inuit]
+    provenance: "Norse solar stone (Icelandic spar); Ropars et al. 2013 (Proceedings of the Royal Society A)."
+    related_sky_objects: [sun]
+    related_ground_objects: []
+    chapters: [norse-sun-stone]
+    body_md: |
+      On an overcast day, hold a piece of Iceland spar (calcite) up to the sky and
+      rotate it slowly while looking through it. Where the two refracted images have
+      equal brightness, you are looking toward or away from the Sun. Mark that bearing
+      with a compass and compare with a GPS sun-position app. No spar? A CD held at
+      45° shows polarised-light direction weakly — enough to demonstrate the principle.
+      Record your result.
+
+  - id: moon-diary-week
+    title: Moon Diary — Seven Nights
+    short: "Sketch the Moon at the same time each night for seven nights; label phase, rise time, bearing."
+    grade: Starter
+    kind: Sky
+    day_or_night: night
+    duration_minutes: 10
+    gear: [pencil, Moon Diary fieldbook page]
+    requires:
+      season: any
+      weather: clear-night
+      hemisphere: any
+    cultures: [universal, chinese, māori, hindustani]
+    provenance: "Universal lunar observation; foundational for all ancient calendars."
+    related_sky_objects: [moon-waxing-crescent, moon-first-quarter, moon-waxing-gibbous, moon-full]
+    related_ground_objects: []
+    chapters: [moon, wayfinding-moon-horns]
+    deck_card: moon-diary-week
+    body_md: |
+      Each night for seven nights, go outside at the same time and sketch the Moon:
+      its shape, its position in the sky, and the compass bearing where you see it.
+      Label the phase name. Note whether it is rising, high, or setting. After seven
+      nights you will have a week of the lunar calendar drawn by your own hand.
