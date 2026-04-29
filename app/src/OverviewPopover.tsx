@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 const STORAGE_KEY = 'wayfare_intro_seen';
 
@@ -20,10 +20,14 @@ export function useOverviewPopover() {
 }
 
 export function OverviewPopover({ open, onDismiss }: { open: boolean; onDismiss: () => void }) {
+  const panelRef = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
     if (!open) return;
     const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') onDismiss(); };
     document.addEventListener('keydown', onKey);
+    // Move focus into the dialog so keyboard/screen-reader users don't get lost
+    panelRef.current?.focus();
     return () => document.removeEventListener('keydown', onKey);
   }, [open, onDismiss]);
 
@@ -31,8 +35,16 @@ export function OverviewPopover({ open, onDismiss }: { open: boolean; onDismiss:
 
   return (
     <div className="overview-overlay" onClick={onDismiss}>
-      <div className="overview-panel" role="dialog" aria-modal="true" aria-label="About WayFare" onClick={e => e.stopPropagation()}>
-        <h2 className="overview-title">Welcome to WayFare</h2>
+      <div
+        className="overview-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="overview-title"
+        tabIndex={-1}
+        ref={panelRef}
+        onClick={e => e.stopPropagation()}
+      >
+        <h2 className="overview-title" id="overview-title">Welcome to WayFare</h2>
         <p>
           WayFare is a family apprenticeship in navigation and sky-reading, built around a
           physical paper Fieldbook and a deck of real-world Challenge cards. The paper is the
