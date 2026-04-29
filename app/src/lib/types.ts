@@ -76,3 +76,32 @@ export interface FamilySettings {
   /** 'northern' | 'southern' — affects seasonal unlocks. */
   hemisphere?: 'northern' | 'southern';
 }
+
+export type ExperimentGrade = 'Starter' | 'Core' | 'Stretch';
+export type ExperimentKind = 'Sky' | 'Land' | 'Story' | 'Error';
+export type DayOrNight = 'day' | 'night' | 'either';
+
+export interface ExperimentRequires {
+  season?: string;
+  weather?: string;
+  hemisphere?: string;
+}
+
+export interface Experiment {
+  id: string;
+  title: string;
+  short?: string;
+  grade: ExperimentGrade;
+  kind: ExperimentKind;
+  day_or_night: DayOrNight;
+  duration_minutes?: number;
+  gear?: string[];
+  requires?: ExperimentRequires;
+  cultures?: string[];
+  provenance?: string;
+  related_sky_objects?: string[];
+  related_ground_objects?: string[];
+  chapters?: string[];
+  deck_card?: string;
+  body_md?: string;
+}
