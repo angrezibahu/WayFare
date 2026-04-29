@@ -129,3 +129,13 @@ Repeat once a fortnight for a season. The errors are not random — they are sig
 - Robert Baden-Powell, *Scouting for Boys* (1908) — the trick as taught a hundred years ago.
 - The Moon chapter (`content/chapters/always/moon.md`) — the parent chapter.
 - *Time and Date* (timeanddate.com) — for accurate moonrise/moonset and azimuth, useful for checking your fieldwork.
+
+## Go deeper
+
+**The science.** Time and Date (timeanddate.com) — Moon azimuth and altitude calculator for any location; use it the day after fieldwork to compare your horns-reading with the computed true south bearing.
+
+**The cultural context.** Robert Baden-Powell, *Scouting for Boys* (1908) — the trick as originally published; public domain on Project Gutenberg; see exactly how it was taught a hundred years ago and what has changed.
+
+**App or tool.** Stellarium Web (stellarium-web.org, free) — simulate the crescent Moon's position on any evening from any location; plan which nights the geometry will give you the clearest bearing.
+
+**Book.** Tristan Gooley, *The Natural Navigator* (Virgin Books, 2010) — the modern best treatment of Moon-based navigation, with honest discussion of the method's limits.

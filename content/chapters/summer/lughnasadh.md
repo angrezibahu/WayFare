@@ -107,3 +107,13 @@ The first of August lies almost exactly halfway between the summer solstice and 
 - **Garrett Olmsted**, *The Gaulish Calendar* (1992) — for the wider continental Celtic calendrical context.
 - **Ronald Hutton**, *The Stations of the Sun* (1996) — careful historical account of the British ritual year, including Lammas / Lughnasadh.
 - **The Puck Fair**, puckfair.ie; **Croagh Patrick** pilgrimage, croagh-patrick.com — for the continuing festivals.
+
+## Go deeper
+
+**The science.** Time and Date (timeanddate.com — search "cross-quarter day") — calculate the exact astronomical midpoint between solstice and equinox for this year; compare the traditional date (1 August) with the computed moment.
+
+**The cultural context.** Ronald Hutton, *The Stations of the Sun* (Oxford University Press, 1996) — careful historical account of the British ritual year; the Lammas and Lughnasadh chapter separates medieval evidence from Victorian invention.
+
+**App or tool.** Stellarium (stellarium.org, free) — simulate sunrise on 1 August from Croagh Patrick (53.8°N, 9.7°W) to explore any solar alignment; the pilgrimage happens around this date.
+
+**Book.** Máire MacNeill, *The Festival of Lughnasa* (Oxford, 1962) — the definitive ethnographic study; 700 pages of field-collected accounts from across Ireland; available in university libraries.

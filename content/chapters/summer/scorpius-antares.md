@@ -87,3 +87,13 @@ Scorpius is one of the few constellations that looks exactly like its name: a sc
 - For Māori astronomy: the Society for Māori Astronomy Research and Traditions — **maoriastronomy.co.nz** — publishes Māori voices directly. Dr Rangi Matamua's work is a good starting point.
 - For Polynesian voyaging by the stars: the Polynesian Voyaging Society, **hokulea.com**.
 - For the galactic centre and Sagittarius A*: the Event Horizon Telescope collaboration's 2022 image release is a good entry point — search for *Sagittarius A*, first image*.
+
+## Go deeper
+
+**The science.** Event Horizon Telescope — the 2022 image of Sagittarius A* (the supermassive black hole at the galactic centre, near which the scorpion's tail points); search "EHT Sgr A* 2022" for the original press release and image.
+
+**The cultural context.** Society for Māori Astronomy Research and Traditions (maoriastronomy.co.nz) — Dr Rangi Matamua's published work on Māori star knowledge, including Scorpius traditions; read from the living source.
+
+**App or tool.** Stellarium (stellarium.org, free) — check how high Antares climbs from your latitude; then switch to a Southern Hemisphere location to see Scorpius as most of the world sees it — high and magnificent.
+
+**Book.** Ian Ridpath, *Star Tales* (Lutterworth Press) — Scorpius across traditions; the Greek Orion counterweight, Māori traditions, and the Arabic star names that Western astronomy inherited.

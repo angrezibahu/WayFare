@@ -87,3 +87,13 @@ The Plough is the seven-star spoon or plough shape that dominates the northern s
 - Paul Kunitzsch, *Arabic Star Names* — on Alkaid, Mizar, Alcor and the rest.
 - For the Mi'kmaq celestial bear hunt: Stansbury Hagar, *The Celestial Bear* (Journal of American Folklore, 1900) is a careful early record; seek out contemporary Mi'kmaq writers and educators for living tellings.
 - For the Egyptian Meskhetyu and the opening-of-the-mouth ceremony: Jane Sellers, *The Death of Gods in Ancient Egypt* — academic, slow, rewarding.
+
+## Go deeper
+
+**The science.** ESA Hipparcos mission — the proper motions of the Plough stars; search "Plough proper motion future" for the widely published image showing how the shape will change over the next 100,000 years; five of the seven stars are genuinely related.
+
+**The cultural context.** Stansbury Hagar, *The Celestial Bear* (Journal of American Folklore, 1900) — a careful early record of the Mi'kmaq celestial bear hunt; seek contemporary Mi'kmaq writers and educators for living tellings of the same story.
+
+**App or tool.** Stellarium (stellarium.org, free) — watch the Plough rotate through the year from your own latitude; set the speed to one month per click and use it as a seasonal clock.
+
+**Book.** Ian Ridpath, *Star Tales* (Lutterworth Press) — Ursa Major in Greek, Arabic, Egyptian, and cross-cultural tradition; includes the Mi'kmaq celestial bear hunt.

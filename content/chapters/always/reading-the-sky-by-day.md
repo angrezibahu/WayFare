@@ -97,3 +97,13 @@ follow_up_quests:
 - The World Meteorological Organization's online *International Cloud Atlas* — free, authoritative, with photos.
 - BBC Weather and Met Office daily *Shipping Forecast* and Surface Pressure Chart — the clouds you see are described in language you can learn to read.
 - Constable's cloud studies at the V&A — proof that a painter can become a scientist by attention.
+
+## Go deeper
+
+**The science.** World Meteorological Organization International Cloud Atlas (cloudatlas.wmo.int, free) — authoritative, with photographs of every genus and variety; the source behind cloud naming in this chapter.
+
+**The cultural context.** Cloud Appreciation Society (cloudappreciationsociety.org) — founded by Gavin Pretor-Pinney, whose *Cloudspotter's Guide* is the readable modern introduction; the society also runs a global sighting database.
+
+**App or tool.** Windy (windy.com, free) — animated isobar, wind, and precipitation layers updated every three hours; the best free tool for understanding what the clouds you see are part of.
+
+**Book.** Gavin Pretor-Pinney, *The Cloudspotter's Guide* (Sceptre, 2006) — the book that founded a society; warm, well-sourced, and genuinely teaches you to name what you see.

@@ -81,3 +81,13 @@ Boötes (say *boh-OH-teez*) is a kite-shaped constellation that rides just east 
 - Paul Kunitzsch, *Arabic Star Names* — for *al-Simāk al-Rāmih* and the Arabic sky.
 - The Polynesian Voyaging Society: **hokulea.com**. Read directly from the voyagers who brought Hawaiian wayfinding back. Sam Low's *Hawaiki Rising* is a good book-length account of the 1976 voyage.
 - For the "Arcturus opened the World's Fair" story: the *Chicago Tribune* archive from May 1933 is worth looking up for the original reporting.
+
+## Go deeper
+
+**The science.** NASA Star Facts — Arcturus is a red giant 25 times the Sun's diameter and one of the fastest-moving bright stars in the sky; search "Arcturus proper motion NASA" to see its unusual trajectory through the galaxy.
+
+**The cultural context.** Polynesian Voyaging Society (hokulea.com) — Arcturus as a zenith star for Hawaiʻi; the 1976 voyage of the Hōkūleʻa used it as a navigation target; read from the voyagers who revived this knowledge.
+
+**App or tool.** Stellarium (stellarium.org, free) — practice the "Arc to Arcturus, then spike to Spica" mnemonic from the Plough's handle; verify from your own latitude on any clear spring night.
+
+**Book.** Sam Low, *Hawaiki Rising* (Island Heritage, 2013) — the story of the Hōkūleʻa and how Pacific wayfinding was rebuilt from near-extinction; Arcturus appears as a character.

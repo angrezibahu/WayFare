@@ -141,3 +141,13 @@ For the rest of the evening, that landmark is your peg. Walk anywhere, look back
 - *Hokule'a* / Polynesian Voyaging Society — read directly from their website. Don't retell.
 - Royal Museums Greenwich — *History of Celestial Navigation* — for the European maritime tradition.
 - Tristan Gooley, *The Natural Navigator* — modern, careful, brief on star-bearings at twilight.
+
+## Go deeper
+
+**The science.** Royal Museums Greenwich — History of Celestial Navigation (rmg.co.uk — search "celestial navigation") — how European mariners turned Polaris and the noon Sun into instruments of navigation; the mathematical tradition this chapter stands in.
+
+**The cultural context.** Polynesian Voyaging Society (hokulea.com) — read directly from the voyagers who revived non-instrument star navigation; Nainoa Thompson's own essays on wayfinding are available on the site.
+
+**App or tool.** Stellarium (stellarium.org, free) — set your latitude and date, watch tomorrow's twilight unfold; see which stars are clearing the horizon at dusk and plan your bearing pegs in advance.
+
+**Book.** Tristan Gooley, *The Natural Navigator* (Virgin Books, 2010) — brief on star-bearings at twilight, but careful and practically useful.

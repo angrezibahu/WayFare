@@ -34,3 +34,13 @@ follow_up_quests:
 Canis Major is Orion's hunting dog. Sirius is the brightest star in our night sky. For thousands of years its morning rise, just before dawn, warned the Egyptians that the Nile was about to flood.
 
 Full chapter to be written against the five-part template. Front-matter and unlock conditions confirmed.
+
+## Go deeper
+
+**The science.** ESA/Hipparcos mission — Sirius is a binary star system 8.6 light-years away; Sirius B (the companion white dwarf) was the first white dwarf ever identified; search "Sirius ESA Hipparcos" for the fact sheet.
+
+**The cultural context.** Petrie Museum of Egyptian Archaeology (ucl.ac.uk/museums/petrie — open access online) — notes on Sopdet/Sothis and the heliacal rising of Sirius as the Egyptian Nile-flood calendar; the original archaeological evidence.
+
+**App or tool.** Stellarium (stellarium.org, free) — simulate the heliacal rising of Sirius from Cairo at different historical dates; set the year to −3000 to see what the ancient Egyptians watched each summer.
+
+**Book.** E.C. Krupp, *Echoes of the Ancient Skies* (Harper & Row, 1983) — the chapter on Sirius and the Egyptian calendar; also covers Orion/Osiris; available in major libraries.

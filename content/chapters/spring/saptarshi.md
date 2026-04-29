@@ -112,3 +112,13 @@ Different scholarly sources disagree on a few of these assignments — some swap
 - **B.G. Sidharth**, *The Celestial Key to the Vedas* — a scholarly reading of the astronomical references in the Vedic corpus.
 - **Drik Panchang** — drikpanchang.com — for the living calendar context.
 - **For the deep linguistics of Sanskrit *ṛkṣa* / Greek *arktos* / English "Arctic"**: any reference Indo-European etymology dictionary; Calvert Watkins's *American Heritage Dictionary of Indo-European Roots* is the most readable.
+
+## Go deeper
+
+**The science.** Calvert Watkins, *American Heritage Dictionary of Indo-European Roots* (Houghton Mifflin, 2000) — the linguistic evidence for the shared *rktos* / *arktos* / Arctic root linking Sanskrit, Greek, and English "bear" names for the same constellation.
+
+**The cultural context.** Drik Panchang (drikpanchang.com) — the living Hindu calendar that uses nakshatra and lunar positions daily; the modern context in which Saptarshi and Arundhatī still matter.
+
+**App or tool.** Stellarium (stellarium.org, free) — select Indian (Vedic) sky mode to overlay the nakshatra grid; see how the Saptarshi sit within the 27-division lunar calendar.
+
+**Book.** *Śatapatha Brāhmaṇa*, Eggeling translation (1882–1900) — the earliest naming of the seven sages of the northern sky; free on archive.org; public domain.

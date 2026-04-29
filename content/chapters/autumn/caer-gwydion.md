@@ -107,3 +107,13 @@ The Welsh autumn sky has two clear architectures: the long fort and the small cr
 - **National Library of Wales** — for the digitised White Book of Rhydderch and the Red Book of Hergest. Free online.
 - **Patrick Sims-Williams**, *Irish Influence on Medieval Welsh Literature* (Oxford, 2010) — for the wider context of Lugh / Lleu and the Insular Celtic literary world.
 - **AAVSO (American Association of Variable Star Observers)** — aavso.org — for the current state of R Coronae Borealis.
+
+## Go deeper
+
+**The science.** AAVSO (American Association of Variable Star Observers, aavso.org) — the current light curve of R Coronae Borealis; this star dims unpredictably as carbon soot forms in its atmosphere; a stranger object than any fiction.
+
+**The cultural context.** National Library of Wales (library.wales) — digitised White Book of Rhydderch and Red Book of Hergest; the original Mabinogion manuscripts, free to view online; the source text this chapter translates for the sky.
+
+**App or tool.** Stellarium (stellarium.org, free) — find Corona Borealis and locate R CrB; then check current brightness at AAVSO to see if it is in one of its fading episodes.
+
+**Book.** *The Mabinogion*, trans. Sioned Davies (Oxford World's Classics, 2007) — the standard modern English translation; rich notes; the story of Gwydion, Lleu, and Caer Gwydion told in full.

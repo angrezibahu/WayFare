@@ -152,3 +152,13 @@ The key modern word is **lag time** — the hours between rain falling on the fe
 - Clayton Hutton, *Official Secret* (1960) — the memoir of MI9's silk-map inventor. Out of print, worth finding.
 - For Ancient Egypt: the Petrie Museum of Egyptian Archaeology online has good open-access notes on the Nilometer and Akhet.
 - For the Japanese seasonal word tradition, search *kigo* and the *saijiki* — start with English-language introductions by William J. Higginson.
+
+## Go deeper
+
+**The science.** Met Office rainfall radar (metoffice.gov.uk/weather/maps-and-charts/rainfall-radar-forecast-map, free) — live rain radar updated every 15 minutes; Environment Agency flood warning service (flood-warning-information.service.gov.uk) for real-time river-level data.
+
+**The cultural context.** William J. Higginson, *Haiku World* (Kodansha International, 1996) — the introduction to the Japanese *kigo* (seasonal word) tradition and the *saijiki* calendar; spring rain as a named category of experience.
+
+**App or tool.** Met Office Weather app (free) or Rain Alarm — real-time rain radar and hour-by-hour predictions; useful for planning outdoor experiments around actual rainfall.
+
+**Book.** Tristan Gooley, *How to Read Water* (Sceptre, 2016) — the whole book is a field guide to this chapter; spring streams, rain patterns, and flood reading covered in detail.

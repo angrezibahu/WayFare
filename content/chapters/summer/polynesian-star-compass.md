@@ -112,3 +112,13 @@ You will not learn Polynesian wayfinding in a UK back garden. What you *can* do,
 - **Society for Māori Astronomy Research and Traditions** — maoriastronomy.co.nz — for the Aotearoa side of the same tradition; Dr Rangi Matamua's work is the entry point.
 - **National Geographic, *Wayfinders: A Pacific Odyssey* (1999)** — accessible documentary on the Hōkūleʻa lineage; available in libraries and streaming.
 - **For the Marshall Islands stick charts**: Joseph Genz et al., *Wave Navigation in the Marshall Islands* (Oceanography 2009) — open access.
+
+## Go deeper
+
+**The science.** Joseph Genz et al., *"Wave Navigation in the Marshall Islands"* (Oceanography, 2009) — open-access scientific analysis of the stick-chart wayfinding system; the peer-reviewed evidence for how swell-pattern reading works.
+
+**The cultural context.** Polynesian Voyaging Society (hokulea.com) — the primary living-tradition source; Nainoa Thompson's own essays on wayfinding are on the site; voyage logs, education materials, and lectures.
+
+**App or tool.** Stellarium (stellarium.org, free) — simulate zenith stars from different latitudes; set location to Tahiti (17°S) then Hawaiʻi (21°N) to see which stars pass directly overhead and why those latitudes are the navigational targets.
+
+**Book.** Sam Low, *Hawaiki Rising* (Island Heritage, 2013); also Ben Finney, *Voyage of Rediscovery* (University of California Press, 1994) — two books on the revival of Polynesian non-instrument navigation.

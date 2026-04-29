@@ -91,3 +91,13 @@ Learn these four and you can read the season from Cassiopeia at a glance.
 - Paul Kunitzsch, *Arabic Star Names* — for Schedar, Caph, Ruchbah.
 - For Tycho Brahe and the 1572 supernova: Kitty Ferguson, *Tycho and Kepler: The Unlikely Partnership that Forever Changed Our Understanding of the Heavens*.
 - For Inuit sky traditions: John MacDonald, *The Arctic Sky: Inuit Astronomy, Star Lore, and Legend* — careful, Inuit-sourced.
+
+## Go deeper
+
+**The science.** NASA Chandra X-ray Observatory — images of the Tycho supernova remnant (SN 1572); the expanding shell is still detectable today; search "Chandra Tycho supernova remnant" for the image.
+
+**The cultural context.** John MacDonald, *The Arctic Sky: Inuit Astronomy, Star Lore, and Legend* (Royal Ontario Museum / Nunavut Research Institute, 1998) — Inuit-sourced sky knowledge including Cassiopeia traditions; read from those who hold the stories.
+
+**App or tool.** Stellarium (stellarium.org, free) — watch the W rotate with the seasons; set speed to one month per click; Cassiopeia is best seen when the Plough is low in the north.
+
+**Book.** Kitty Ferguson, *Tycho and Kepler* (Walker & Company, 2002) — for the 1572 supernova and its role in overturning the perfect-heavens doctrine; reads as a scientific biography.

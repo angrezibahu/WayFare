@@ -66,3 +66,13 @@ sources:
 - The Stonehenge visitor guide and the English Heritage archaeology pages for the solstice alignment.
 - For Eratosthenes: Carl Sagan's *Cosmos*, episode 1, explains the experiment beautifully and does it on camera.
 - NHS heatwave and heat-stroke guidance: nhs.uk — short, plain, worth reading before every summer.
+
+## Go deeper
+
+**The science.** Time and Date (timeanddate.com) — accurate solar noon, altitude, and azimuth for any location and date; use it to calibrate the Eratosthenes experiment and plan your session around true solar noon.
+
+**The cultural context.** English Heritage — Stonehenge pages (english-heritage.org.uk/stonehenge) — the solstice alignment, the archaeology of the sarsen circle, and how to watch the midsummer dawn; free public solstice livestream each June.
+
+**App or tool.** Photopills (photopills.com) or SunCalc (suncalc.org, free) — shows azimuth, altitude, and shadow length of the Sun at any time and place; essential for planning the Eratosthenes experiment to the nearest minute.
+
+**Video.** Carl Sagan, *Cosmos* episode 1 ("The Shores of the Cosmic Ocean", 1980) — explains and demonstrates the Eratosthenes experiment on camera; freely available; one of the most effective science explanations ever filmed.

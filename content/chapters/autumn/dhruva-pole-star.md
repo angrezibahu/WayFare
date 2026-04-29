@@ -120,3 +120,13 @@ Dhruva is **Polaris** — the same star we find in the Plough chapter, in the Ca
 - **Bibhutibhushan Datta and Avadhesh Narayan Singh**, *History of Hindu Mathematics* (1935) — for the broader scientific context. Reprinted by Asia Publishing House.
 - **Drik Panchang** — for the living calendar that still uses Dhruva as the canonical pole.
 - **For the precession of the pole and its archaeology**: Anthony Aveni, *People and the Sky* (Thames & Hudson, 2008) — accessible introduction to archaeoastronomy across cultures.
+
+## Go deeper
+
+**The science.** Anthony Aveni, *People and the Sky* (Thames & Hudson, 2008) — the precession of the pole and how it changes which star occupies the pole position across the 26,000-year cycle; the science behind why Polaris was not always the pole star.
+
+**The cultural context.** *Bhāgavata Purāṇa*, Skandha IV — the canonical telling of Dhruva; Sanyal translation on sacred-texts.com (public domain); read the primary source.
+
+**App or tool.** Stellarium (stellarium.org, free) — set the year to 13,000 CE; Vega, not Polaris, will be the pole star; witness the 26,000-year precession cycle for yourself.
+
+**Book.** Anthony Aveni, *People and the Sky* (Thames & Hudson, 2008) — the accessible introduction to archaeoastronomy across cultures; the precession chapter is essential context for this one.

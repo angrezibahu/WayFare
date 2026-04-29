@@ -90,3 +90,13 @@ The Milky Way is the Summer Capstone. You cannot see it from a city. You must go
 - For the structure of our galaxy: **NASA**'s introductory pages on the Milky Way are accessible; for deeper reading, James Binney and Scott Tremaine, *Galactic Dynamics*, is the standard academic text.
 - For light pollution and what we are losing: Paul Bogard, *The End of Night* — a careful, moving book.
 - For the Event Horizon Telescope image of Sagittarius A*: search **EHT Sgr A* 2022** for the original release material.
+
+## Go deeper
+
+**The science.** Event Horizon Telescope — 2022 image of Sagittarius A*, the black hole at the centre of the galaxy you are standing inside (eventhorizontelescope.org); the most direct image yet of the thing the Milky Way's light is circling.
+
+**The cultural context.** Australian Indigenous Astronomy (aboriginalastronomy.com.au) — Ray Norris's work on the dark-cloud Emu and Aboriginal constellation systems read from the dark sky up; read the Indigenous astronomers directly.
+
+**App or tool.** Light Pollution Map (lightpollutionmap.info, free) — find the nearest truly dark sky before going; International Dark-Sky Association (darksky.org) lists certified reserves and parks worldwide.
+
+**Book.** Paul Bogard, *The End of Night* (Little, Brown, 2013) — what artificial light has taken from the sky, and why dark-sky reserves matter; moving and carefully researched.

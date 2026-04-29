@@ -151,3 +151,13 @@ This is dead reckoning, child-shaped. After three or four mystery walks, the chi
 - Tristan Gooley — for the wider "knowing-where-you-are without an app" curriculum.
 - *The Mountaineers Books* — *Mountaineering: The Freedom of the Hills* — the canonical pace-count, ranger-bead, and Naismith chapters.
 - Hugh Munro and the early Scottish hill-bagging tradition — Munro's distance estimates were almost all paced.
+
+## Go deeper
+
+**The science.** British Orienteering coaching resources (britishorienteering.org.uk) — scientific rationale for counting right-foot strikes only, the effect of slope on pace length, and how to calibrate on known distances.
+
+**The cultural context.** Robert Baden-Powell, *Scouting for Boys* (1908) — the "Estimation" Camp Yarn; public domain on Project Gutenberg; the Edwardian pacing technique, almost word-for-word the modern one.
+
+**App or tool.** Maprunner (maprunner.info, free) — orienteering clubs post printable maps here; use them to plan measured practice routes with controlled distances for pace-count calibration.
+
+**Book.** *Mountaineering: The Freedom of the Hills* (The Mountaineers Books, 9th ed.) — the canonical chapters on pace-count, ranger beads, and Naismith's Rule; the standard reference.

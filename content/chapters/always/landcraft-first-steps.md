@@ -157,3 +157,13 @@ Civilian GPS is accurate to about *three metres* under a clear sky. Under trees,
 - Your local Wildlife Trust — they will know the prevailing wind in your place better than any book.
 - Christopher Clayton Hutton, *Official Secret* (1960) — Clutty's own memoir of MI9, the button compass, and the silk maps.
 - Royal Greenwich Observatory online — *How GPS works*: a clear explainer on satellites, atomic clocks, and trilateration.
+
+## Go deeper
+
+**The science.** Royal Museums Greenwich explainer on how GPS works (rmg.co.uk — search "How GPS works") — satellites, atomic clocks, and trilateration; the modern version of everything this chapter teaches by hand.
+
+**The cultural context.** Christopher Clayton Hutton, *Official Secret* (1960) — the MI9 officer who designed button compasses and silk maps for downed airmen; the book shows how ancient craft becomes critical technology the moment electronics fail.
+
+**App or tool.** KStars (edu.kde.org/kstars, free and open source) — a full-featured desktop planetarium; use it to plan star-bearing practice the night before going out.
+
+**Book.** Tristan Gooley, *The Walker's Guide to Outdoor Clues and Signs* (Hodder & Stoughton, 2014) — generous, British, and honest about what works and what doesn't; the closest book-length companion to this chapter.

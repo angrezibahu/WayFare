@@ -87,3 +87,13 @@ The Summer Triangle is the three brightest stars of summer nights in the Norther
 - For the Qixi story: Anne Birrell, *Chinese Mythology: An Introduction* — a careful scholarly source rather than a retelling.
 - For the Polynesian Voyaging Society and Nainoa Thompson: hokulea.com. Read directly from the voyagers.
 - For dark-sky sites in the UK: the *International Dark-Sky Association* site lists certified reserves — Galloway, Exmoor, Brecon, Snowdonia, Kielder, South Downs.
+
+## Go deeper
+
+**The science.** NASA Kepler mission — the Kepler telescope observed a patch of sky in Cygnus for four years; most of its exoplanet discoveries lie within the Summer Triangle; search "Kepler mission Cygnus exoplanets" for the summary.
+
+**The cultural context.** Anne Birrell, *Chinese Mythology: An Introduction* (Johns Hopkins University Press, 1993) — careful scholarly source for the Qixi / Cowherd and Weaver Girl story; read the primary tradition rather than a retelling.
+
+**App or tool.** Stellarium (stellarium.org, free) or SkySafari (skysafariastronomy.com) — find the Triangle from your garden; compare the colour contrast between Vega (blue-white) and Altair (white) through binoculars.
+
+**Book.** Ian Ridpath, *Star Tales* (Lutterworth Press) — Lyra, Cygnus, and Aquila with their global counterparts; the mythic triangles that make the Triangle more than a geometry.

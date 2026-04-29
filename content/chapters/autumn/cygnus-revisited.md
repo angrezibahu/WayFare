@@ -88,3 +88,13 @@ Cygnus is a long cross: Deneb at the top, a line of stars running down to Albire
 - Paul Kunitzsch, *Arabic Star Names* — *Dhanab al-Dajāja* (Deneb).
 - For Friedrich Bessel and the first stellar parallax: Alan Hirshfeld, *Parallax: The Race to Measure the Cosmos* — accessible and beautifully told.
 - For black holes and Cygnus X-1: Kip Thorne, *Black Holes and Time Warps* — deep but readable.
+
+## Go deeper
+
+**The science.** Alan Hirshfeld, *Parallax: The Race to Measure the Cosmos* (W.H. Freeman, 2001) — on Friedrich Bessel and the first stellar parallax measurement (61 Cygni, 1838); how the distance to a Cygnus star was first calculated.
+
+**The cultural context.** Paul Kunitzsch, *Arabic Star Names* — on *Dhanab al-Dajāja* (Deneb, "the tail of the hen") and the Arabic bird-sky; the medieval astronomers who saw a hen where the Greeks saw a swan.
+
+**App or tool.** Stellarium (stellarium.org, free) — watch Cygnus descend through autumn evenings; track the Northern Cross's orientation as it sets in the north-west.
+
+**Book.** Kip Thorne, *Black Holes and Time Warps* (W.W. Norton, 1994) — readable account of Cygnus X-1 and the physics of black holes; the chapter on Cygnus X-1 covers the original 1971 discovery.

@@ -137,3 +137,13 @@ The single sheet of paper is now a small wind-survey of the place where you live
 - The Met Office *climate* pages for your nearest postcode — free, authoritative.
 - WMO *International Cloud Atlas* — free online; useful for telling cloud genus while watching a cloud move.
 - Oliver Rackham, *The History of the Countryside* — for *why* British hedges and scrub face the way they do.
+
+## Go deeper
+
+**The science.** Met Office UK climate pages (metoffice.gov.uk/climate, free) — prevailing wind direction, average speeds, and historical data for every region in the UK; the evidence behind everything the flag-trees are recording.
+
+**The cultural context.** Oliver Rackham, *The History of the Countryside* (Dent, 1986) — why British hedges, scrub, and woods face the way they do; flag-trees as a centuries-long record of wind direction that no instrument captured.
+
+**App or tool.** Windy (windy.com, free) — animated isobar and wind layers; watch a depression approach over three days and match what you see in the trees to what the model predicted.
+
+**Book.** Tristan Gooley, *The Walker's Guide to Outdoor Clues and Signs* (Hodder & Stoughton, 2014) — the chapter on wind adds offshore, coastal, and valley variants to what this chapter covers.

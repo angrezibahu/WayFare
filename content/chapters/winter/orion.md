@@ -86,3 +86,13 @@ Orion is the easiest bright pattern in the winter sky. Look south on any clear e
 - The *Stellarium* desktop app (free, open source) for seeing Orion from any latitude at any time.
 - Australian Indigenous Astronomy: aboriginalastronomy.com.au — read directly from the source.
 - For Arabic star names: Paul Kunitzsch, *Arabic Star Names* — academic but rewarding.
+
+## Go deeper
+
+**The science.** NASA Hubble images of the Orion Nebula (M42) — search "Hubble Orion Nebula" for the canonical image of the stellar nursery 1,344 light-years away where star formation is happening right now; also ESA's page on Betelgeuse as a red supergiant candidate for eventual supernova.
+
+**The cultural context.** Australian Indigenous Astronomy (aboriginalastronomy.com.au) — Ray Norris and colleagues publish Yolŋu and other First Nations astronomical traditions from those who hold them; read the Djulpan story in their own words rather than through a retelling.
+
+**App or tool.** Stellarium (stellarium.org, free) — find Orion from any latitude and time of year; use the Belt-to-Sirius and Belt-to-Aldebaran signpost lines in the app before going outside.
+
+**Book.** Ian Ridpath, *Star Tales* (Lutterworth Press, 2nd ed.) — global mythology of every constellation, sourced to primary texts; the Orion chapter alone covers Greek, Egyptian, Māori, and Arab traditions.

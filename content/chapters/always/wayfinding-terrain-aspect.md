@@ -180,3 +180,13 @@ A two-sides traverse repeated on the same hill across a year will turn into a sm
 - Oliver Rackham, *The History of the Countryside* — chapter on woodland and slope.
 - Ordnance Survey *Beginner's Guide to Map Reading* (free PDF).
 - Robert Macfarlane, *Landmarks* — for the British landscape vocabulary that names what aspect feels like.
+
+## Go deeper
+
+**The science.** British Ecological Society (britishecologicalsociety.org — follow links to the *Journal of Ecology* for open-access papers on aspect-driven vegetation) — the peer-reviewed evidence for the south-facing / north-facing difference this chapter describes.
+
+**The cultural context.** Oliver Rackham, *The History of the Countryside* (Dent, 1986) — chapter on woodland and slope; how south-facing oak woodland and north-facing ash woodland came to be the pattern across Britain.
+
+**App or tool.** OS Maps satellite layer (ordnancesurvey.co.uk) — compare the appearance of the two sides of any ridge from above before walking them; the vegetation colour contrast is visible even in a summer satellite image.
+
+**Book.** Oliver Rackham, *The History of the Countryside* (Dent, 1986) — reading landscape as a historical document; aspect is one of his main threads.
